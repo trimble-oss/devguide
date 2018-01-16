@@ -1,0 +1,30 @@
+{% if page.data %}
+{% assign swagger = site.data[page.data] %}
+{% else %}
+{% assign swagger = page %}
+{% endif %}
+<nav>
+    {% if swagger.tags %}
+        <div class="expandcollapse"><span class="toggle">&#x25BC;</span>API Documentation</div>
+    {% endif %}
+    <ul class="accordion">
+        {% if swagger.tags %}
+            {% for tag in swagger.tags %}
+                <li>
+                    {% assign subindex = forloop.index %}
+                    <div class="collapsed trigger" id="menu-{{ forloop.index }}">{{ tag.name }}</div>
+                    <ul>
+                        {% for path in swagger.paths %}
+                        {% for method in path[1] %}
+                            {% if method[1].tags contains tag.name %}
+                                {% assign routestr = path[0] | replace: '/', '' | replace: '{', '' | replace: '}', '' %}
+                                <li><a class="endpointlink" href="{{ '#' | append: method[0] | downcase | append: '-' | append: routestr | prepend: page.url | prepend: site.baseurl }}">{{ method[1].summary }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+</nav>

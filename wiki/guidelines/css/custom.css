@@ -1,0 +1,24 @@
+
+/* Button*/
+
+
+section a.button {
+	display: block;
+	text-align: center;
+	background: #0d6aa8;
+	border-radius: 3px;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #ffbe00;
+	color: #333;
+}
