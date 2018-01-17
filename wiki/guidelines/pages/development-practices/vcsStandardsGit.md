@@ -1,3 +1,9 @@
+---
+layout: page
+title: VCS Standards - Git
+permalink: /pages/development-practices/
+---
+
 This document is intended as a guide for code management using using version 
 control systems (VCS). While the terminology used in the document is for Git 
 the concepts may be applied to an VCS.
