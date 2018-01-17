@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Internal Open Source
-permalink: /pages/development-practices/
+section: developer-guide
+permalink: /development-practices/internal-open-source/
 ---
 
 ## Background

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: VCS Standards - Git
-permalink: /pages/development-practices/
+section: developer-guide
+permalink: /development-practices/vcs-standards-git/
 ---
 
 This document is intended as a guide for code management using using version 
