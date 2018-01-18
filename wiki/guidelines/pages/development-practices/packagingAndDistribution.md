@@ -5,9 +5,9 @@ section: developer-guide
 permalink: /development-practices/packaging-and-distribution/
 ---
 
-Packaging and Distribution
+# Packaging and Distribution
 
-Status: Final Draft
+### Status: Final Draft
 
 # Introduction
 
