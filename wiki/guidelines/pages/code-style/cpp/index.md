@@ -9,7 +9,7 @@ permalink: /code-style/cpp/
 
 In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.
 
-# Reference Code Standard
+## Reference Code Standard
 
 * Google C++ Style Guide - [https://google.github.io/styleguide/cppguide.html](https://google.github.io/styleguide/cppguide.html)
 
@@ -19,11 +19,11 @@ In order to keep an easy-to-read, consistent and aesthetically pleasing look to 
 
     * Exceptions to the code style allowed to maintain local consistency in existing code
 
-## Exceptions to the Standard
+### Exceptions to the Standard
 
 None. Exceptions that would benefit a specific project should be documented along with a rationale for the exception.
 
-# Implementing and enforcing the Standard
+## Implementing and enforcing the Standard
 
 |Tools/Procedures |Type                    |In Use By |Notes |
 |cpplint.py       |Open Source             |Tekla     |Validates Google code style. It can be modified to account for any exceptions we add to the original standard.|
@@ -31,13 +31,13 @@ None. Exceptions that would benefit a specific project should be documented alon
 |clang-format     |Free                    |Tekla     |Formats souce code according to style guide.|
 |Peer reviews     |                        |SketchUp  |Validates of code style, code quality.|
 
-# Appendix A: Businesses Using Language
+## Appendix A: Businesses Using Language
 
 |Business |Codebase   |Notes                          |
 |SketchUp |           |                               |
 |Tekla    |Structures |SonarQube as a  style enforcer |
 
-# Appendix B: Recommended Reading
+## Appendix B: Recommended Reading
 
 * [Boost Library Req and Guidelines](http://www.boost.org/development/requirements.html)
 
