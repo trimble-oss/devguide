@@ -25,61 +25,17 @@ None. Exceptions that would benefit a specific project should be documented alon
 
 # Implementing and enforcing the Standard
 
-<table>
-  <tr>
-    <td>Tools/Procedures</td>
-    <td>Type</td>
-    <td>In Use By</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-    <td>cpplint.py</td>
-    <td>Open source</td>
-    <td>Tekla</td>
-    <td>Validates Google code style. It can be modified to account for any exceptions we add to the original standard.</td>
-  </tr>
-  <tr>
-    <td>SonarQube</td>
-    <td>Free (?) and Commercial</td>
-    <td>Tekla</td>
-    <td>Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.
-</td>
-  </tr>
-  <tr>
-    <td>clang-format</td>
-    <td>Free</td>
-    <td>Tekla</td>
-    <td>Formats souce code according to style guide.</td>
-  </tr>
-  <tr>
-    <td>Peer reviews</td>
-    <td></td>
-    <td>SketchUp</td>
-    <td>Validates of code style, code quality </td>
-  </tr>
-</table>
-
+|Tools/Procedures |Type                    |In Use By |Notes |
+|cpplint.py       |Open Source             |Tekla     |Validates Google code style. It can be modified to account for any exceptions we add to the original standard.|
+|SonarQube        |Free (?) and Commercial |Tekla     |Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.|
+|clang-format     |Free                    |Tekla     |Formats souce code according to style guide.|
+|Peer reviews     |                        |SketchUp  |Validates of code style, code quality.|
 
 # Appendix A: Businesses Using Language
 
-<table>
-  <tr>
-    <td>Business</td>
-    <td>Codebase</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-    <td>SketchUp</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Tekla</td>
-    <td>Structures</td>
-    <td>SonarQube as a  style enforcer</td>
-  </tr>
-</table>
-
+|Business |Codebase   |Notes                          |
+|SketchUp |           |                               |
+|Tekla    |Structures |SonarQube as a  style enforcer |
 
 # Appendix B: Recommended Reading
 
