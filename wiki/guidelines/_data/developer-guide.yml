@@ -6,3 +6,6 @@ toc:
         url: /development-practices/vcs-standards-git/
       - page: Internal Open Source
         url: /development-practices/internal-open-source/
+      - page: Packaging and Distribution
+        url: /development-practices/packaging-and-distribution/
+		
