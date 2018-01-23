@@ -3,7 +3,7 @@ toc:
   - title: Development Practices
     subitems:
       - page: Code Review
-        url: /development-practices/code-Review/
+        url: /development-practices/code-review/
       - page: Internal Open Source
         url: /development-practices/internal-open-source/
       - page: Packaging and Distribution
