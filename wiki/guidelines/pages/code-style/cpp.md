@@ -5,7 +5,7 @@ section: code-style
 permalink: /code-style/cpp/
 ---
 
-**_Status: Final Draft_**
+### Status: Final Draft
 
 In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.
 
