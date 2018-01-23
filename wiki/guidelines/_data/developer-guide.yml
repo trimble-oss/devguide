@@ -6,6 +6,8 @@ toc:
         url: /development-practices/code-review/
       - page: Internal Open Source
         url: /development-practices/internal-open-source/
+      - page: Managing Code Complexity
+        url: /development-practices/managing-code-complexity/
       - page: Packaging and Distribution
         url: /development-practices/packaging-and-distribution/
       - page: Unit Testing
