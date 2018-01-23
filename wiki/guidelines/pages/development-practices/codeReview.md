@@ -4,7 +4,6 @@ title: Code Review
 section: developer-guide
 permalink: /development-practices/code-review/
 ---
-# Code Review
 ### Status: Final Draft
 
 Rationale

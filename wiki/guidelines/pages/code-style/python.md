@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Code Style - Python
+title: Code Style: Python
 section: code-style
 permalink: /code-style/python/
 ---
 
-# Code Style: Python
 ### Status: Final Draft
 
 ## Reference Code Standard
