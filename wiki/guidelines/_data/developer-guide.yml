@@ -12,3 +12,5 @@ toc:
         url: /development-practices/unit-testing/
       - page: VCS Standards - Git
         url: /development-practices/vcs-standards-git/
+      - page: Versioning
+        url: /development-practices/versioning/
