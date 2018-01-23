@@ -2,12 +2,13 @@ display-name: How To's
 toc:
   - title: Development Practices
     subitems:
-      - page: VCS Standards - Git
-        url: /development-practices/vcs-standards-git/
+      - page: Code Review
+        url: /development-practices/code-Review/
       - page: Internal Open Source
         url: /development-practices/internal-open-source/
       - page: Packaging and Distribution
         url: /development-practices/packaging-and-distribution/
-		
       - page: Unit Testing
-        url: /development-practices/unit-testing/   
+        url: /development-practices/unit-testing/
+      - page: VCS Standards - Git
+        url: /development-practices/vcs-standards-git/
