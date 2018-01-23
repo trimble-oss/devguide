@@ -1,11 +1,9 @@
----
+﻿---
 layout: page
 title: Packaging and Distribution
 section: developer-guide
 permalink: /development-practices/packaging-and-distribution/
 ---
-
-# Packaging and Distribution
 
 ### Status: Final Draft
 
