@@ -4,3 +4,5 @@ toc:
     subitems:
       - page: C++
         url: /code-style/cpp/
+      - page: Python
+        url: /code-style/python/
