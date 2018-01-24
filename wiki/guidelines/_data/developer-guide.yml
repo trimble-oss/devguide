@@ -16,3 +16,5 @@ toc:
         url: /development-practices/vcs-standards-git/
       - page: Versioning
         url: /development-practices/versioning/
+      - page: Code Documentation
+      	url: /development-practices/code-documentation/
