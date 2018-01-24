@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Developer Guidelines
+section: home
 permalink: /
 ---
 
