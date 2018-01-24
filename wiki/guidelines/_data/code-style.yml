@@ -9,10 +9,10 @@ toc:
       - page: Objective-C  
         url: /code-style/objective-c/
       - page: C#
-      	url: /code-style/c-sharp/
+        url: /code-style/c-sharp/
       - page: HTML/CSS
-      	url: /code-style/js-html-css/
+        url: /code-style/js-html-css/
       - page: Java
-      	url: /code-style/java/
+        url: /code-style/java/
       - page: C
-      	url: /code-style/c/
+        url: /code-style/c/
