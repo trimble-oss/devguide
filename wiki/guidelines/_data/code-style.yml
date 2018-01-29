@@ -2,17 +2,17 @@ display-name: How To's
 toc:
   - title: Code Style
     subitems:
-      - page: C++
-        url: /code-style/cpp/
-      - page: Python
-        url: /code-style/python/
-      - page: Objective-C  
-        url: /code-style/objective-c/
+      - page: C
+        url: /code-style/c/
       - page: C#
         url: /code-style/c-sharp/
+      - page: C++
+        url: /code-style/cpp/
       - page: HTML/CSS
         url: /code-style/js-html-css/
       - page: Java
         url: /code-style/java/
-      - page: C
-        url: /code-style/c/
+      - page: Objective-C  
+        url: /code-style/objective-c/
+      - page: Python
+        url: /code-style/python/
