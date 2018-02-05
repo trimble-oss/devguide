@@ -10,6 +10,8 @@ toc:
         url: /development-practices/internal-open-source/
       - page: Managing Code Complexity
         url: /development-practices/managing-code-complexity/
+      - page: Open Source Usage
+        url: /development-practices/open-source-usage/
       - page: Packaging and Distribution
         url: /development-practices/packaging-and-distribution/
       - page: Unit Testing
