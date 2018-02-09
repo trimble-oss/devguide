@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code Documentation
-section: developer-guide
+section: development-practices
 permalink: /development-practices/code-documentation/
 ---
 ### Status: Final Draft

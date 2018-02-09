@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Development Practices
-section: developer-guide
+section: development-practices
 permalink: /development-practices/
 ---
 

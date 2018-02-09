@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VCS Standards - Git
-section: developer-guide
+section: development-practices
 permalink: /development-practices/vcs-standards-git/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code Review
-section: developer-guide
+section: development-practices
 permalink: /development-practices/code-review/
 ---
 ### Status: Final Draft
