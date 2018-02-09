@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Managing Code Complexity
-section: developer-guide
+section: development-practices
 permalink: /development-practices/managing-code-complexity/
 ---
 

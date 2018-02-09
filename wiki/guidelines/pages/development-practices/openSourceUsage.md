@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Open Source Usage
-section: developer-guide
+section: development-practices
 permalink: /development-practices/open-source-usage/
 ---
 

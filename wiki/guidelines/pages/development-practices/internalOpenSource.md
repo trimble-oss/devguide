@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Internal Open Source
-section: developer-guide
+section: development-practices
 permalink: /development-practices/internal-open-source/
 ---
 

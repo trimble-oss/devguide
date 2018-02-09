@@ -1,19 +1,19 @@
-﻿---
+---
 layout: page
 title: Packaging and Distribution
-section: developer-guide
+section: development-practices
 permalink: /development-practices/packaging-and-distribution/
 ---
 
 ### Status: Final Draft
 
-# Introduction
+## Introduction
 
 Packaging software allows a user of the software to treat multiple interacting software modules as a single cohesive whole. The assumption being that the system has been tested and the modules are confirmed to work together. This provides a means of eliminating uncertainty when it comes to running the software.
 
 Packaging software also provides a convenient way of distributing software as a single unit, including any configuration or auxiliary files which might be needed. This is particularly important when sharing libraries between different development teams as the package can be imported and used in existing software and can be treated as a single unit.
 
-# Desktop Software Packaging
+## Desktop Software Packaging
 
 The de-facto standard for distribution of desktop software on Windows is [Microsoft Windows Installer](https://msdn.microsoft.com/en-us/library/windows/desktop/cc185688(v=vs.85).aspx) (MSI). 
 
@@ -25,7 +25,7 @@ An alternative completely free solution is the [WIX Toolset](http://wixtoolset.o
 
 WIX takes an alternative approach to InstallShield and does not have an IDE of its own. Instead it integrates with Visual Studio and installers are built using XML files hosted in a Visual Studio project. Although there is more work involved upfront, this is a much more cost-effective option for building installers.
 
-# Cloud-based Distribution for Web Applications
+## Cloud-based Distribution for Web Applications
 
 [Trimble Cloud Services](https://sites.google.com/a/trimble.com/tcs/) (TCS) - provides support and infrastructure for cloud-based applications at Trimble using either Amazon Web Services (AWS) or Microsoft Azure.
 
@@ -39,9 +39,9 @@ Additionally software is increasingly being architected as independent microserv
 
 For reusable software modules, e-Tools provides [Artifactory Pro](https://www.jfrog.com/artifactory) . Artifactory Pro is capable of hosting multiple artifact repositories for a lot of different types of software artifacts, this includes npm  repositories for Javascript modules, NuGet for .NET packages, Maven for Java, PyPI for Python etc. Artifactory also integrates well with e-Tools Bamboo service for build orchestration. See [ e-tools Artifactory](https://support.trimble.cloud/support/solutions/folders/25000000761) for more details on using Artifactory. 
 
-# Language Specific Tools For Packaging and Distribution
+## Language Specific Tools For Packaging and Distribution
 
-## Python
+### Python
 
 [Distutils](https://docs.python.org/3/library/distutils.html)(setuptools) has become the primary method for packaging and distributing python packages and scripts. By using distutils and building a package with setup.py you can easily distribute packages publically on [PyPi](https://pypi.python.org/pypi) or privately using a [Git Repository](https://pip.pypa.io/en/stable/reference/pip_install/#git) or [Artifactory](https://www.jfrog.com/confluence/display/RTF/PyPI+Repositories). 
 
@@ -53,7 +53,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 * Store internal packages in Artifactory
 
-## Java
+### Java
 
 * [Apache Maven](https://maven.apache.org/)
 
@@ -73,7 +73,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
     * Publishing requires an account on eTools Artifactory and initial setup of a repository within Artifactory. Please see the [eTools Artifactory site](https://sites.google.com/a/trimble.com/trimble-etools/tools) and [JFrog Artifactory documentation](https://www.jfrog.com/confluence/display/RTF/Welcome+to+Artifactory).
 
-## Javascript / Node
+### Javascript / Node
 
 * Client-side should all be minified.  You can then expose the client-side scripts via CDN such as CloudFront/S3.
 
@@ -81,7 +81,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 * Server-side packages can be written as NPM modules and stored in a private repo such as [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry) which makes sharing/deploying easier than managing the actual code repo.  Modules are made using [NPM’s tooling](https://docs.npmjs.com/getting-started/creating-node-modules).
 
-## C#
+### C#
 
 * NuGet is the primary package manager source for .NET and .NET Standard projects.
 
@@ -97,7 +97,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 * [Creating a .NET Standard NuGet Package](https://docs.microsoft.com/en-us/nuget/guides/create-net-standard-packages-vs2017)
 
-## Objective-C
+### Objective-C
 
 [Conan](https://conan.io/) 
 
