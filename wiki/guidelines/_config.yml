@@ -16,4 +16,6 @@ url: "http://devguide.trimblepaas.com" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-git_metadata
 
