@@ -32,3 +32,9 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 | Trimble Data | Processing (Pegasus) back end |
 | Agriculture | Agronomy data processing, DevOps |
 | CEC | Test Automation DevOps |
+
+# Bibliography
+* [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+* [PEP 257](https://www.python.org/dev/peps/pep-0257/)
+* [Pylint](https://www.pylint.org/)
+
