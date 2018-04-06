@@ -13,7 +13,7 @@ Software changes, interface compatibility breaks, old functionality becomes depr
 
 ## Recommended versioning scheme
 
-*Semantic versioning 2.0.0 *([http://semver.org/](http://semver.org/)), SemVer for short, is a de facto standard for open source libraries and utilities. It provides a clear distinction between versions that are:
+*Semantic versioning 2.0.0* ([http://semver.org/](http://semver.org/)), SemVer for short, is a de facto standard for open source libraries and utilities. It provides a clear distinction between versions that are:
 
 1. Minor bugfixes or changes that do not alter the interface (patch)
 

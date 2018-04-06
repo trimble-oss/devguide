@@ -76,7 +76,7 @@ should be sufficiently quarantined and processes should be put in place to
 ensure that these tests are made deterministic as early as possible.
 
 ### Test Coverage, Measurements, and Goals  
-While the specifics Unit Test Coverage goals will be highly dependant on the 
+While the specific Unit Test Coverage goals will be highly dependent on the 
 team & code base, the act of measuring Unit Test Coverage in a continuous way, 
 and monitoring how you are performing against your team goals is a recommended
 best practice.
@@ -93,10 +93,9 @@ Following are some of the good practices that are applicable regardless of the d
 | C#                |NUnit <br/>XUnit <br/>MSUnitTest  |NUnit mocks <br/>Moq <br/>[NSubstitue](http://nsubstitute.github.io/)    |OpenCover <br/>ReportGenerator |  
 |Angular JS         | Jasmine                             | Jasmine                      |  Karma <br/>Cobertura                  |  
 |C++                | [Google Test](https://github.com/google/googletest) <br/>[Catch2](https://github.com/catchorg/Catch2)         |[Google Mock](https://github.com/google/googletest/tree/master/googlemock) <br/>[FakeIt](https://github.com/eranpeer/FakeIt) |[Google Test Adapter](https://github.com/csoltenborn/GoogleTestAdapter) <br/>[TeamCity](https://www.jetbrains.com/teamcity/) |  
-|Python             | [pytest](https://docs.pytest.org/en/latest/)<sup>[1](#myfootnote1)</sup>|[pytest-mock](https://pypi.python.org/pypi/pytest-mock) <br/> wrapper for [mock](https://pypi.python.org/pypi/mock)                      |       [pytest-cov](http://pytest-cov.readthedocs.io/en/latest/)                 |  
+|Python             | [pytest](https://docs.pytest.org/en/latest/)[^okken]|[pytest-mock](https://pypi.python.org/pypi/pytest-mock) <br/> wrapper for [mock](https://pypi.python.org/pypi/mock)                      |       [pytest-cov](http://pytest-cov.readthedocs.io/en/latest/)                 |  
 
 
 
 
-**Footnote**  
-<a name="myfootnote1">1</a>: Python Testing with pytest by Brian Okken is a great introduction to pytest
+[^okken]: [Python Testing with pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest) by Brian Okken is a great introduction to pytest
