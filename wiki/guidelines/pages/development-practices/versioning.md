@@ -22,7 +22,7 @@ significance of improvements and features implemented.
 
 ## Recommended versioning scheme
 
-*Semantic versioning 2.0.0* ([http://semver.org/](http://semver.org/)), SemVer 
+*Semantic versioning 2.0.0* [http://semver.org/][1], SemVer 
 for short, is a de facto standard for open source libraries and utilities. It 
 provides a clear distinction between versions that are:
 
@@ -39,8 +39,8 @@ For continuous deployment systems, the use of semantic versioning requires some
 planning on deciding when to increment the major and minor versions. If the 
 change is not considered significant, only the patch number is incremented.
 
-A benefit of using SemVer for versioning is the [automatic merge feature]
-(https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html) 
+A benefit of using SemVer for versioning is the [automatic merge feature][2]
+ 
 of BitBucket that allows you to make patch-level changes in a feature branch 
 off the earliest required version and have the feature branch automatically 
 merged to later major and minor versions upon merging.
@@ -53,3 +53,8 @@ internal and external versions (e.g. "Windows XP SP3" vs “Build 4608”).
 
 * Git SHA1 hashes can be considered internal versions, as long as the 
 repository is available.
+
+[Semantic Versioning][1] by Tom Preston-Werner
+
+[1]: http://semver.org/
+[2]: https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html
