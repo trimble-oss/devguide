@@ -68,3 +68,7 @@ Code complexity is an important issue to take into account during development to
     * Automatic rule sets for identifying both cognitive and cyclomatic complexity
 
     * There are several built-in rules in the Sonar analyzers for handling complexity on expression, function and class levels in supported languages. Just do a search in Sonar for all rules containing the string "complexity" and having the tag “brain-overload” to find all the relevant rules. “Brain-overload” is a tag for rules concerned with clarity and readability and there are many other rules to enforce clearer code in addition to those concerned with calculated complexity.
+    
+# Bibliography
+
+* [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
