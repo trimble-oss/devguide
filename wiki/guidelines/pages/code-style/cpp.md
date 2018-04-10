@@ -25,11 +25,11 @@ None. Exceptions that would benefit a specific project should be documented alon
 
 ## Implementing and enforcing the Standard
 
-|Tools/Procedures |Type                    |In Use By |Notes |
-|cpplint.py       |Open Source             |Tekla     |Validates Google code style. It can be modified to account for any exceptions we add to the original standard.|
-|SonarQube        |Free (?) and Commercial |Tekla     |Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.|
-|clang-format     |Free                    |Tekla     |Formats souce code according to style guide.|
-|Peer reviews     |                        |SketchUp  |Validates of code style, code quality.|
+|Tools/Procedures |Type                       |In Use By |Notes |
+|cpplint.py       |Open Source                |Tekla     |Validates Google code style. It can be modified to account for any exceptions we add to the original standard.|
+|SonarQube        |Open Source and Commercial |Tekla     |Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.|
+|clang-format     |Free                       |Tekla     |Formats souce code according to style guide.|
+|Peer reviews     |                           |SketchUp  |Validates of code style, code quality.|
 
 ## Appendix A: Businesses Using Language
 

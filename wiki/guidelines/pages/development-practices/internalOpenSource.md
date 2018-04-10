@@ -19,7 +19,7 @@ outside of Trimble
 ## DO's
 * Create a README (in restructuredtext or markdown) - what does your code do,
   why would someone want to use it
-* Add a license - the code should be protested if it makes it out into the wild
+* Add a license - the code should be protected if it makes it out into the wild
 * Have a contributing guide - if someone want's to add a feature or fix a bug
   how do they do it
 * Have an issue tracking system that others can easily access - people need to
