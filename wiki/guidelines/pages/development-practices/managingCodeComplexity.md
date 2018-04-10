@@ -41,11 +41,11 @@ Code complexity is an important issue to take into account during development to
 
 ### Depth of Inheritance
 
-* It becomes less clear where an inherited method originates from when the number of levels in the inheritance tree grows. Consider composition over inheritance.
+* It becomes less clear where an inherited method originates from when the number of levels in the inheritance tree grows. Consider composition over inheritance. This metric was developed by Chidamber and Kemerer as an indicator for how many ancestor classes affect the behavior of a given class.
 
 ### Class coupling
 
-* The number of unique interdependencies between classes can be used to identify classes that have high coupling. These classes might be a burden to reuse if they need developers to also include all the dependent classes.
+* The number of unique interdependencies between classes can be used to identify classes that have high coupling. These classes might be a burden to reuse if they need developers to also include all the dependent classes. Interface segregation (one of the SOLID principles) reduces coupling to dependencies.
 
 ### Lines of code in functions, classes and files
 
@@ -72,3 +72,4 @@ Code complexity is an important issue to take into account during development to
 # Bibliography
 
 * [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+* [Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
