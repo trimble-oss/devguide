@@ -27,7 +27,7 @@ testing the branch will be merged into `master` and a tag with the version
 number will be added. The release branch will also be merged back into 
 `develop`.  Hotfix branches are made from `master`. 
 
-## Squasing & Rebasing
+## Squashing & Rebasing
 When possible squash your commits or rebase them interactively. Minimizing the
 number of commits on a feature will help keep the history clean for others.
 Having a series of commit with _made compile, oops, or fixed typo_ makes 
