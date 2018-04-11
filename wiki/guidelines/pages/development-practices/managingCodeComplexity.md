@@ -41,11 +41,11 @@ Code complexity is an important issue to take into account during development to
 
 ### Depth of Inheritance
 
-* It becomes less clear where an inherited method originates from when the number of levels in the inheritance tree grows. Consider composition over inheritance.
+* It becomes less clear where an inherited method originates from when the number of levels in the inheritance tree grows. Consider composition over inheritance. This metric was developed by Chidamber and Kemerer as an indicator for how many ancestor classes affect the behavior of a given class.
 
 ### Class coupling
 
-* The number of unique interdependencies between classes can be used to identify classes that have high coupling. These classes might be a burden to reuse if they need developers to also include all the dependent classes.
+* The number of unique interdependencies between classes can be used to identify classes that have high coupling. These classes might be a burden to reuse if they need developers to also include all the dependent classes. Interface segregation (one of the SOLID principles) reduces coupling to dependencies.
 
 ### Lines of code in functions, classes and files
 
@@ -68,3 +68,8 @@ Code complexity is an important issue to take into account during development to
     * Automatic rule sets for identifying both cognitive and cyclomatic complexity
 
     * There are several built-in rules in the Sonar analyzers for handling complexity on expression, function and class levels in supported languages. Just do a search in Sonar for all rules containing the string "complexity" and having the tag “brain-overload” to find all the relevant rules. “Brain-overload” is a tag for rules concerned with clarity and readability and there are many other rules to enforce clearer code in addition to those concerned with calculated complexity.
+    
+# Bibliography
+
+* [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+* [Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)

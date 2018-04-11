@@ -27,10 +27,7 @@ testing the branch will be merged into `master` and a tag with the version
 number will be added. The release branch will also be merged back into 
 `develop`.  Hotfix branches are made from `master`. 
 
-[1]: https://www.atlassian.com/git/workflows#!workflow-gitflow
-[2]: https://www.atlassian.com/git/workflows#!workflow-feature-branch
-
-## Squasing & Rebasing
+## Squashing & Rebasing
 When possible squash your commits or rebase them interactively. Minimizing the
 number of commits on a feature will help keep the history clean for others.
 Having a series of commit with _made compile, oops, or fixed typo_ makes 
@@ -39,10 +36,6 @@ tracking tools like [git blame][3], [cherry-pick][4] and [git revert][5].
 Think of a commit as a discrete stand alone feature or bug fix. For large
 complex feature, refactoring, or bug fixes don’t be afraid to have multiple
 commits, just be sure they consist of logical discrete functions. 
-
-[3]: https://git-scm.com/docs/git-blame
-[4]: https://git-scm.com/docs/git-cherry-pick
-[5]: https://git-scm.com/docs/git-revert
 
 ## Commit Messages
 Review Chris Beams blog post on [Writing Good Commit Messages][6]. Below are 
@@ -71,8 +64,6 @@ some guidelines based on Chis’s post.
 * Avoid sending a large new feature in a single giant commit (Recommendation is
   to do at least one commit every day)
 
-[6]: https://chris.beams.io/posts/git-commit/
-
 ## General Guidelines
 ### DOs
 * Understand how your version control system works
@@ -88,3 +79,15 @@ some guidelines based on Chis’s post.
 * Push directly to develop or master
 * Have meaningless commit messages like “fixed typo”
 * Push all of your local commits to your remote
+
+1 [Atlassian Git workflows][1]
+2 [Git source code management][7]
+3 [Chris Beams post on writing good commit messages][6]
+
+[1]: https://www.atlassian.com/git/workflows#!workflow-gitflow
+[2]: https://www.atlassian.com/git/workflows#!workflow-feature-branch
+[3]: https://git-scm.com/docs/git-blame
+[4]: https://git-scm.com/docs/git-cherry-pick
+[5]: https://git-scm.com/docs/git-revert
+[6]: https://chris.beams.io/posts/git-commit/
+[7]: https://git-scm.com/
