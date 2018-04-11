@@ -13,8 +13,6 @@ Google’s Javascript style guide on Github: [https://google.github.io/styleguid
 
 Google also provides an HTML/CSS guide: [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
 
-Google’s set of style guides are crafted and followed by 50,000+ software engineers by default.  While it would be fair to suggest an alternative, the fact that they expose their well thought, formerly internal guidelines for language styles is meaningful and has a positive impact on the open source community.  Likewise, once we all write the same way, a language becomes easier.
-
 ## Exceptions to the Standard
 
 The one exception is that preexisting libraries included in your applications should not be changed to fit the standard.  Hopefully you’re extending a library and able to craft the extension in a standardized format.
@@ -39,52 +37,16 @@ npm install csslint # Optional
 
 Enforcement would require this script installed as part of a project.  You could also integrate this into your testing or CI environment, but in a traditional sense, we want to prevent the style issues from getting past the engineer’s code branch.
 
-## Appendix A: Businesses Using Language
-
-<table>
-  <tr>
-    <td>Business</td>
-    <td>Codebase</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+## Appendix: Sample Implementation
 
 
-## Appendix B: Sample Implementation
 
 To help enforce the standard, you can hook into Git.  This can easily be applied to any language enforcement tooling.
 
-Here’s an example pre-commit hook script
+Here’s an example pre-commit hook script:
+
+Reference: https://gist.github.com/allan-simon/aeebc350a98035ac0257
+
 ```
 #!/bin/sh
 

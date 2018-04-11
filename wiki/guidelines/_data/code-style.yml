@@ -8,7 +8,7 @@ toc:
         url: /code-style/c-sharp/
       - page: C++
         url: /code-style/cpp/
-      - page: HTML/CSS
+      - page: JS/HTML/CSS
         url: /code-style/js-html-css/
       - page: Java
         url: /code-style/java/

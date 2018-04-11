@@ -25,9 +25,9 @@ Newline format and Tabs vs. spaces should be defined in an [.editorconfig](https
 
 StyleCop analyzes C# source code to enforce a set of style and consistency rules. It is available in two primary forms:
 
-    The [StyleCop Visual Studio extension](https://visualstudiogallery.msdn.microsoft.com/5441d959-387f-4cb2-a8c0-9998dd1fa49f), which allows StyleCop analysis to be run on any file, project, or solution in Visual Studio without modifying the source code. Visual Studio 2010, 2012, 2013, 2015, and 2017 are supported by this extension.
+The [StyleCop Visual Studio extension](https://visualstudiogallery.msdn.microsoft.com/5441d959-387f-4cb2-a8c0-9998dd1fa49f), which allows StyleCop analysis to be run on any file, project, or solution in Visual Studio without modifying the source code. Visual Studio 2010, 2012, 2013, 2015, and 2017 are supported by this extension.
 
-    The [StyleCop.MSBuild NuGet package](https://www.nuget.org/packages/StyleCop.MSBuild), which allows StyleCop analysis to be added to any .NET 4.0+ project without installing anything else on the system.
+The [StyleCop.MSBuild NuGet package](https://www.nuget.org/packages/StyleCop.MSBuild), which allows StyleCop analysis to be added to any .NET 4.0+ project without installing anything else on the system.
 
 Additionally, ReSharper (productivity tool that can analyze StyleCop visually as you type with the ReSharper StyleCop Extension Installed): [https://www.jetbrains.com/resharper/](https://www.jetbrains.com/resharper/)
 
@@ -39,35 +39,28 @@ StyleCop Settings file (place in directory of your solution added to source cont
   <tr>
     <td>Business</td>
     <td>Codebase</td>
-    <td>Notes</td>
   </tr>
   <tr>
     <td>Agriculture</td>
     <td>Trimble Ag Desktop</td>
-    <td></td>
   </tr>
   <tr>
     <td>Agriculture</td>
     <td>Trimble Ag Software (Web)</td>
-    <td></td>
   </tr>
   <tr>
     <td>Agriculture</td>
     <td>Device Licensing API</td>
-    <td></td>
   </tr>
   <tr>
     <td>MEP</td>
     <td>Estimating, Contractor Solutions, Sysque, Nova, Accubid, ProDesign</td>
-    <td></td>
   </tr>
   <tr>
     <td>Buildings</td>
     <td>Tekla Structures</td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td></td>
     <td></td>
   </tr>

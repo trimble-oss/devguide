@@ -81,7 +81,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 * Server-side packages can be written as NPM modules and stored in a private repo such as [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry) which makes sharing/deploying easier than managing the actual code repo.  Modules are made using [NPM’s tooling](https://docs.npmjs.com/getting-started/creating-node-modules).
 
-### C#
+### C\# 
 
 * NuGet is the primary package manager source for .NET and .NET Standard projects.
 
@@ -89,7 +89,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 * The NuGet.org server is used by default and anyone can publish a public project to the public server.
 
-* Private NuGet servers can also be hosted and used such as an Artifactory repository hosted by eTools --**_ this is the primary recommendation for NuGet use within Trimble. _**
+* Private NuGet servers can also be hosted and used such as an Artifactory repository hosted by eTools  **this is the primary recommendation for NuGet use within Trimble.**
 
 * [Installing and using packages](https://docs.microsoft.com/en-us/nuget/quickstart/use-a-package)
 
