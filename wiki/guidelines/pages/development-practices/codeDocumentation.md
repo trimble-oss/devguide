@@ -83,3 +83,8 @@ Additional narrative is supplied in reStructured text files.
 Sphinx can output HTML, PDF, ePub, LaTeX, Windows HTML Help</td>
   </tr>
 </table>
+
+# Bibliography
+* [Why do Programmers Hate Documenting?](https://discuss.fogcreek.com/joelonsoftware1/35336.html)
+* [You are what you document](https://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/)
+* [Putting comments in code: the good, the bad, and the ugly](https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83)
