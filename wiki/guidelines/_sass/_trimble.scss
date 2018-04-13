@@ -278,6 +278,10 @@ footer span {
 // Mobile displays
 // ------------------------------
 @media screen and (max-width: 900px) {
+
+    .m-hide {
+        display: none;
+    }
     .branding {
         overflow: auto;
         height: auto;
