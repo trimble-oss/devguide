@@ -4,7 +4,6 @@ title: Java
 section: code-style
 permalink: /code-style/java/
 ---
-### STATUS: FINAL DRAFT
 
 ## Reference Code Standard
 
@@ -71,3 +70,10 @@ NOTE: The following exceptions are CEC exceptions, but I think this was a matter
     <td></td>
   </tr>
 </table>
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

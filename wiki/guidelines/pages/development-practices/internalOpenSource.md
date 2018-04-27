@@ -48,3 +48,10 @@ outside of Trimble
   created any regression bugs
 * Use CI to check commits and deploy releases - when it makes sense
 * **HAVE FUN WITH IT!**
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

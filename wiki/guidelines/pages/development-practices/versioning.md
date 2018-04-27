@@ -5,8 +5,6 @@ section: development-practices
 permalink: /development-practices/versioning/
 ---
 
-### Status: Final Draft
-
 ## Introduction
 
 Software changes, interface compatibility breaks, old functionality becomes 
@@ -58,3 +56,10 @@ repository is available.
 
 [1]: http://semver.org/
 [2]: https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

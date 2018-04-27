@@ -4,7 +4,6 @@ title: Code Documentation
 section: development-practices
 permalink: /development-practices/code-documentation/
 ---
-### Status: Final Draft
 
 ...yes we are writing documentation on documentation...
 
@@ -83,3 +82,10 @@ Additional narrative is supplied in reStructured text files.
 Sphinx can output HTML, PDF, ePub, LaTeX, Windows HTML Help</td>
   </tr>
 </table>
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

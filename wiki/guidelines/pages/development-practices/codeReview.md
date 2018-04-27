@@ -4,7 +4,6 @@ title: Code Review
 section: development-practices
 permalink: /development-practices/code-review/
 ---
-### Status: Final Draft
 
 Rationale
 * Catch bugs
@@ -88,3 +87,10 @@ Code review tools known to be in use at Trimble
 * [Why code reviews matter (and actually save time!)](https://www.atlassian.com/agile/code-reviews)
 * [Code Review Checklist – To Perform Effective Code Reviews](http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/)
 * [Best Kept Secrets of Peer Code Review](https://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf)
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

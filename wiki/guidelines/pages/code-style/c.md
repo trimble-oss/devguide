@@ -5,8 +5,6 @@ section: code-style
 permalink: /code-style/c/
 ---
 
-### Status: Final Draft
-
 In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.
 
 ## Reference Code Standard
@@ -96,3 +94,10 @@ None. Any further exceptions that would benefit a project should be documented a
     <td></td>
   </tr>
 </table>
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

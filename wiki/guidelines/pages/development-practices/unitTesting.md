@@ -4,6 +4,7 @@ title: Unit Testing
 section: development-practices
 permalink: /development-practices/unit-testing/
 ---
+
 ## Introduction
 Unit tests are fitness tests for individual parts of a software program, the 
 part here being the smallest possible testable component. The farther down the
@@ -99,3 +100,10 @@ Following are some of the good practices that are applicable regardless of the d
 
 
 [^okken]: [Python Testing with pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest) by Brian Okken is a great introduction to pytest
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

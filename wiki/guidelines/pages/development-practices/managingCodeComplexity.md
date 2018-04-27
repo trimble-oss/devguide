@@ -5,8 +5,6 @@ section: development-practices
 permalink: /development-practices/managing-code-complexity/
 ---
 
-### Status: Final Draft
-
 ## Introduction
 
 Code complexity is an important issue to take into account during development to prevent technical debt from accruing and development slowing down. Unmanaged complexity leads to less structured code that puts an unnecessary burden on the developer’s mind. The [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles promote an understandable and maintainable software design.
@@ -73,3 +71,10 @@ Code complexity is an important issue to take into account during development to
 
 * [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 * [Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

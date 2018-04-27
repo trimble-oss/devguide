@@ -5,8 +5,6 @@ section: code-style
 permalink: /code-style/c-sharp/
 ---
 
-### Status: Final Draft
-
 ## Reference Code Standard
 
 Follow Microsoft’s [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/).
@@ -86,3 +84,10 @@ StyleCop Settings file (place in directory of your solution added to source cont
    }
 
 ```
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

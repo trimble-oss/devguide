@@ -91,3 +91,10 @@ some guidelines based on Chis’s post.
 [5]: https://git-scm.com/docs/git-revert
 [6]: https://chris.beams.io/posts/git-commit/
 [7]: https://git-scm.com/
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |
