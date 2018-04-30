@@ -5,8 +5,6 @@ section: development-practices
 permalink: /development-practices/packaging-and-distribution/
 ---
 
-### Status: Final Draft
-
 ## Introduction
 
 Packaging software allows a user of the software to treat multiple interacting software modules as a single cohesive whole. The assumption being that the system has been tested and the modules are confirmed to work together. This provides a means of eliminating uncertainty when it comes to running the software.
@@ -105,3 +103,9 @@ This is the package manager we’re slowly integrating within our SketchUp proje
 
 You specify the dependencies for your project in a simple text file: your conanfile.txt. Conan recursively resolves dependencies between libraries, fetches libraries (or source code) for all dependencies, and creates and maintains the integration configuration files (Make, autotools, gcc/clang, Visual Studio, Xcode, [etc](http://docs.conan.io/en/latest/integrations.html).).
 
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

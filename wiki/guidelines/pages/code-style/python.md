@@ -5,8 +5,6 @@ section: code-style
 permalink: /code-style/python/
 ---
 
-### Status: Final Draft
-
 ## Reference Code Standard
 The Python Software Foundation is responsible for developing and maintaining Python language standards. The Python foundation uses Python Enhancement Proposals (PEPs) to document the language and capture guidelines. Two PEPs are relevant to the topic of code style.
 
@@ -40,3 +38,9 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 * [PEP 257](https://www.python.org/dev/peps/pep-0257)
 * [Pylint](https://www.pylint.org)
 
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

@@ -5,8 +5,6 @@ section: code-style
 permalink: /code-style/cpp/
 ---
 
-### Status: Final Draft
-
 In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.
 
 ## Reference Code Standard
@@ -42,3 +40,10 @@ None. Exceptions that would benefit a specific project should be documented alon
 * [Boost Library Req and Guidelines](http://www.boost.org/development/requirements.html)
 
     * Good documentation of what goes into setting up a Boost library project. Contains links to other documents and references to books.
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |

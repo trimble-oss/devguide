@@ -5,8 +5,6 @@ section: code-style
 permalink: /code-style/js-html-css/
 ---
 
-### Status: Final Draft
-
 ## Reference Code Standard
 
 Google’s Javascript style guide on Github: [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
@@ -78,3 +76,10 @@ else
     echo "\033[42mCOMMIT SUCCEEDED\033[0m\n"
 fi
 ```
+
+---
+### Document Revision History
+
+| Version | Revision date | Revision description   |
+|---------|---------------|------------------------|
+| 1.0     | 27-Apr-2018   | Initial public release |
