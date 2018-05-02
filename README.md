@@ -30,7 +30,7 @@
 - Step 4 - Go to root folder of docs
   - jekyll serve
 - Step 5 - Open the localhost address
-  - http://127.0.0.1:4000/<servicename>/
+  - http://127.0.0.1:4000/\<servicename\>/
 
 ## More Information
 
