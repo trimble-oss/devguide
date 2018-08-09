@@ -67,6 +67,7 @@ StyleCop Settings file (place in directory of your solution added to source cont
 
 ## Appendix B: Recommended Reading
 
+* For an introductory article on how to structure and format C# code see [C# Coding Conventions (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions). 
 * Design principles ([SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)). [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 
     * Recommended Reading: [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204)
