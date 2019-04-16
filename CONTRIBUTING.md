@@ -12,11 +12,13 @@ If you have questions about Trimble Developer Guidelines, please direct these to
 discussion list.
 
 ## Found an Issue?
+
 If you find a bug in the source code or a mistake in the documentation, you can help us by creating a branch, correcting the issue, and issuing a pull request per submission guidelines below.
 
 ## Submitting a change
+
 * E-mail the intent of your change to the [Trimble Developer Guidelines Working Group](dev-guidelines-working-group-ug@trimble.com)
-* Follow Developer Guidlines for Git Flow.
+* Follow Developer Guidelines for Git Flow.
 * Create a branch, make your changes.
 * Test locally using Jekyll.
 * Use descriptive commit messaging.
