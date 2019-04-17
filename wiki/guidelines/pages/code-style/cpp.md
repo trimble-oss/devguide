@@ -26,7 +26,7 @@ None. Exceptions that would benefit a specific project should be documented alon
 |Tools/Procedures |Type                       |In Use By |Notes |
 |cpplint.py       |Open Source                |Tekla     |Validates Google code style. It can be modified to account for any exceptions we add to the original standard.|
 |SonarQube        |Open Source and Commercial |Tekla     |Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.|
-|clang-format     |Free                       |Tekla     |Formats souce code according to style guide.|
+|clang-format     |Free                       |Tekla     |Formats source code according to style guide.|
 |Peer reviews     |                           |SketchUp  |Validates of code style, code quality.|
 
 ## Appendix A: Businesses Using Language
@@ -37,7 +37,7 @@ None. Exceptions that would benefit a specific project should be documented alon
 
 ## Appendix B: Recommended Reading
 
-* [Boost Library Req and Guidelines](http://www.boost.org/development/requirements.html)
+* [Boost Library Req and Guidelines](https://www.boost.org/development/requirements.html)
 
     * Good documentation of what goes into setting up a Boost library project. Contains links to other documents and references to books.
 
