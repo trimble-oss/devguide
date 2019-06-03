@@ -28,6 +28,7 @@ Our aim is to provide a common set of recommended Developer Guidelines so that a
   * Javascript
   * Objective-C
   * Python
+  * Swift
 * Code Practices
   * Versioning Best Practices - GIT
   * Packaging Best Practices
