@@ -20,7 +20,7 @@ significance of improvements and features implemented.
 
 ## Recommended versioning scheme
 
-Semantic versioning 2.0.0 [http://semver.org/][1], SemVer 
+Semantic versioning 2.0.0 [https://semver.org/][1], SemVer 
 for short, is a de facto standard for open source libraries and utilities. It 
 provides a clear distinction between versions that are:
 
@@ -54,7 +54,7 @@ repository is available.
 
 [Semantic Versioning][1] by Tom Preston-Werner
 
-[1]: http://semver.org/
+[1]: https://semver.org/
 [2]: https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html
 
 ---
