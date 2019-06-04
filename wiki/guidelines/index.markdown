@@ -25,7 +25,7 @@ Our aim is to provide a common set of recommended Developer Guidelines so that a
   * C++
   * C#
   * Java
-  * Javascript
+  * JavaScript
   * Objective-C
   * Python
   * Swift
