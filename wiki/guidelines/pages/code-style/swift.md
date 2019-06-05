@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Objective-C
+title: Swift
 section: code-style
-permalink: /code-style/objective-c/
+permalink: /code-style/swift/
 ---
 
 ## Reference Code Standard
