@@ -19,3 +19,5 @@ markdown: kramdown
 plugins:
   - jekyll-git_metadata
 
+exclude: ["node_modules","build_site.py", "results*", "ReadMe*"]  
+
