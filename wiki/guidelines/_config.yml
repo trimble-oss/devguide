@@ -11,7 +11,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://devguide.trimble.com/" # the base hostname & protocol for your site
+url: "https://devguide.trimble.com" # the base hostname & protocol for your site
 
 
 # Build settings
