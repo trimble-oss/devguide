@@ -23,7 +23,7 @@ Code complexity is an important issue to take into account during development to
 
     * Some applications and programming languages are inherently more manageable with higher cyclomatic complexity, so the exact threshold can vary from one application to another.
 
-### [Cognitive complexity](http://redirect.sonarsource.com/doc/cognitive-complexity.html)
+### [Cognitive complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf)
 
 * Human understandability
 
@@ -70,7 +70,7 @@ Code complexity is an important issue to take into account during development to
 # Bibliography
 
 * [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
-* [Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
+* [Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)](https://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
 
 ---
 ### Document Revision History
