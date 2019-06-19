@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Javascript, HTML, & CSS
+title: JavaScript, HTML, & CSS
 section: code-style
 permalink: /code-style/js-html-css/
 ---
 
 ## Reference Code Standard
 
-Google’s Javascript style guide on Github: [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+Google’s JavaScript style guide on GitHub: [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
 
 Google also provides an HTML/CSS guide: [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
 
@@ -25,7 +25,7 @@ npm install jshint
 
 ## Linux/Mac shell
 
-which tidy # It may exist on your system by default, e.g. Mac OSX
+which tidy # It may exist on your system by default, e.g. MacOS
 
 ```
 sudo apt-get install tidy # or other relevant package manager CLI
