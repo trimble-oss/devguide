@@ -17,9 +17,9 @@ The de-facto standard for distribution of desktop software on Windows is [Micros
 
 There are various applications which can create MSI-based installers. The most popular is [Flexera InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/) which is a complete IDE for building installers.
 
-InstallShield can be extremely expensive to license, however Flexera also has [InstallShield Limited Edition for Visual Studio](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) which is a cut-down version of the full InstallShield product which integrates with Visual Studio. This might be a suitable option for smaller projects.
+InstallShield can be extremely expensive to license, however Flexera also has [InstallShield Limited Edition for Visual Studio](https://info.flexerasoftware.com/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) which is a cut-down version of the full InstallShield product which integrates with Visual Studio. This might be a suitable option for smaller projects.
 
-An alternative completely free solution is the [WIX Toolset](http://wixtoolset.org/).
+An alternative completely free solution is the [WIX Toolset](https://wixtoolset.org/).
 
 WIX takes an alternative approach to InstallShield and does not have an IDE of its own. Instead it integrates with Visual Studio and installers are built using XML files hosted in a Visual Studio project. Although there is more work involved upfront, this is a much more cost-effective option for building installers.
 
@@ -27,7 +27,7 @@ WIX takes an alternative approach to InstallShield and does not have an IDE of i
 
 [Trimble Cloud Services](https://sites.google.com/a/trimble.com/tcs/) (TCS) - provides support and infrastructure for cloud-based applications at Trimble using either Amazon Web Services (AWS) or Microsoft Azure.
 
-Increasingly web-based applications are being hosted in [Docker](http://www.docker.com) containers which provide a number of advantages both in terms of cost and convenience over hosting applications directly on base hardware or in virtual machines either locally or in the cloud. Docker containers are fully supported on both AWS and Azure.
+Increasingly web-based applications are being hosted in [Docker](https://www.docker.com) containers which provide a number of advantages both in terms of cost and convenience over hosting applications directly on base hardware or in virtual machines either locally or in the cloud. Docker containers are fully supported on both AWS and Azure.
 
 Additionally software is increasingly being architected as independent microservices which are particularly well suited for being hosted in Docker containers.
 
@@ -43,7 +43,7 @@ For reusable software modules, e-Tools provides [Artifactory Pro](https://www.jf
 
 [Distutils](https://docs.python.org/3/library/distutils.html)(setuptools) has become the primary method for packaging and distributing python packages and scripts. By using distutils and building a package with setup.py you can easily distribute packages publically on [PyPi](https://pypi.python.org/pypi) or privately using a [Git Repository](https://pip.pypa.io/en/stable/reference/pip_install/#git) or [Artifactory](https://www.jfrog.com/confluence/display/RTF/PyPI+Repositories). 
 
-This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html) give a good high level overview on building your first Python package. For more advanced features refer to the[ setuptools documentation](https://setuptools.readthedocs.io/en/latest/setuptools.html#basic-use). 
+This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html) give a good high level overview on building your first Python package. For more advanced features refer to the[ setuptools documentation](https://setuptools.readthedocs.io/en/latest/setuptools.html#basic-use). 
 
 * Use wheels as the library package format build using setuptools.
 
@@ -101,7 +101,7 @@ This [Quick Start](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/l
 
 This is the package manager we’re slowly integrating within our SketchUp projects, we privately host our packages in Trimble’s [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry), hosted by eTools.
 
-You specify the dependencies for your project in a simple text file: your conanfile.txt. Conan recursively resolves dependencies between libraries, fetches libraries (or source code) for all dependencies, and creates and maintains the integration configuration files (Make, autotools, gcc/clang, Visual Studio, Xcode, [etc](http://docs.conan.io/en/latest/integrations.html).).
+You specify the dependencies for your project in a simple text file: your conanfile.txt. Conan recursively resolves dependencies between libraries, fetches libraries (or source code) for all dependencies, and creates and maintains the integration configuration files (Make, autotools, gcc/clang, Visual Studio, Xcode, [etc](https://docs.conan.io/en/latest/integrations.html).).
 
 ---
 ### Document Revision History
