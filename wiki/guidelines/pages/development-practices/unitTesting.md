@@ -42,7 +42,7 @@ Isolate the tests such that:
 
 ### Consistent naming
 Choose a consistent naming convention for the tests that will reflect 
-**subject** under test, the **behavior** that is being verified and **result** 
+**subject** under test, the **behavior** that is being verified and **result** 
 that is expected. For example in a Counter unit test, a possible test name 
 could be **shouldIncreaseCountByOneWhenTicked**. Whatever be the style, make 
 sure that it is consistent across your test suite and a look at the test 
