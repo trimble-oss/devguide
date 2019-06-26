@@ -7,7 +7,6 @@ permalink: /
 
 ## Mission
 
-Mission 
 As both our company and our focus on collaboration continue to grow, Developer Guidelines are becoming more important than ever.
 
 Our aim is to provide a common set of recommended Developer Guidelines so that any business can choose to use them, or a portion of them in order to:
@@ -20,12 +19,14 @@ Our aim is to provide a common set of recommended Developer Guidelines so that a
 * While the adoption of these guidelines is not strictly required, it is highly recommended, as consistency across code bases allows for easier movement and collaboration.
 
 ## In Scope
+
 * Code Styles
   * C
   * C++
   * C#
   * Java
   * JavaScript
+  * HTML/CSS
   * Objective-C
   * Python
   * Swift
@@ -41,6 +42,7 @@ Our aim is to provide a common set of recommended Developer Guidelines so that a
 * Trimble Internal Shared Source Requirements
 
 ## Out of Scope
+
 This does NOT aim to do the following:
 
 * Force groups to change Technologies
