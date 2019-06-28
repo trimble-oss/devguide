@@ -14,7 +14,7 @@
 - Step 1 - Install Ruby Installer for windows
   - https://rubyinstaller.org/downloads/
 - Step - 2 Install Jekyll and Builder:
-  - \$ gem install jekyll bundler
+  - $ gem install jekyll bundler
 - Step 3 - Verify Jekyll Installation
   - jekyll -v
 - Step 4 - Go to root folder of docs (Root folder is where the config.yml is located)
