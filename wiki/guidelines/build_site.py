@@ -30,7 +30,7 @@ def buildjekyll():
 
 if __name__ == "__main__":
 
-    parser = ArgumentParser(description="Script to build site from MD pages using Jekyl")
+    parser = ArgumentParser(description="Script to build site from MD pages using Jekyll")
 
     parser.add_argument("--bucketname", required=True,
                         help="Bucket Name to push the document")
