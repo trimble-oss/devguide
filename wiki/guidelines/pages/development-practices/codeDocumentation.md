@@ -58,14 +58,14 @@ Some of the tools in use within trimble.
     <td>Obtains descriptive text from C# XML Documentation Comments and type information by reflecting over compiled assemblies. Compiler will raise a warning if XMLDoc comments don’t match function signature. Compiler can be configured to emit a warning if XMLDoc comments are omitted.</td>
   </tr>
   <tr>
-    <td>Javascript</td>
+    <td>JavaScript</td>
     <td>JsDoc</td>
     <td>Generates documentation from annotations embedded in comments in the source code</td>
   </tr>
   <tr>
-    <td>Typescript</td>
+    <td>TypeScript</td>
     <td>TypeDoc</td>
-    <td>Simpler more compact annotations than with JsDoc, optimised for Typescript, uses typings directly from the Typescript compiler</td>
+    <td>Simpler more compact annotations than with JsDoc, optimised for TypeScript, uses typings directly from the TypeScript compiler</td>
   </tr>
   <tr>
     <td>C++</td>
