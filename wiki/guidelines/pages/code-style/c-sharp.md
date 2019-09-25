@@ -17,7 +17,7 @@ None
 
 ## Implementing the Standard
 
-Microsoft ASP.NET / ASP.NET Core MVC team developed a [StyleCop code style settings file](https://github.com/aspnet/Mvc/blob/dev/Settings.StyleCop) to enforce code style.
+Microsoft ASP.NET / ASP.NET Core MVC team developed a [StyleCop code style settings file](https://github.com/aspnet/AspNetCore/blob/master/src/Mvc/Settings.StyleCop) to enforce code style.
 
 Newline format and Tabs vs. spaces should be defined in an [.editorconfig](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) file in source control. Visual Studio Code, VS 2017, and many other editors use this file for automatic configuration.
 
@@ -29,7 +29,7 @@ The [StyleCop.MSBuild NuGet package](https://www.nuget.org/packages/StyleCop.MSB
 
 Additionally, ReSharper (productivity tool that can analyze StyleCop visually as you type with the ReSharper StyleCop Extension Installed): [https://www.jetbrains.com/resharper/](https://www.jetbrains.com/resharper/)
 
-StyleCop Settings file (place in directory of your solution added to source control): [https://github.com/aspnet/Mvc/blob/dev/Settings.StyleCop](https://github.com/aspnet/Mvc/blob/dev/Settings.StyleCop)
+StyleCop Settings file (place in directory of your solution added to source control): [https://github.com/aspnet/AspNetCore/blob/master/src/Mvc/Settings.StyleCop](https://github.com/aspnet/AspNetCore/blob/master/src/Mvc/Settings.StyleCop)
 
 ## Appendix A: Businesses Using Language
 
