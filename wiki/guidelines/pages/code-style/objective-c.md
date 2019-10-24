@@ -17,7 +17,7 @@ When sharing code with C++ that uses Google’s style, use 80 character limit pe
 
 Be consistent with the codebase and if source code doesn’t follow a particular style start introducing the style incrementally.
 
-The recommended tool for Xcode is the [clang-format plugin](https://github.com/travisjeffery/ClangFormat-Xcode), you can install it through [Package Manager](http://alcatraz.io/).  For details on setting up the clang-format plugin, refer to [Appendix B: Setting up the CLang-Format Plugin](#heading=h.jxoyjazfls7h). Xcode 8+ doesn’t support plugins anymore :-/
+The recommended tool for Xcode is the [clang-format plugin](https://github.com/travisjeffery/ClangFormat-Xcode), you can install it through [Package Manager](https://github.com/alcatraz/Alcatraz).  For details on setting up the clang-format plugin, refer to [Appendix B: Setting up the CLang-Format Plugin](#heading=h.jxoyjazfls7h). Xcode 8+ doesn’t support plugins anymore :-/
 
 ## Appendix A: Businesses Using Language
 
