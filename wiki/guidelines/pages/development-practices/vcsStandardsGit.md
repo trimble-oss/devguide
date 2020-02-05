@@ -39,7 +39,7 @@ commits, just be sure they consist of logical discrete functions.
 
 ## Commit Messages
 Review Chris Beams blog post on [Writing Good Commit Messages][6]. Below are 
-some guidelines based on Chis’s post. 
+some guidelines based on Chris’s post. 
 
 ### DOs
 * Define a standard that works for your team and stick to it.
