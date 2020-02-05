@@ -35,7 +35,7 @@ Additionally software is increasingly being architected as independent microserv
 
 [TPaaS](https://sites.google.com/a/trimble.com/tpaas/) (Trimble Platform as a Service) provides the [API Cloud](https://sites.google.com/a/trimble.com/tpaas/projects/api-management/api-management) a service for managing and publishing APIs for consumption by other Trimble applications.
 
-For reusable software modules, e-Tools provides [Artifactory Pro](https://www.jfrog.com/artifactory) . Artifactory Pro is capable of hosting multiple artifact repositories for a lot of different types of software artifacts, this includes npm  repositories for Javascript modules, NuGet for .NET packages, Maven for Java, PyPI for Python etc. Artifactory also integrates well with e-Tools Bamboo service for build orchestration. See [ e-tools Artifactory](https://support.trimble.cloud/support/solutions/folders/25000000761) for more details on using Artifactory. 
+For reusable software modules, e-Tools provides [Artifactory Pro](https://www.jfrog.com/artifactory). Artifactory Pro is capable of hosting multiple artifact repositories for a lot of different types of software artifacts, this includes npm  repositories for JavaScript modules, NuGet for .NET packages, Maven for Java, PyPI for Python etc. Artifactory also integrates well with e-Tools Bamboo service for build orchestration. See [ e-tools Artifactory](https://support.trimble.cloud/support/solutions/folders/25000000761) for more details on using Artifactory. 
 
 ## Language Specific Tools For Packaging and Distribution
 
@@ -71,11 +71,11 @@ This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/
 
     * Publishing requires an account on eTools Artifactory and initial setup of a repository within Artifactory. Please see the [eTools Artifactory site](https://sites.google.com/a/trimble.com/trimble-etools/tools) and [JFrog Artifactory documentation](https://www.jfrog.com/confluence/display/RTF/Welcome+to+Artifactory).
 
-### Javascript / Node
+### JavaScript / Node
 
 * Client-side should all be minified.  You can then expose the client-side scripts via CDN such as CloudFront/S3.
 
-* In order to optimise client-side applications for size and maximum download performance, it is recommended to use a module bundler to combine Javascript files along with static assets such as CSS and images into packages. The current de-facto standard for this is [Webpack](https://webpack.js.org/). Webpack can also be used to minify javascript.
+* In order to optimise client-side applications for size and maximum download performance, it is recommended to use a module bundler to combine JavaScript files along with static assets such as CSS and images into packages. The current de-facto standard for this is [Webpack](https://webpack.js.org/). Webpack can also be used to minify JavaScript.
 
 * Server-side packages can be written as NPM modules and stored in a private repo such as [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry) which makes sharing/deploying easier than managing the actual code repo.  Modules are made using [NPM’s tooling](https://docs.npmjs.com/getting-started/creating-node-modules).
 
