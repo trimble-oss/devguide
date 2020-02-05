@@ -20,11 +20,11 @@ outside of Trimble
 * Create a README (in restructuredtext or markdown) - what does your code do,
   why would someone want to use it
 * Add a license - the code should be protected if it makes it out into the wild
-* Have a contributing guide - if someone want's to add a feature or fix a bug
+* Have a contributing guide - if someone wants to add a feature or fix a bug
   how do they do it
 * Have an issue tracking system that others can easily access - people need to
   know what works and what known issues there are
-* Include a slack channel or user group - if I need help where should I look
+* Include a Slack channel or user group - if I need help where should I look
   or ask
 * Encourage other to contribute instead of making changes based on requests -
   this doesn’t have to be code. It could be spell checking, code review,
