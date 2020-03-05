@@ -81,12 +81,12 @@ Code review tools known to be in use at Trimble
 * [Team Foundation Server Code Reviews](https://docs.microsoft.com/en-us/vsts/tfvc/get-code-reviewed-vs)
 
 # Bibliography
-* [Increase Defect Detection with our Code Review Checklist](https://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/)
+* [Increase Defect Detection with our Code Review Checklist](https://web.archive.org/web/20180219163514/blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/)
 * [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
-* [Effective Code Reviews – 9 Tips from a Converted Skeptic](https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/)
+* [Effective Code Reviews – 9 Tips from a Converted Skeptic](https://web.archive.org/web/20180313140443/https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/)
 * [Why code reviews matter (and actually save time!)](https://www.atlassian.com/agile/code-reviews)
 * [Code Review Checklist – To Perform Effective Code Reviews](http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/)
-* [Best Kept Secrets of Peer Code Review](https://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf)
+* [Best Kept Secrets of Peer Code Review](https://smartbear.com/resources/ebooks/best-kept-secrets-of-code-review/)
 
 ---
 ### Document Revision History
@@ -94,3 +94,4 @@ Code review tools known to be in use at Trimble
 | Version | Revision date | Revision description   |
 |---------|---------------|------------------------|
 | 1.0     | 27-Apr-2018   | Initial public release |
+| 1.1     | 03-Mar-2020   | Link rot fix           |
