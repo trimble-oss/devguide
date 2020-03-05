@@ -10,7 +10,7 @@ def parseToken(token):
 def delete_from_s3(bucketname,directoryname):
     s3 = boto3.client('s3')
     s3.delete_object(Bucket = bucketname, Key = directoryname)
-    print "%s successfully deleted from %s bucket " % (directoryname,bucketname)
+    print("%s successfully deleted from %s bucket " % (directoryname,bucketname))
 
 def upload_to_s3(bucketname, filename):
     s3 = boto3.resource('s3')
@@ -21,7 +21,7 @@ def upload_to_s3(bucketname, filename):
         s3.Object(bucketname, filename).put(Body=fptr.read(), ContentType='image/' + ctype)
     else:
         s3.Object(bucketname, filename).put(Body=fptr.read(), ContentType='text/' + ctype)
-    print "%s successfully uploaded to %s bucket " % (filename,bucketname)
+    print("%s successfully uploaded to %s bucket " % (filename,bucketname))
 
 def buildjekyll():
     jekyllbuild= "jekyll build"
@@ -42,7 +42,7 @@ if __name__ == "__main__":
             for file in files:
                 fname = root + "/" + file
                 fname = fname.split("./_site/")[-1]
-                print fname
+                print(fname)
                 upload_to_s3(bucketname= args.bucketname, filename= fname)
     else:
-        print "jekyll build failed"
+        print("jekyll build failed")
