@@ -14,10 +14,14 @@ def delete_from_s3(bucketname,directoryname):
 
 def upload_to_s3(bucketname, filename):
     s3 = boto3.resource('s3')
-    fptr =  open("./_site/" + filename,"r+")
+    fptr =  open("./_site/" + filename,"rb")
     ctype = "html" if "." not in filename else filename.split(".")[-1]
-    if ".jpeg" in filename or ".png" in filename or ".jpg" in filename:
-        ftype = filename.split(".")[-1]
+    if ".jpeg" in filename or ".png" in filename or ".jpg" in filename or ".ico" in filename:
+        ctype = filename.split(".")[-1]
+        if ".jpg" in filename:
+            ctype = "jpeg"
+        if ".ico" in filename:
+            ctype = "x-icon"
         s3.Object(bucketname, filename).put(Body=fptr.read(), ContentType='image/' + ctype)
     else:
         s3.Object(bucketname, filename).put(Body=fptr.read(), ContentType='text/' + ctype)
