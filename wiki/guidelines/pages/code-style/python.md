@@ -37,10 +37,3 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 * [PEP 8](https://www.python.org/dev/peps/pep-0008)
 * [PEP 257](https://www.python.org/dev/peps/pep-0257)
 * [Pylint](https://www.pylint.org)
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

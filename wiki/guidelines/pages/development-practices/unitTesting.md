@@ -102,11 +102,3 @@ Following are some of the good practices that are applicable regardless of the d
 [^okken]: [Python Testing with pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest) by Brian Okken is a great introduction to pytest
 * [You Still Don’t Know How to Do Unit Testing (and Your Secret is Safe with Me)](https://stackify.com/unit-testing-basics-best-practices/)
 * [Writing Great Unit Tests: Best and Worst Practices](http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/)
-
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

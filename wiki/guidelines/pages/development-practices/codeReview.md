@@ -87,11 +87,3 @@ Code review tools known to be in use at Trimble
 * [Why code reviews matter (and actually save time!)](https://www.atlassian.com/agile/code-reviews)
 * [Code Review Checklist – To Perform Effective Code Reviews](http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/)
 * [Best Kept Secrets of Peer Code Review](https://smartbear.com/resources/ebooks/best-kept-secrets-of-code-review/)
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |
-| 1.1     | 03-Mar-2020   | Link rot fix           |

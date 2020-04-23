@@ -94,10 +94,3 @@ None. Any further exceptions that would benefit a project should be documented a
     <td></td>
   </tr>
 </table>
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |
