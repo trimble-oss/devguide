@@ -53,6 +53,7 @@
   padding: 6px 0;
   display: inline-block;
   flex: 1 1 100%;
+
   &:hover {
     text-decoration: underline;
   }
@@ -99,13 +100,13 @@
 .swagger-response-code {
   font-weight: 600;
 
-  &:after {
+  &::after {
     content: " ";
   }
 }
 
 .swagger-parameters-table {
-  border-spacing: 0px;
+  border-spacing: 0;
   border-collapse: collapse;
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -122,7 +123,7 @@
 }
 
 .swagger-parameter-required {
-  &:after {
+  &::after {
     content: " *";
     color: red;
   }
