@@ -56,10 +56,3 @@ repository is available.
 
 [1]: https://semver.org/
 [2]: https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

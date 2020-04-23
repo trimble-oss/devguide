@@ -58,10 +58,3 @@ The recommended tool for Xcode is the [clang-format plugin](https://github.com/t
     <td></td>
   </tr>
 </table>
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

@@ -56,10 +56,3 @@ Because Swift is a new language it’s easier and less time consuming to enforce
     <td></td>
   </tr>
 </table>
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 03-Jun-2019   | Initial public release |

@@ -40,10 +40,3 @@ None. Exceptions that would benefit a specific project should be documented alon
 * [Boost Library Req and Guidelines](https://www.boost.org/development/requirements.html)
 
     * Good documentation of what goes into setting up a Boost library project. Contains links to other documents and references to books.
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

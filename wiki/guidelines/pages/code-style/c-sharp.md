@@ -85,10 +85,3 @@ StyleCop Settings file (place in directory of your solution added to source cont
    }
 
 ```
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |

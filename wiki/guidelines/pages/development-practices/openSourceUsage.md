@@ -19,10 +19,3 @@ should reference and live by as you take advantage of world of open source
 software.
 
 [1]:https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Ftrimble.com%2Ftrimble-open-source%2Foss-policy&sa=D&sntz=1&usg=AFQjCNGVd22ih97YasAZ3v30zSUlHyLIfw
-
----
-### Document Revision History
-
-| Version | Revision date | Revision description   |
-|---------|---------------|------------------------|
-| 1.0     | 27-Apr-2018   | Initial public release |
