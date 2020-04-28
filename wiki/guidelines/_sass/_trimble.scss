@@ -3,7 +3,7 @@
 // ------------------------------
 
 .branding {
-  background-color: #ffffff;
+  background-color: #fff;
   max-width: 1200px;
   margin: 10px auto;
   height: 65px;
@@ -54,7 +54,7 @@
           &,
           &:hover,
           &:visited {
-            color: #ffffff;
+            color: #fff;
             display: block;
             padding: 15px 25px;
             text-align: center;
@@ -75,7 +75,7 @@
     display: none;
     position: absolute;
     top: 5px;
-    right: 0px;
+    right: 0;
     float: right;
     width: 35px;
     height: 30px;
@@ -92,7 +92,7 @@
 // ------------------------------
 
 main {
-  background-color: #ffffff;
+  background-color: #fff;
   min-height: 72.3vh;
   max-width: 1200px;
   margin: 10px auto;
@@ -108,7 +108,7 @@ main {
       background-color: $trimble-medium-blue;
       padding: 10px;
       font-size: 1.1em;
-      color: #ffffff;
+      color: #fff;
       display: none;
     }
   }
@@ -162,23 +162,23 @@ main {
     padding-left: 25px;
   }
 
-  a:before {
+  a::before {
     content: "\00a0";
     width: 20px;
     text-align: center;
     display: inline-block;
   }
 
-  .expanded:before {
+  .expanded::before {
     content: " - ";
   }
 
-  .collapsed:before {
+  .collapsed::before {
     content: " + ";
   }
 
-  .expanded:before,
-  .collapsed:before {
+  .expanded::before,
+  .collapsed::before {
     width: 20px;
     text-align: center;
     display: inline-block;
@@ -194,6 +194,7 @@ article {
   min-width: 0;
   min-height: 0;
 }
+
 article h1,
 article h2,
 article h3,
@@ -203,14 +204,17 @@ article h6 {
   margin: 30px 0 10px 0;
   color: $trimble-dark-blue;
 }
+
 article h1 {
   padding: 5px 0;
   margin: 10px 0 20px 0;
   border-bottom: solid 2px $trimble-yellow;
 }
+
 article ul {
   list-style: none;
 }
+
 article ul li::before {
   content: "\25A0";
   color: $trimble-light-blue;
@@ -218,12 +222,14 @@ article ul li::before {
   margin-left: -15px;
   float: left;
 }
+
 article table {
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid #e8e8e8;
   margin: 25px 0;
 }
+
 article table th,
 article table td {
   border: 1px solid #e8e8e8;
@@ -236,13 +242,14 @@ article table td {
 
 footer {
   background-color: $trimble-dark-blue;
-  color: #ffffff;
+  color: #fff;
   line-height: 2em;
   padding: 10px;
   height: 125px;
   bottom: 0;
   padding-bottom: 0;
 }
+
 footer > div {
   max-width: 1200px;
   padding: 20px 0;
@@ -254,6 +261,7 @@ footer p {
   line-height: 6px;
   font-size: 12px;
 }
+
 footer span,
 footer a,
 footer a:hover,
@@ -273,6 +281,7 @@ footer span {
   .m-hide {
     display: none;
   }
+
   .branding {
     overflow: auto;
     height: auto;
@@ -286,10 +295,11 @@ footer span {
       display: block;
       text-align: left;
       background-color: $trimble-medium-blue;
-      color: #ffffff;
+      color: #fff;
       margin: 0;
       padding: 10px;
     }
+
     .logo img {
       margin-top: 0;
     }
@@ -299,12 +309,15 @@ footer span {
     .burger-icon {
       display: block;
     }
+
     nav {
       display: none;
     }
+
     nav ul li {
       float: none;
     }
+
     nav ul li a:hover,
     nav ul li a.active-section {
       padding: 15px 10px;
@@ -336,6 +349,7 @@ footer span {
     span {
       display: block;
     }
+
     .separator {
       display: none;
     }
@@ -359,6 +373,7 @@ footer span {
   vertical-align: baseline;
   border-radius: 0.25em;
 }
+
 .label.label-success {
   background-color: #1c4264;
 }
@@ -368,6 +383,7 @@ footer span {
   margin: 20px 0;
   border: none;
 }
+
 .note-info {
   background-color: #c1d3ec;
   color: #1d4264;
