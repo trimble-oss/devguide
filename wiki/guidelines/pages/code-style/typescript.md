@@ -23,7 +23,7 @@ TypeScript specific rules for ESLint
 
 [https://github.com/typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-EsLint integrations for various IDEs and coding environments
+ESLint integrations for various IDEs and coding environments
 
 [https://eslint.org/docs/user-guide/integrations](https://eslint.org/docs/user-guide/integrations)
 
