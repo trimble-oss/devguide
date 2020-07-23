@@ -29,7 +29,7 @@ EsLint integrations for various IDEs and coding environments
 
 ## Exceptions to the Standard
 
-TsLint (recommended only for applications with Angular &lt; version 11)
+TsLint (recommended only for applications using Angular &lt; version 11)
 
 [https://palantir.github.io/tslint/](https://palantir.github.io/tslint/)
 
