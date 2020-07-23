@@ -26,6 +26,7 @@ Our aim is to provide a common set of recommended Developer Guidelines so that a
   * C#
   * Java
   * JavaScript
+  * TypeScript
   * HTML/CSS
   * Objective-C
   * Python
