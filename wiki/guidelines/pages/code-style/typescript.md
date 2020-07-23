@@ -15,7 +15,7 @@ permalink: /code-style/typescript/
 
 ## Implementing and Enforcing the Standard
 
-EsLint 
+ESLint 
 
 [https://eslint.org/](https://eslint.org/)
 
