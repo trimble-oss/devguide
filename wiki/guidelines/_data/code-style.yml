@@ -10,6 +10,8 @@ toc:
         url: /code-style/cpp/
       - page: JS/HTML/CSS
         url: /code-style/js-html-css/
+      - page: TypeScript
+        url: /code-style/typescript/
       - page: Java
         url: /code-style/java/
       - page: Objective-C  
