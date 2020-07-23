@@ -19,7 +19,7 @@ EsLint
 
 [https://eslint.org/](https://eslint.org/)
 
-TypeScript specific rules for EsLint
+TypeScript specific rules for ESLint
 
 [https://github.com/typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
