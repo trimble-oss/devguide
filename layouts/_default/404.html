@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<style>
+  main .container {
+    max-width: 1320px;
+  }
+</style>
+
+<main role="main" class="my-5">
+  <header class="container mt-5">
+    <div class="row">
+      <div class="col-11 mx-auto text-center mt-2">
+        <h1 class="display-2 font-weight-bold text-dark py-0 mt-4">
+          {{- .Title -}}
+        </h1>
+        <h2 class="mt-2 mx-auto text-dark">
+          Page can not be found
+        </h2>
+          <img src="/img/headers/404-a.svg" class="mx-auto text-center img-fluid mb-1"
+            width="400" height="400" alt="">
+      </div>
+    </div>
+  </header>
+
+  <div class="container text-center mb-5 pb-5">
+    <p>The page you are looking for has moved or has not been constructed yet.</p>
+    <p>Return to the <a href="/">Modus
+        home page</a>, and let's try again.</p>
+  </div>
+</main>
+
+{{- end -}}

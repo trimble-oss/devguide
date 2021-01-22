@@ -1,0 +1,17 @@
+// Responsive Font Sizes (RFS) for Bootstrap 4
+// https://github.com/coliff/bootstrap-rfs
+
+@media (max-width: 1200px) {
+  .display-1 {
+    font-size: calc(1.725rem + 5.7vw) !important;
+  }
+  .display-2 {
+    font-size: calc(1.675rem + 5.1vw) !important;
+  }
+  .display-3 {
+    font-size: calc(1.575rem + 3.9vw) !important;
+  }
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw) !important;
+  }
+}

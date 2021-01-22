@@ -1,0 +1,15 @@
+// Internet Explorer 11 fixes
+
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  nav .justify-content-end {
+    justify-content: space-between !important;
+  }
+
+  .bg-anim {
+    // background-color: #2A87C4;
+    // background-image: none;
+    background-repeat: repeat-x !important;
+    background-position: bottom center;
+    background-size: auto !important;
+  }
+}

@@ -1,0 +1,31 @@
+/* iPhone 5 */
+@media (max-width: 320px) {
+  body {
+    background-position: center top;
+    background-image: none;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media (max-width: 376px) {
+  body {
+    background-position: center top;
+    background-image: none;
+  }
+  .navbar-nav a {
+    font-size: 0.8rem !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-position: center 1.8% !important;
+  }
+  .navbar-nav a {
+    letter-spacing: -1px;
+  }
+}

@@ -1,42 +1,26 @@
-# Trimble Developer Guidelines
+# devguide.trimblemaps.com
 
-## Running the site locally
+A static website for the Trimble Developer Guidelines built with [Hugo](https://gohugo.io/)
 
-### Requirements
+Check the `CONTRIBUTING.md` for guidance on building the site locally.
 
-- Ruby
-- Jekyll and Builder (Ruby Gems)
+## Testing and Audits
 
-### Jekyll Installation
+| Resource           | Link                                                                                         |
+| ------------------ | -------------------------------------------------------------------------------------------- |
+| Google Lighthouse  | https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://devguide.trimble.com        |
+| OpenGraph Test     | https://opengraphcheck.com/result.php?url=https://devguide.trimblemaps.com                   |
+| Page Speed Test    | https://developers.google.com/speed/pagespeed/insights/?url=https://devguide.trimblemaps.com |
+| Website Grader     | https://website.grader.com/results/devguide.trimblemaps.com                                  |
+| SEO, Social & More | https://www.seoptimer.com/devguide.trimblemaps.com                                           |
+| Security           | https://observatory.mozilla.org/analyze/devguide.trimblemaps.com                             |
+| Security Headers   | https://securityheaders.com/?q=devguide.trimblemaps.com&followRedirects=on                   |
+| SSL Labs           | https://www.ssllabs.com/ssltest/analyze?d=devguide.trimblemaps.com                           |
 
-#### Windows
+## Assets
 
-- Step 1 - Install Ruby Installer for windows
-  - https://rubyinstaller.org/downloads/
-- Step - 2 Install Jekyll and Builder:
-  - $ gem install jekyll bundler
-- Step 3 - Verify Jekyll Installation
-  - jekyll -v
-- Step 4 - Go to root folder of docs (Root folder is where the config.yml is located)
-  - jekyll serve
-- Step 5 - Open the localhost address
-  - http://127.0.0.1:4000/\<sitetitle\>/
-
-#### Mac
-
-- Step - 1 Open terminal and verify Xcode installation else run
-  - xcode-select --install
-- Step - 2 Check if ruby is installed
-  - ruby -v
-- Step 3 - Install jekyll
-  - gem install jekyll
-- Step 4 - Go to root folder of docs
-  - jekyll serve
-- Step 5 - Open the localhost address
-  - http://127.0.0.1:4000/\<servicename\>/
-
-## More Information
-
-There is also some documentation that should help get you started developing:
-
-- [CONTRIBUTING.md](./CONTRIBUTING.md) - document on contribution conventions
+| Resource                         | Link                     |
+| -------------------------------- | ------------------------ |
+| Home page developer illustration | https://undraw.co/       |
+| Code Style icons                 | https://simpleicons.org/ |
+| Dev Practise Icons               | https://fontawesome.com/ |

@@ -1,0 +1,56 @@
+{{ define "main" }}
+</div>
+
+<main role="main" id="main">
+
+  <div class="container-fluid pt-5">
+    <div class="container">
+      <div class="row py-4 py-sm-5">
+        <div class="col-12 col-md-5 py-5 text-center text-md-left">
+          <h1 class="text-dark mt-4 display-4 font-weight-bold pt-sm-5">
+            Developer Guidelines
+          </h1>
+          <p class="lead pb-5 ml-2" hidden>
+            Trimble's official
+          </p>
+
+        </div>
+        <div class="col-10 col-sm-9 col-md-7 mx-auto">
+          <img src="img/dev_focus.svg" width="591" height="415" class="img-fluid text-center text-md-right float-md-right mx-auto mr-0 my-3" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="container py-5">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
+        {{- if not .Params.hideDocsToggle }}
+        {{- partial "blog-brief.html" . -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
+
+      <hr class="mt-4 py-2">
+
+      <h2 class="text-center h1 py-3">
+        Code Styles
+        </h3>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+          {{ range first 15 (where .Site.RegularPages ".Section" "in" "code-style") }}
+          {{- if not .Params.hideDocsToggle }}
+          {{- partial "blog-brief.html" . -}}
+          {{- end -}}
+          {{- end -}}
+        </div>
+
+    </div>
+  </div>
+  </div>
+
+</main>
+
+{{- end -}}

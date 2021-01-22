@@ -1,0 +1,15 @@
+// Accessibility
+
+.skippy:focus {
+  outline: 0;
+}
+
+.skippy div {
+  outline: 1px dotted;
+}
+
+.sr-only-focusable:focus {
+  top: 0 !important;
+  margin-bottom: 30px;
+  z-index: 22222;
+}

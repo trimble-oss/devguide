@@ -1,0 +1,70 @@
+{{- define "main" }}
+
+<header class="container-fluid px-0 pt-5 pt-md-1">
+  <div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+    <div class="row py-lg-3 pb-xl-4">
+      <div class="col-12 py-lg-4 pb-5 text-center">
+        <h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white{{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+          {{- .Title -}}
+        </h1>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+
+<main role="main" class="mb-5 container">
+
+  <div class="row">
+
+    <div class="col-12 col-md-3 col-lg-2 menu-left">
+      {{ partial "menu-left.html" . }}
+    </div>
+    <div class="col-12 col-xl-2 d-none d-xl-block menu-right order-last">
+      {{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
+      {{ partial "menu-right.html" . }}
+      {{- end -}}
+    </div>
+
+    <div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+      {{ if .Params.lead }}
+      <p class="lead">
+        {{- .Params.lead -}}
+      </p>
+      {{- end -}}
+
+      <article class="" id="main">
+        {{ if and (gt .WordCount 9350 ) (not .Params.hideToc) }}
+        <details class="mb-3 d-print-none d-xl-none">
+          <summary class="mb-1 user-select-none">Contents</summary>
+          {{ .TableOfContents }}
+        </details>
+        {{- end -}}
+
+        {{- .Content -}}
+
+        <footer class="mt-4 pt-3">
+
+          <!-- this displays date that markdown file was last committed to Git -->
+          {{- if not .Params.hideDate -}}
+          {{- if ne .Lastmod .Date -}}
+          <span class="text-secondary small"><i>
+              Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year }}.
+            </i></span>
+          {{- end -}}
+          {{- end -}}
+
+          {{ if .Params.contributors }}
+          <div class="text-secondary small mt-2">
+            Contributors: {{ .Params.contributors }}
+          </div>
+          {{- end -}}
+
+        </footer>
+      </article>
+    </div>
+  </div>
+
+</main>
+
+{{- end -}}

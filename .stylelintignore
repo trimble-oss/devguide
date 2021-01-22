@@ -1,4 +1,3 @@
 *.min.css
-*.min.js
+*.html
 *.svg
-_syntax-highlighting.scss

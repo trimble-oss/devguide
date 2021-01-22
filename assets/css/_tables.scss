@@ -1,0 +1,63 @@
+.table-whats-new th {
+  background-color: #eee;
+}
+
+.table-whats-new th:first-of-type {
+  max-width: 79px;
+  width: 79px;
+}
+
+main table {
+  font-size: 0.9rem;
+  width: 100%;
+  min-width: 99%;
+  margin-bottom: 1rem;
+  border: 1px solid #dee2e6;
+}
+
+main td {
+  min-width: 75px;
+  border-top: 1px solid #dee2e6;
+  vertical-align: top;
+  padding: 0.3rem;
+}
+
+main thead th {
+  border-top: 0;
+  vertical-align: bottom;
+  padding: 0.3rem;
+  background-color: #eee;
+  border-bottom: 2px solid #dee2e6;
+}
+
+td code {
+  word-break: normal;
+}
+
+/** sticky top headers **/
+main thead tr:nth-child(1) th {
+  position: sticky;
+  border-bottom: 1px solid #ccc !important;
+  // top: 0;
+  z-index: 99;
+  top: 69px; //offset taking the fixed top navbar into account
+}
+
+main thead {
+  border-bottom: 1px solid #ccc;
+}
+
+main tbody td:nth-child(1) th {
+  border-top: transparent;
+}
+
+main table tbody tr td table thead th {
+  background-color: #e2e2e7 !important;
+  color: #363545;
+  border-bottom: 0 !important;
+}
+
+main table th code {
+  color: #eee;
+  opacity: 0.7;
+}

@@ -1,0 +1,38 @@
+.navbar a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar .form-control {
+  font-size: 14px;
+}
+
+// 'frosted glass' effect on top navbar
+.navbar.fixed-top {
+  // background-color: #2b87c4;
+  background-image: linear-gradient(99deg, rgba(44,137,198,39) 0%, rgba(33,116,172,59) 100%);
+  backdrop-filter: blur(6px);
+  opacity: 0.96;
+  z-index: 11111; // prevents overlapping navbar on mobile as scroll past
+}
+
+.navbar-brand a,
+.navbar-brand a:hover {
+  color: #005f9d;
+}
+
+// sets underline on top navbar on selected section
+body[data-url^="/development-practices/"] .navbar-nav li a[href^="/development-practices/"],
+body[data-url^="/code-style/"] .navbar-nav li a[href^="/code-style/"],
+body[data-url^="/governance/"] .navbar-nav li a[href^="/governance/"] {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar-nav li a {
+  border-bottom: 2px solid transparent;
+  color: #00437b;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 2px solid #eee;
+}

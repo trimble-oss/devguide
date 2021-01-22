@@ -1,0 +1,5 @@
+{{ if (eq .Level 3 ) }}
+<h3 class="h2 mt-5" id="{{ .Text | urlize }}">{{ .Text | safeHTML }}</h3>
+{{ else }}
+<h2 class="h1 mt-5" id="{{ .Text | urlize }}">{{ .Text | safeHTML }}</h2>
+{{- end -}}

@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .bd-links {
+    display: block !important;
+  }
+  .menu-left .sticky-top {
+    border-bottom: 0 !important;
+  }
+}
+
+.menu-left a {
+  font-size: 0.9rem;
+}
+
+.menu-left a:hover {
+  color: #00437b;
+}
+
+.menu-left a.active {
+  font-weight: bold;
+}
+
+body[data-url^="/news/"] .menu-left a[href^="/news/"] {
+  font-weight: bold;
+}

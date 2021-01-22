@@ -1,7 +1,0 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-display-name: Quickstart
-toc:
-  - page: Authentication
-    url: /quickstart/authentication/
-  - page: User Management
-    url: /quickstart/user-management/ 

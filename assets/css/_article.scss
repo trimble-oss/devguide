@@ -1,0 +1,44 @@
+header.container-fluid {
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+// title of article shouldn't have margin-top
+#main h2.h1:first-of-type {
+  margin-top: 0 !important;
+}
+
+.sticky-offset {
+  top: 80px;
+}
+
+// offsets the anchors to adjust for the fixed navbar
+article h2:target::before,
+article h3:target::before {
+  display: block;
+  content: " ";
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+
+#main::before {
+  display: block;
+  content: " ";
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+  top: 80px;
+}
+
+article h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}

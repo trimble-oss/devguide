@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="share py-2 float-right">
+    <div class="d-inline-block mr-2">
+      <a href="https://twitter.com/intent/tweet?via=TrimbleCorpNews&text={{ .Title }}&url={{ .Permalink }}"
+        class="opacity-75" title="Share on Twitter"
+        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+        {{ partial "icons/fa/brands/twitter-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
+        <span class="sr-only">Twitter</span></a>
+    </div>
+    <div class="d-inline-block mr-2">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary={{ .Summary }}"
+        class="opacity-75" title="Share on LinkedIn"
+        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+        {{ partial "icons/fa/brands/linkedin.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
+        <span class="sr-only">LinkedIn</span></a>
+    </div>
+    <div class="d-inline-block mr-2">
+      <a href="mailto:?subject={{ .Title }}%20-%20Modus%20Style%20Guide&body=Check out this site: {{ .Permalink }}"
+        class="opacity-75"
+        title="Share via Email"
+        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+        {{ partial "icons/fa/solid/envelope-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
+        <span class="sr-only">Email</span></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.list:empty::before {
+  display: block;
+  width: 100%;
+  padding: 100px 2rem;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #444;
+  text-align: center;
+  content: "Nothing found, try searching again.";
+  background-color: #eee;
+  border-radius: 0.5rem;
+}
+
+#icons-list {
+  min-height: 300px;
+}

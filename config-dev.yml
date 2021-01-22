@@ -1,0 +1,12 @@
+baseurl: http://devguidelines.s3-website-us-east-1.amazonaws.com/
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
+googleAnalytics: "disabled"
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: assets/static/favicon-dev.ico
+      target: static/favicon.ico
+    - source: assets/static/robots-dev.txt
+      target: static/robots.txt
