@@ -1,0 +1,5 @@
+Site built in-house by TRIMBLE
+
+- CSS framework: http://modus-bootstrap.trimble.com/
+- Background animated pattern from: https://loading.io/background/
+- SVG brand icons from: https://simpleicons.org/

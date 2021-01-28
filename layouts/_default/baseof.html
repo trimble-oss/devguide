@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ with $.Site.LanguageCode }}{{ . }}{{ else }}en-US{{- end -}}">
+
+<head>
+  {{ partial "meta" . }}
+  {{ partialCached "analytics" . }}
+</head>
+
+{{- if and (gt .WordCount 350 ) (not .Params.hideToc) -}}
+
+<body data-url="{{ .RelPermalink }}" data-spy="scroll" data-target="#TableOfContents" data-offset="126"
+  {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
+  {{ else }}
+
+  <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
+    {{- end -}}
+
+    {{ partialCached "navbar" . }}
+
+    {{ block "body" . }} {{ block "main" . }} {{- end -}}
+    {{- end -}}
+
+    {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
+
+  </body>
+
+</html>

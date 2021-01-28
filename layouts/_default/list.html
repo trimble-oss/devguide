@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<header class="container-fluid px-0 border-bottom">
+  <div class="container py-md-3">
+    <div class="row py-lg-3">
+      <div class="col-12 py-4 text-center">
+        <h1 class="display-2 font-weight-bold pt-4 mt-5 text-white{{ if .Params.TitleNoTranslate }} notranslate{{- end -}}">
+          {{- .Title -}}
+        </h1>
+        <h2 class="mt-4 col-12 col-sm-11 mx-auto text-white">
+          {{- .Params.Subtitle -}}
+        </h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main role="main" class="my-5 container">
+
+  <div class="row">
+
+    <div class="col-12 col-md-3 col-lg-2 menu-left">
+      {{ partial "menu-left.html" . }}
+    </div>
+
+  </div>
+
+</main>
+
+{{- end -}}

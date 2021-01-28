@@ -1,0 +1,4 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<p><img src="{{.Get "src" }}" class="{{.Get "class" }} img-fluid" loading="lazy" {{if .Get "width" }}
+    width="{{.Get "width" }}" {{- end -}} {{if .Get "height" }} height="{{.Get "height" }}" {{- end -}}
+    alt="{{.Get "alt" }}"></p>

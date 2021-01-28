@@ -1,0 +1,57 @@
+{{- if not .Params.hideDocsToggle }}
+<div class="container">
+  <div class="row mt-n4 d-md-none">
+    <div class="col">
+    </div>
+
+    <div class="col-1 px-1 mx-auto">
+      <button class="btn search-docs-toggle d-md-none mx-auto px-0" type="button" data-toggle="collapse"
+        data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation"><svg
+          xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
+          <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+            d="M4 7h22M4 15h22M4 23h22"></path>
+        </svg></button>
+    </div>
+
+  </div>
+</div>
+
+<div class="sticky-top sticky-offset border-bottom">
+  <nav class="bd-links collapse" id="docs-nav">
+    <ul class="list-unstyled" id="menu-left">
+
+      {{- if .Params.development }}
+      {{ range .Site.Menus.development }}
+      <li class="mb-3"><a class="text-dark{{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+      {{- if .Params.code }}
+      {{ range .Site.Menus.code }}
+      <li class="my-3"><a class="text-dark notranslate" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+    </ul>
+  </nav>
+</div>
+
+<script>
+  $(function () {
+    var nav = document.getElementById("menu-left"),
+      anchor = nav.getElementsByTagName("a"),
+      current = window.location;
+    for (var i = 0; i < anchor.length; i++) {
+      if (anchor[i].href == current) {
+        anchor[i].className = "text-dark active";
+      }
+    }
+  });
+</script>
+{{- end -}}

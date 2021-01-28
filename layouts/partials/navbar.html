@@ -1,0 +1,23 @@
+<div class="bg-anim">
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+  <div class="container flex-column flex-md-row justify-content-end">
+    <a class="navbar-brand mr-left mr-md-auto font-weight-bold" href="/">
+      <img src="/img/trimble-logo-rev.svg" width="107" height="25" class="img-fluid" alt="home">
+      <div class="small text-white">Developer Guidelines</div>
+    </a>
+    {{ partial "skippy" . }}
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item mx-0 mx-sm-1 mx-md-2">
+          <a class="nav-link text-white {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+            {{- .Name -}}
+          </a>
+        </li>
+        {{- end -}}
+      </ul>
+    </div>
+   <!-- {{ partial "search" . }} -->
+  </div>
+</nav>

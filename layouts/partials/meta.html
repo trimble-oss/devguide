@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+<!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+
+<!-- Compiles and minifies the sites SASS files from /assets/css/ -->
+{{- $sassOptions := (dict "enableSourceMap" true) -}}
+{{ $css := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
+<!--  | resources.Fingerprint "md5" -->
+<link rel="stylesheet" href="{{ $css.RelPermalink }}?{{ now.Format "2006-01-02"}}">
+
+{{- if .IsHome -}}
+{{- hugo.Generator -}}
+{{- else -}}
+<script src="/js/jquery.slim.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js" async></script>
+{{- end }}
+
+<meta name="description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
+<!-- OpenGraph Meta tags using Hugo's own built-in template -->
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:locale" content="en_US">
+
+<!-- no need to define additional Twitter card meta tags as fallback to OpenGraph -->
+<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
+<meta name="last-modified" content="{{ now.Format "2006-01-02"}}">
+<!-- Theme Color is used for the tab color on Chrome for Android -->
+<meta name="theme-color" content="#005f9e">
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Show custom 'LOC' favicon for serving locally -->
+{{- if .Site.IsServer -}}
+{{ $favicon := resources.Get "/static/favicon-loc.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
+{{ end }}

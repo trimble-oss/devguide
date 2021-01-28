@@ -1,0 +1,153 @@
+baseurl: https://devguide.trimble.com
+title: Developer Guidelines
+languageCode: en-US
+locale: en-US
+
+enableInlineShortcodes: true
+googleAnalytics: "disabled"
+
+params:
+  title: Developer Guidelines
+  author: "Trimble"
+  images:
+    - http://devguidelines.s3-website-us-east-1.amazonaws.com/icon.png
+
+disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
+
+pygmentsUseClasses: true
+
+outputs:
+  home: ["HTML"]
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+menu:
+  main:
+    - name: Development Practices
+      url: "/development-practices/"
+      weight: 1
+    - name: Code Style
+      url: "/code-style/"
+      weight: 2
+    - name: Governance
+      url: "/governance/"
+      weight: 3
+
+  development:
+    - name: Code Documentation
+      url: "/development-practices/code-documentation/"
+    - name: Code Review
+      url: "/development-practices/code-review/"
+    - name: Internal Open Source
+      url: "/development-practices/internal-open-source/"
+    - name: Managing Code Complexity
+      url: "/development-practices/managing-code-complexity/"
+    - name: Open Source Usage
+      url: "/development-practices/open-source-usage/"
+    - name: Packaging and Distribution
+      url: "/development-practices/packaging-and-distribution/"
+    - name: Unit Testing
+      url: "/development-practices/unit-testing/"
+    - name: VCS Standards - Git
+      url: "/development-practices/vcs-standards-git/"
+    - name: Versioning
+      url: "/development-practices/versioning/"
+
+  code:
+    - name: C
+      url: /code-style/c/
+      weight: 1
+    - name: C#
+      url: /code-style/c-sharp/
+      weight: 2
+    - name: C++
+      url: /code-style/c-plus-plus/
+      weight: 3
+    - name: CSS
+      url: /code-style/css/
+      weight: 4
+    - name: HTML
+      url: /code-style/html/
+      weight: 5
+    - name: Java
+      url: /code-style/java/
+      weight: 6
+    - name: JavaScript
+      url: /code-style/javascript/
+      weight: 7
+    - name: Objective C
+      url: /code-style/objective-c/
+      weight: 8
+    - name: Python
+      url: /code-style/python/
+      weight: 9
+    - name: Swift
+      url: /code-style/swift/
+      weight: 10
+    - name: TypeScript
+      url: /code-style/typescript/
+      weight: 11
+
+  governance:
+    - name: Governance
+      url: /governance/
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: assets/static/favicon.ico
+      target: static/favicon.ico
+    - source: assets/static/robots.txt
+      target: static/robots.txt
+    - source: node_modules/jquery/dist/jquery.slim.min.js
+      target: static/js/jquery.slim.min.js
+    - source: node_modules/jquery/dist/jquery.slim.min.map
+      target: static/js/jquery.slim.min.map
+    - source: node_modules/@trimbleinc/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: static/js/bootstrap.bundle.min.js
+    - source: node_modules/@trimbleinc/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
+      target: static/js/bootstrap.bundle.min.js.map
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    style: monokai
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+
+# https://gohugo.io/getting-started/configuration/#configure-minify
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepDefaultAttrVals: false
+
+      keepEndTags: false
+      keepWhitespace: true
+    xml:
+      keepWhitespace: true
