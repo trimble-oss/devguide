@@ -5,9 +5,10 @@ description: "Code Styles"
 url: "/code-style/"
 code: true
 hideDocsToggle: true
+hideMenuColumn: true
 ---
 
-<div class="row row-cols-2 row-cols-sm-3">
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
 
 {{< card-start title="C" url="/code-style/c/" header="code-style/c.svg" class="py-5" headerBGColor="#A8B9CC" >}}
 {{</ card-start >}}

@@ -3,7 +3,9 @@
 
     <div class="row pt-2">
       <div class="col-12 mb-4 mt-2">
-        <img src="/img/trimble-logo.svg" class="" width="107" height="25" alt="Trimble">
+        <a href="https://www.trimble.com/" rel="noopener" target="_blank">
+          <img src="/img/trimble-logo.svg" class="" width="107" height="25" alt="Trimble">
+        </a>
       </div>
     </div>
 
@@ -20,7 +22,8 @@
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
           <li class="my-2 px-0 mx-0">
-            <a class="text-decoration-none text-dark{{if ($currentPage.HasMenuCurrent " main" .) }} active{{end}}" href="{{ .URL }}">
+            <a class="text-decoration-none text-dark{{if ($currentPage.HasMenuCurrent " main" .) }} active{{end}}"
+              href="{{ .URL }}">
               {{- .Name -}}
             </a>
           </li>

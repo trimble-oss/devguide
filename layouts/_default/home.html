@@ -16,7 +16,8 @@
 
         </div>
         <div class="col-10 col-sm-9 col-md-7 mx-auto">
-          <img src="img/dev_focus.svg" width="591" height="415" class="img-fluid text-center text-md-right float-md-right mx-auto mr-0 my-3" alt="">
+          <img src="img/dev_focus.svg" width="591" height="415"
+            class="img-fluid text-center text-md-right float-md-right mx-auto mr-0 my-3" alt="">
         </div>
       </div>
     </div>
@@ -24,6 +25,10 @@
 
   <div class="container-fluid mt-5">
     <div class="container py-5">
+
+      <h3 class="text-center h1 py-3">
+        Development Practices
+      </h3>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
@@ -35,17 +40,17 @@
 
       <hr class="mt-4 py-2">
 
-      <h2 class="text-center h1 py-3">
+      <h3 class="text-center h1 py-3">
         Code Styles
-        </h3>
+      </h3>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-          {{ range first 15 (where .Site.RegularPages ".Section" "in" "code-style") }}
-          {{- if not .Params.hideDocsToggle }}
-          {{- partial "blog-brief.html" . -}}
-          {{- end -}}
-          {{- end -}}
-        </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+        {{ range first 15 (where .Site.RegularPages ".Section" "in" "code-style") }}
+        {{- if not .Params.hideDocsToggle }}
+        {{- partial "blog-brief.html" . -}}
+        {{- end -}}
+        {{- end -}}
+      </div>
 
     </div>
   </div>

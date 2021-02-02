@@ -4,6 +4,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ .Site.GoogleAnalytics }}');
+  gtag('config', '{{ .Site.GoogleAnalytics }}', { 'anonymize_ip': true });
 </script>
 {{- end -}}

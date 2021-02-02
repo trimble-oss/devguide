@@ -38,6 +38,15 @@
       {{- end -}}
       {{- end -}}
 
+        {{- if .Params.innersource }}
+        {{ range .Site.Menus.innersource }}
+        <li class="my-3"><a class="text-dark notranslate" href="{{ .URL }}">
+            {{- .Name -}}
+          </a>
+        </li>
+        {{- end -}}
+        {{- end -}}
+
     </ul>
   </nav>
 </div>

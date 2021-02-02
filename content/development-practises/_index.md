@@ -6,11 +6,12 @@ url: "/development-practices/"
 developmentPractices: true
 hideToc: true
 hideDocsToggle: true
+hideMenuColumn: true
 ---
 
 <!-- Welcome to Development Practices. Use the side bar on your left to navigate the development practices the Developer Guide Working Group has put together -->
 
-<div class="row row-cols-2 row-cols-sm-3">
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
 
 {{< card-start title="Code Documentation" url="/development-practices/code-documentation/" header="development-practices/code-documentation.svg" class="py-5 bg-light" >}}
 

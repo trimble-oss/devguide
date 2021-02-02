@@ -17,16 +17,19 @@
 
   <div class="row">
 
+    {{ if not .Params.hideMenuColumn }}
     <div class="col-12 col-md-3 col-lg-2 menu-left">
       {{ partial "menu-left.html" . }}
     </div>
+
     <div class="col-12 col-xl-2 d-none d-xl-block menu-right order-last">
       {{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
       {{ partial "menu-right.html" . }}
       {{- end -}}
     </div>
+    {{ end }}
 
-    <div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+    <div class="col-12 {{ if not .Params.hideMenuColumn }}col-md-9 col-lg-10 col-xl-8 {{ end }} mx-auto">
       {{ if .Params.lead }}
       <p class="lead">
         {{- .Params.lead -}}

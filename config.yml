@@ -4,13 +4,13 @@ languageCode: en-US
 locale: en-US
 
 enableInlineShortcodes: true
-googleAnalytics: "disabled"
+googleAnalytics: "UA-106389617-3"
 
 params:
   title: Developer Guidelines
   author: "Trimble"
   images:
-    - http://devguidelines.s3-website-us-east-1.amazonaws.com/icon.png
+    - http://devguidelines.s3-website-us-east-1.amazonaws.com/img/preview.png
 
 disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
 
@@ -39,6 +39,9 @@ menu:
     - name: Governance
       url: "/governance/"
       weight: 3
+    - name: InnerSource
+      url: "/innersource/introduction"
+      weight: 4
 
   development:
     - name: Code Documentation
@@ -95,6 +98,36 @@ menu:
       url: /code-style/typescript/
       weight: 11
 
+  innersource:
+    - name: Introduction
+      url: /innersource/introduction/
+      weight: 1
+    - name: Implementation Checklist
+      url: /innersource/implementation-checklist/
+      weight: 2
+    - name: InnerSource Roles
+      url: /innersource/innersource-roles/
+      weight: 3
+    - name: Repository Configuration
+      url: /innersource/repository-configuration/
+      weight: 4
+    - name: Contribution Agreements
+      url: /innersource/contribution-agreements/
+      weight: 5
+    - name: Project Documentation
+      url: /innersource/project-documentation/
+      weight: 6
+    - name: Project Communication
+      url: /innersource/project-communication/
+      weight: 7
+    - name: Project Tracking
+      url: /innersource/project-tracking/
+      weight: 8
+    - name: Publish it on Confluence
+      url: /innersource/publish-documentation-on-confluence/
+      weight: 9
+
+
   governance:
     - name: Governance
       url: /governance/
@@ -115,6 +148,10 @@ module:
       target: static/js/bootstrap.bundle.min.js
     - source: node_modules/@trimbleinc/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
       target: static/js/bootstrap.bundle.min.js.map
+    - source: node_modules/clipboard/dist/clipboard.min.js
+      target: static/js/clipboard.min.js
+    - source: node_modules/trimblewide-innersource/Resources
+      target: static/innersource/Resources
 
 markup:
   goldmark:
