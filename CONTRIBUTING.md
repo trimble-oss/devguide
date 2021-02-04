@@ -15,7 +15,7 @@ We are happy to accept contributions from the community to improve this project.
 ### Setup (for creating a build of the site locally)
 
 1. Install dependencies with `npm install`
-3. Run `npm run serve` to run local server. (If fails to run you may need to install Autoprefixer globally with `npm install -g autoprefixer`).
+2. Run `npm run serve` to run local server. (If fails to run you may need to install Autoprefixer globally with `npm install -g autoprefixer`).
 3. The site will be available at <http://localhost:4000/> and will auto update when you make any changes
 
 ### Images

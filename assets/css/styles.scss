@@ -62,6 +62,7 @@
 @import "article";
 @import "cards";
 @import "codefences"; // code syntax highlighting
+@import "copy-to-clipboard"; // code syntax highlighting
 @import "ie11"; // IE 11 flexbox layout fixes
 // @import "list-js";
 @import "menu-left";
@@ -75,6 +76,7 @@
 @import "tables";
 @import "footer";
 @import "scrollbars";
+@import "tooltipped";
 @import "utilities";
 
 .bg-anim {

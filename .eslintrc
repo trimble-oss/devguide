@@ -13,6 +13,9 @@
     "prettier"
   ],
   "rules": {
-    "curly": 0
+    "curly": 0,
+    "no-invalid-this": 0,
+    "no-var": 0,
+    "one-var": 0
   }
 }
