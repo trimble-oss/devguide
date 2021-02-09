@@ -2,12 +2,11 @@ resource "aws_cloudfront_origin_access_identity" "oai" {
   comment = "access-identity-${aws_s3_bucket.content_bucket.id}.s3.amazonaws.com"
 }
 
-# data "aws_acm_certificate" "certificate" {
-#   domain      = "*.${var.domain}"
-#   statuses    = ["ISSUED"]
-#   most_recent = true
-# }
-
+data "aws_acm_certificate" "certificate" {
+  domain      = var.domain
+  statuses    = ["ISSUED"]
+  most_recent = true
+}
 
 resource "aws_cloudfront_distribution" "content" {
   origin {
@@ -20,7 +19,7 @@ resource "aws_cloudfront_distribution" "content" {
   }
 
   enabled = true
-  #aliases             = [${var.domain}]
+  aliases             = [var.domain]
   default_root_object = "index.html"
   is_ipv6_enabled     = true
 
@@ -68,16 +67,11 @@ resource "aws_cloudfront_distribution" "content" {
   tags = local.tags
 
   viewer_certificate {
-    cloudfront_default_certificate = true
-    minimum_protocol_version       = "TLSv1"
+    acm_certificate_arn            = data.aws_acm_certificate.certificate.arn
+    cloudfront_default_certificate = false
+    minimum_protocol_version       = "TLSv1.1_2016"
+    ssl_support_method             = "sni-only"
   }
-
-  # viewer_certificate {
-  #   acm_certificate_arn            = data.aws_acm_certificate.certificate.arn
-  #   cloudfront_default_certificate = false
-  #   minimum_protocol_version       = "TLSv1.1_2016"
-  #   ssl_support_method             = "sni-only"
-  # }
 }
 
 resource "aws_s3_bucket_policy" "content_bucket" {

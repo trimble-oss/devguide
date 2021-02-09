@@ -1,7 +1,7 @@
 env            = "dev"
 aws_account_id = "328670579073"
 project        = "devguide"
-domain         = "test-devguide.trimble.com"
+domain         = "dev.devguide.trimble.com"
 allowed_ips = ["35.164.161.182/32", # (e-tools Prod stack)
   "35.164.8.36/32",                 # (e-tools Prod stack)
   "34.226.10.107/32",               # (e-tools DR stack)
