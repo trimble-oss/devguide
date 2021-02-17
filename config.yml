@@ -127,7 +127,6 @@ menu:
       url: /innersource/publish-documentation-on-confluence/
       weight: 9
 
-
   governance:
     - name: Governance
       url: /governance/

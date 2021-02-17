@@ -46,3 +46,18 @@ h5 {
 article img {
  max-width: 99%;
 }
+
+// anchors # for deep links within docs
+.header-link {
+  opacity: 0;
+  pointer-events: none;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link {
+  opacity: 0.5 !important;
+  pointer-events: visible;
+  transition: 0.3s all;
+}

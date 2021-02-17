@@ -24,7 +24,8 @@
 // sets underline on top navbar on selected section
 body[data-url^="/development-practices/"] .navbar-nav li a[href^="/development-practices/"],
 body[data-url^="/code-style/"] .navbar-nav li a[href^="/code-style/"],
-body[data-url^="/governance/"] .navbar-nav li a[href^="/governance/"] {
+body[data-url^="/governance/"] .navbar-nav li a[href^="/governance/"],
+body[data-url^="/innersource/"] .navbar-nav li a[href^="/innersource/"] {
   border-bottom: 2px solid #fff;
 }
 

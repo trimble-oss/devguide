@@ -1,15 +1,30 @@
 ---
 title: "Project Communication"
 layout: "single"
-description: ""
+description: "It is very important to set up a method of communication for existing contributors and people who want to contribute."
 innersource: true
 ---
 
-<style>
-  article h1 {display: none}
-    .menu-right{opacity:0}
-</style>
+It is very important to set up a method of communication for existing contributors and people who want to contribute.
 
-{{< rf.inline >}}
-{{- readFile "node_modules/trimblewide-innersource/Guidelines/Project_communication.md" | markdownify -}}
-{{< /rf.inline >}}
+Recommended would be either a Google Chat room or Google group.
+
+## Google Chat
+
+For a Google Chat room you can pre-subscribe all the group members by inviting their group e-mail address to the chat room. Please remember to uncheck the email notification option.
+
+See https://support.google.com/chat/answer/7653881?hl=en&ref_topic=7649113 for more details.
+
+## Google Groups
+
+To set up a Google Group, go to https://groups.trimble.com and choose Create Group and follow the wizard. All Trimble groups have an associated e-mail address which always ends in -ug@trimble.com.
+
+See https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761 for more details on using Google Groups
+
+------
+
+Remember to publish details about how to join a chat or group in the README.MD for your project.
+
+For Google Chat you can publish a link to the chat from the address bar. Assuming you have pre-subscribed as above, then anyone clicking on the link will be automatically subscribed to the chat.
+
+For Google Groups you can publish a link by right-clicking on the group e-mail address in Google Groups and choosing Copy link address.
