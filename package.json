@@ -14,8 +14,8 @@
   "license": "private",
   "author": "Trimble",
   "scripts": {
-    "build": "npm-run-all lint-css && npx hugo && npm run lint-html && npm run purgecss",
-    "build:dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run purgecss && npm run lint-html",
+    "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
+    "build:dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "deploy": "cross-env s3-deploy './public/**/*.{css,html,ico,jpg,js,json,map,png,svg,webmanifest,xml}' --cwd './public/' --region us-east-1 --bucket devguidelines",
     "deploy:dev": "cross-env s3-deploy './public/**/*.{css,html,ico,jpg,js,json,map,png,svg,webmanifest,xml}' --cwd './public/' --region us-east-1 --bucket devguidelines",
     "imagemin": "npx imagemin-cli static/img/*.png --out-dir=static/img",
