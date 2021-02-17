@@ -13,7 +13,7 @@
           {{- if (.Params.url) -}}
           <a href="{{.Get "url"}}" class="stretched-link"></a>
           {{- end -}}
-          {{- .Inner -}}
+          {{- .Inner | markdownify -}}
         </p>
       </div>
     </div>

@@ -7,13 +7,13 @@
       </div>
     </div>
     <div class="card-body bg-white border-0 pb-0">
-      <h3 class="card-title px-2 ml-n2 name {{ if .Params.TitleNoTranslate }}notranslate{{- end -}}">
+      <h5 class="card-title px-2 ml-n2 name {{ if .Params.TitleNoTranslate }}notranslate{{- end -}}">
         {{ if .Params.shortTitle }}
         {{ .Params.shortTitle }}
         {{ else }}
         {{- .Title -}}
         {{- end -}}
-      </h3>
+      </h5>
       <p>
         <a href="{{ .RelPermalink }}" class="stretched-link">
         </a>

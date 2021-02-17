@@ -11,7 +11,7 @@ code: true
 
 ## Reference Code Standard
 
-- [https://www.typescriptlang.org/docs/home.html](https://www.typescriptlang.org/docs/home.html)
+- [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
 
 ## Detailed language specification
 

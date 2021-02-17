@@ -8,6 +8,7 @@
     "baseFrequency",
     "baseProfile",
     "calcMode",
+    "clipPath",
     "clipPathUnits",
     "contentScriptType",
     "contentStyleType",
