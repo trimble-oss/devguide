@@ -44,7 +44,7 @@ resource "aws_s3_bucket" "content_bucket" {
   }
   website {
     index_document = "index.html"
-    error_document = "/404/error.html"
+    error_document = "/404/index.html"
   }
 }
 

@@ -18,10 +18,11 @@ resource "aws_cloudfront_distribution" "content" {
     }
   }
 
-  enabled = true
+  enabled             = true
   aliases             = [var.domain]
   default_root_object = "index.html"
   is_ipv6_enabled     = true
+  web_acl_id          = aws_wafv2_web_acl.content.arn
 
   logging_config {
     include_cookies = false
@@ -59,9 +60,17 @@ resource "aws_cloudfront_distribution" "content" {
   }
 
   custom_error_response {
-    error_code         = 404
-    response_code      = 404
-    response_page_path = "/404/index.html"
+    error_caching_min_ttl = 10
+    error_code            = 404
+    response_code         = 404
+    response_page_path    = "/404/index.html"
+  }
+
+  custom_error_response {
+    error_caching_min_ttl = 10
+    error_code            = 403
+    response_code         = 404
+    response_page_path    = "/404/index.html"
   }
 
   tags = local.tags
