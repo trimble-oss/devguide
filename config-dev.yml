@@ -20,5 +20,3 @@ module:
       target: static/js/bootstrap.bundle.min.js.map
     - source: node_modules/clipboard/dist/clipboard.min.js
       target: static/js/clipboard.min.js
-    - source: node_modules/trimblewide-innersource/Resources
-      target: static/innersource/Resources
