@@ -35,7 +35,7 @@ resource "aws_codebuild_project" "build" {
       content {
         name  = "WS_API_KEY"
         type  = "PARAMETER_STORE"
-        value = aws_ssm_parameter.ws_api_key.name
+        value = aws_ssm_parameter.ws_api_key[0].name
       }
     }
   }

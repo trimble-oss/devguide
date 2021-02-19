@@ -26,14 +26,16 @@ variable "aws_regions" {
 variable "content_bucket" {
   description = "Site Content Bucket"
   type = object({
-    id : string
+    id : string,
+    arn : string
   })
 }
 
 variable "distribution" {
   description = "CloudFront distribution"
   type = object({
-    id : string
+    id : string,
+    arn : string
   })
 }
 
