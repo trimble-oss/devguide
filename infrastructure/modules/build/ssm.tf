@@ -10,6 +10,7 @@ resource "aws_ssm_parameter" "git_key" {
 }
 
 resource "aws_ssm_parameter" "ws_api_key" {
+  count = var.branch == "develop" ? 1 : 0
   name  = "${var.project}-${var.env}-${local.region_alias}-ws-api-key"
   type  = "SecureString"
   value = "CHANGE ME"
