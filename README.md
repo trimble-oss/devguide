@@ -8,7 +8,7 @@ Check the `CONTRIBUTING.md` for guidance on building the site locally.
 
 | Resource       | Old Link                                                            |
 | -------------- | ------------------------------------------------------------------- |
-| Dev            | https://dev.devguide.trimble.com/                                   |
+| Dev            | https://dev.devguide.trimble.com                                    |
 | Production     | https://devguide.trimble.com                                        |
 | Bitbucket Repo | https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse |
 
