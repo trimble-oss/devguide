@@ -31,7 +31,7 @@ resource "aws_codebuild_project" "build" {
     }
 
     dynamic "environment_variable" {
-      for_each = var.branch == "feature/infra_updates" ? [1] : []
+      for_each = var.branch == "develop" ? [1] : []
       content {
         name  = "WS_API_KEY"
         type  = "PARAMETER_STORE"
