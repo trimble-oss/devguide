@@ -29,6 +29,21 @@ resource "aws_codebuild_project" "build" {
       type  = "PLAINTEXT"
       value = var.content_bucket.id
     }
+
+    dynamic "environment_variable" {
+      for_each = var.branch == "feature/infra_updates" ? [1] : []
+      content {
+        name  = "WS_API_KEY"
+        type  = "PARAMETER_STORE"
+        value = aws_ssm_parameter.ws_api_key.name
+      }
+    }
+
+    # environment_variable {
+    #   name  = "WS_API_KEY"
+    #   type  = "PARAMETER"
+    #   value = aws_ssm_parameter.ws_api_key.name
+    # }
   }
 
   logs_config {
@@ -43,8 +58,9 @@ resource "aws_codebuild_project" "build" {
   }
 
   source {
-    type     = "S3"
-    location = "${aws_s3_bucket.source.id}/source.zip"
+    type      = "S3"
+    location  = "${aws_s3_bucket.source.id}/source.zip"
+    buildspec = var.branch == "feature/infra_updates" ? "buildspec-dev.yml" : "buildspec.yml"
   }
 
   tags = local.tags
