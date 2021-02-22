@@ -4,7 +4,7 @@
 
 The Developer Guidelines website is run by the Developer Guidelines Working Group.
 
-**Owners**:
+**Owner**:
 Bob Wold - bob_wold@trimble.com
 
 **Trusted Committers**:
@@ -16,11 +16,11 @@ Matthew Dexter- matthew_dexter@trimble.com<br>
 
 ## Getting Involved
 
-Contributions to these guidelines are very welcome. Please see [CONTRIBUTING.MD](CONTRIBUTING.MD) for details.
+Contributions to these guidelines are very welcome. Please see [here](CONTRIBUTING.md) for details.
 
 ### Tracking and reporting issues/suggestions with these guidelines
 
-Please email dev-guidelines-working-group-ug@trimble.com
+Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-working-group-ug@trimble.com)
 
 ## Links
 

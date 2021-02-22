@@ -46,7 +46,7 @@ The Trusted Committer role belongs to a person or persons who have been nominate
 
 5. Communicate with contributors setting realistic expectations for timescales for review of Pull Requests
 
-6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.MD` file
+6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.md` file
 
 7. Participate and answer questions where appropriate (chat groups, JIRA etc.)
 

@@ -23,7 +23,7 @@ See https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761 for
 
 ------
 
-Remember to publish details about how to join a chat or group in the `README.MD` for your project.
+Remember to publish details about how to join a chat or group in the `README.md` for your project.
 
 For Google Chat you can publish a link to the chat from the address bar. Assuming you have pre-subscribed as above, then anyone clicking on the link will be automatically subscribed to the chat.
 

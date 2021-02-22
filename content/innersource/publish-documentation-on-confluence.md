@@ -17,7 +17,7 @@ In order to render the markdown files from Bitbucket into Confluence, you have t
 - Project field: the project key of the Bitbucket project
 - Repository field: the name of the Bitbucket Repository
 
-The default page that will be rendered is the *`README.MD`* file from your project. You can check the result in the preview section.
+The default page that will be rendered is the *`README.md`* file from your project. You can check the result in the preview section.
 
 Below you can find the detailed steps and info about how it works.
 

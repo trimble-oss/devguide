@@ -38,24 +38,24 @@ The InnerSource checklist suggested a number of useful items to consider for inc
 
 The Contributing Agreement should be broken down as follows:
 
-**`README.MD`** - provides a general description of the project, its intent and who the Trusted Committer(s) are for the project.
+**`README.md`** - provides a general description of the project, its intent and who the Trusted Committer(s) are for the project.
 
-This file is loaded by default when you open a repo in Bitbucket. The `README.MD` should link to the other InnerSource files for easy navigation.
+This file is loaded by default when you open a repo in Bitbucket. The `README.md` should link to the other InnerSource files for easy navigation.
 
 A useful interactive tool for creating a readme can be found here - [https://www.makeareadme.com/](https://www.makeareadme.com/)
 
-Numerous examples of `README.MD` files can be found on GitHub.
+Numerous examples of `README.md` files can be found on GitHub.
 
-The `README.MD` should also include details of the location and how to access the discussion forum as well as the relevant JIRA project details.
+The `README.md` should also include details of the location and how to access the discussion forum as well as the relevant JIRA project details.
 
-**`GETTINGSTARTED.MD`** - This could be optionally included to provide additional information which might not be needed in the general `README.MD` for example a more detailed checklist of information which a contributor needs to know in order to provide a useful contribution - technical details of how the project is structured, how to run tests etc.
+**`GETTINGSTARTED.md`** - This could be optionally included to provide additional information which might not be needed in the general `README.md` for example a more detailed checklist of information which a contributor needs to know in order to provide a useful contribution - technical details of how the project is structured, how to run tests etc.
 
-**`CONTRIBUTING.MD`** - provides information on how to submit a pull request, who to assign the pull request to - (i.e. the Trust Committer(s) for the project.
+**`CONTRIBUTING.md`** - provides information on how to submit a pull request, who to assign the pull request to - (i.e. the Trust Committer(s) for the project.
 
-**`CODEREVIEW.MD`** - (optional file - this information could be included in `CONTRIBUTING.MD`) should contain information as to how a pull request is evaluated for this project - what coding standards are required, expectations in terms of test coverage for unit tests, whether integration tests are required, what kind of turnaround time to expect for code review etc.
+**`CODEREVIEW.md`** - (optional file - this information could be included in `CONTRIBUTING.md`) should contain information as to how a pull request is evaluated for this project - what coding standards are required, expectations in terms of test coverage for unit tests, whether integration tests are required, what kind of turnaround time to expect for code review etc.
 
-**`HELPWANTED.MD`** - (optional file) a list of "most wanted" features for which a project would like to invite external contributions
+**`HELPWANTED.md`** - (optional file) a list of "most wanted" features for which a project would like to invite external contributions
 
-**`CODE_OF_CONDUCT.MD`** - (required) information as to how a contributor should treat a reviewer of their work and expectations of what a contributor should expect from their reviewer.
+**`CODE_OF_CONDUCT.md`** - (required) information as to how a contributor should treat a reviewer of their work and expectations of what a contributor should expect from their reviewer.
 
 A good example code of conduct can be found at [https://github.com/Capgemini/innersource-template/blob/master/CODE_OF_CONDUCT.md](https://github.com/Capgemini/innersource-template/blob/master/CODE_OF_CONDUCT.md)
