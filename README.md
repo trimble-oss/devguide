@@ -1,8 +1,26 @@
 # devguide.trimble.com
 
-A static website for the Trimble Developer Guidelines built with [Hugo](https://gohugo.io/)
+## Project Ownership
 
-Check the `CONTRIBUTING.md` for guidance on building the site locally.
+The Developer Guidelines website is run by the Developer Guidelines Working Group.
+
+**Owners**:
+Bob Wold - bob_wold@trimble.com
+
+**Trusted Committers**:
+
+Ryan Kuhn - ryan_kuhn@trimble.com<br>
+Christian Oliff - christain_oliff@trimble.com<br>
+Ian Welch - ian_welch@trimble.com<br>
+Matthew Dexter- matthew_dexter@trimble.com<br>
+
+## Getting Involved
+
+Contributions to these guidelines are very welcome. Please see [CONTRIBUTING.MD](CONTRIBUTING.MD) for details.
+
+### Tracking and reporting issues/suggestions with these guidelines
+
+Please email dev-guidelines-working-group-ug@trimble.com
 
 ## Links
 

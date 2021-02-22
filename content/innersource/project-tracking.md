@@ -11,7 +11,7 @@ The owner should create an **_Epic_** on a Jira project related to this with a l
 
 ## Guidelines for Issue Reporters
 
-Any issues found in the project should be reported as an issue under the [**Epic**](https://replace-with-valid-epic-link "Click here to open Epic")
+Any issues found in the project should be reported as an issue under the Epic
 
 - The report should have a clear description of the issue and expectations
 - If required, add some screenshot

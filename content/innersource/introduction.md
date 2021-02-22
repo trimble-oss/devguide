@@ -23,31 +23,9 @@ Open Source has brought a lot of advantages to software development, such as tra
 > Oram, A (2015) **Getting Started With InnerSource.** O'Reilly Media.
 > Get your free copy [here](https://www.oreilly.com/programming/free/getting-started-with-innersource.csp)
 
-## Project Ownership
-
-The InnerSource Guidelines project is run by the InnerSource Working Group.
-
-**Owners**:
-_please specify here the owners_
-
-**Trusted Committers**:
-_please specify here the trusted committers_
-
-## Getting Involved
-
-Contributions to these guidelines are very welcome. Please see [CONTRIBUTING.MD](CONTRIBUTING.MD) for details.
-
-### Communicating with the team
-
-_please specify here the communication channels_
-
-### Tracking and reporting issues/suggestions with these guidelines
-
-You can track list of current issues and their status in Jira. _please specify here the link for the board_
-
 ## Implementing the Guidelines
 
-You can find the detailed guidelines on implementing the various aspects of InnerSource within the Guidelines folder of this documentation, and an [implementation checklist](/innersource/implementation-checklist/) to help guide you through the steps is also available. In summary the following steps should be taken to prepare your project for InnerSource:
+You can find the detailed guidelines on implementing the various aspects of InnerSource in this section of the Developer Guidelines website. Additionally an [implementation checklist](/innersource/implementation-checklist/) to help guide you through the steps is also available. In summary the following steps should be taken to prepare your project for InnerSource:
 
 1. Define the Owner(s) and Trusted Committer(s) for your project, following the [InnerSource Roles guidance](/innersource/innersource-roles/).
 
@@ -61,7 +39,7 @@ You can find the detailed guidelines on implementing the various aspects of Inne
 
 6. Setup a project tracking to allow people to report and track issues/suggestions for your project. Follow the guidance on [project tracking](/innersource/project-tracking/).
 
-Remember to check out the [implementation checklist](/innersource/implementation-checklist/) for more detailed steps and the other documents within the Guidelines folder for more specific detail on the different InnerSource concepts.
+Remember to check out the [implementation checklist](/innersource/implementation-checklist/) for more detailed steps and the rest of this section for more specific detail on the different InnerSource concepts.
 
 ## Resources
 
