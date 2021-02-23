@@ -7,12 +7,12 @@ innersource: true
 
 ## The Owner Role
 
-The owner is the person that has overall ownership of the project and who can appoint trusted committers that have responsibility delegated to them to be allowed to approve pull requests.
+The Owner is the person that has overall ownership of the project and who can appoint Trusted Committers that have responsibility delegated to them to be allowed to approve pull requests.
 
-- The owner sets the long term strategy and direction and has the final say in architecture and functional changes.
-- An owner is a trusted committer also.
+- The Owner sets the long term strategy and direction and has the final say in architecture and functional changes.
+- An Owner is also a Trusted Committer.
 
-### Expectations of owner
+### Expectations of Owner
 
 - Works with the Architecture Review Board to ensure that this project's architecture direction is in line with the overall strategy and doesn't duplicate functionality available elsewhere
 - Ensures that the InnerSource guidelines are applied to the project correctly.
@@ -46,7 +46,7 @@ The Trusted Committer role belongs to a person or persons who have been nominate
 
 5. Communicate with contributors setting realistic expectations for timescales for review of Pull Requests
 
-6. Conduct code reviews with contributors according the code of conduct defined in the CODE_OF_CONDUCT.MD file
+6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.md` file
 
 7. Participate and answer questions where appropriate (chat groups, JIRA etc.)
 

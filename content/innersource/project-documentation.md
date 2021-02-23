@@ -28,23 +28,22 @@ As Markdown format is not appropriate for certain cases, (e.g. a sequence diagra
 
 ### Consumer
 
-- Readme.md:
-  part of the [InnerSource guidelines](../README.MD).
-- Gettingstarted.md:
-  part of the [InnerSource guidelines](../README.MD).
+- `README.md`:
+  part of the [InnerSource documentation](./introduction/).
+- `GETTINGSTARTED.md`:
+  part of the [InnerSource documentation](./introduction/).
 - Sample code:
   an example of what your project would normally be used for with instructions about how to use the software (installation, startup, etc). It might be part of the getting started document if short, or linked to from getting started if a longer description is needed.
-- Change log:
-  part of the [InnerSource guidelines](../README.MD).
-- Reference doc:
+- Change log
+- Reference documentation:
   full documentation of the public API, generated from code.
 - FAQ: an optional file, which might be created step by step, based on the feedback, questions and suggestions that don't fit elsewhere.
 
 ### Contributor
 
-- Contributing.md:
-  part of the [InnerSource guidelines](../CONTRIBUTING.MD).
-- Architecture doc: document the architecture of the project.
+- `CONTRIBUTING.md`:
+  part of the [InnerSource documentation](./introduction/).
+- Architecture documentation: document the architecture of the project.
 - FAQ: an optional file, which might be created step by step, based on the feedback, questions and suggestions that don't fit elsewhere.
 
 ## References
