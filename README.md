@@ -50,4 +50,4 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 | -------------------------------- | ------------------------ |
 | Home page developer illustration | https://undraw.co/       |
 | Code Style icons                 | https://simpleicons.org/ |
-| Development Practises Icons      | https://fontawesome.com/ |
+| Development Practices Icons      | https://fontawesome.com/ |
