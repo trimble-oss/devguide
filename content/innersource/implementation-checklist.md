@@ -21,14 +21,14 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 ## Project Information
 
-(see [Contribution Agreements](/innersource/contribution-agreements))
+(see [Contribution Agreements](/innersource/contribution-agreements/))
 
 - [ ] The general intent of the project is clearly documented in the `README.md`.
 - [ ] The `README.md` contains links to the other InnerSource documents in the repository for easy navigation.
 
 ## Repository Configuration
 
-(see [Repository Configuration](/innersource/repository-configuration))
+(see [Repository Configuration](/innersource/repository-configuration/))
 
 - [ ] The repository description has a short description including the owner details.
 - [ ] The repository has the trimble-innersource label.
@@ -47,7 +47,7 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 ## Issue Tracking and Communication
 
-(see [Project Tracking](/innersource/project-tracking) and [Project Communication](/innersource/project-communication/))
+(see [Project Tracking](/innersource/project-tracking/) and [Project Communication](/innersource/project-communication/))
 
 - [ ] An epic has been created within a JIRA project related to this repository to be used to track issues. The epic should have the label trimble-innersource.
 - [ ] Details of the epic and how to log issues and feature request are included in the `CONTRIBUTING.md`.
@@ -55,7 +55,7 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 ## Getting Started Documentation
 
-(see [Contribution Agreements](/innersource/contribution-agreements) and [Project Documentation](/innersource/project-documentation/))
+(see [Contribution Agreements](/innersource/contribution-agreements/) and [Project Documentation](/innersource/project-documentation/))
 
 - [ ] The `GETTINGSTARTED.md` contains instructions on how to build and execute the code and the tests for the project on a clean development environment.
 - [ ] The `GETTINGSTARTED.md` contains the instructions on how to consume the deployed version of this code. Either basic instructions on how to call the service, or how to use the library/package depending on the type of project.

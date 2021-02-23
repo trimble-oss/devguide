@@ -29,9 +29,9 @@ As Markdown format is not appropriate for certain cases, (e.g. a sequence diagra
 ### Consumer
 
 - `README.md`:
-  part of the [InnerSource documentation](./introduction/).
+  part of the [InnerSource documentation](./introduction.md/).
 - `GETTINGSTARTED.md`:
-  part of the [InnerSource documentation](./introduction/).
+  part of the [InnerSource documentation](./introduction.md/).
 - Sample code:
   an example of what your project would normally be used for with instructions about how to use the software (installation, startup, etc). It might be part of the getting started document if short, or linked to from getting started if a longer description is needed.
 - Change log
@@ -42,7 +42,7 @@ As Markdown format is not appropriate for certain cases, (e.g. a sequence diagra
 ### Contributor
 
 - `CONTRIBUTING.md`:
-  part of the [InnerSource documentation](./introduction/).
+  part of the [InnerSource documentation](./introduction.md/).
 - Architecture documentation: document the architecture of the project.
 - FAQ: an optional file, which might be created step by step, based on the feedback, questions and suggestions that don't fit elsewhere.
 

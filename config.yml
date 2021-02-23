@@ -10,7 +10,7 @@ params:
   title: Developer Guidelines
   author: "Trimble"
   images:
-    - http://devguidelines.s3-website-us-east-1.amazonaws.com/img/preview.png
+    - https://devguide.trimble.com/img/preview.png
 
 disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
 
@@ -182,5 +182,7 @@ minify:
       keepDefaultAttrVals: false
       keepEndTags: false
       keepWhitespace: true
+    js:
+      keepVarNames: true
     xml:
       keepWhitespace: true

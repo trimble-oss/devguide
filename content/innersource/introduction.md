@@ -20,8 +20,10 @@ Open Source has brought a lot of advantages to software development, such as tra
 
 > InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefiting from the creativity and diverse perspectives contributed by people throughout the organization.
 
-> Oram, A (2015) **Getting Started With InnerSource.** O'Reilly Media.
-> Get your free copy [here](https://www.oreilly.com/programming/free/getting-started-with-innersource.csp)
+<!--
+Oram, A (2015) **Getting Started With InnerSource.** O'Reilly Media.
+Get your free copy [here](https://www.oreilly.com/programming/free/getting-started-with-innersource.csp)
+-->
 
 ## Implementing the Guidelines
 
@@ -43,10 +45,9 @@ Remember to check out the [implementation checklist](/innersource/implementation
 
 ## Resources
 
-- [Trimble Internal Open Source](https://devguide.trimble.com/development-practices/internal-open-source/) - Trimble's guidelines on internal open source
+- [Trimble Internal Open Source](../development-practises/internal-open-source.md) - Trimble's guidelines on internal open source
 - [InnerSource Commons Checklist](http://innersourcecommons.org/checklist/) - A free PDF by PayPal that describes ways to adopt InnerSource
 - [InnerSource Checklist Summary](https://github.com/commonality/generator-community/wiki/InnerSource-checklist)
-- [Getting Started With InnerSource](https://www.oreilly.com/programming/free/getting-started-with-innersource.csp) - A free PDF by O'Reilly Media describing InnerSource
 - Three-part series on InnerSource from Salesforce
   - https://engineering.salesforce.com/inner-sourcing-whats-this-ef2220ae59ec
   - https://engineering.salesforce.com/inner-sourcing-the-mechanics-c0b1421230fd
