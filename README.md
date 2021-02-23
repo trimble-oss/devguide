@@ -5,14 +5,15 @@
 The Developer Guidelines website is run by the Developer Guidelines Working Group.
 
 **Owner**:
-Bob Wold - bob_wold@trimble.com
+
+- Bob Wold - bob_wold@trimble.com
 
 **Trusted Committers**:
 
-Ryan Kuhn - ryan_kuhn@trimble.com<br>
-Christian Oliff - christain_oliff@trimble.com<br>
-Ian Welch - ian_welch@trimble.com<br>
-Matthew Dexter- matthew_dexter@trimble.com<br>
+- Ryan Kuhn - ryan_kuhn@trimble.com
+- Christian Oliff - christain_oliff@trimble.com
+- Ian Welch - ian_welch@trimble.com
+- Matthew Dexter- matthew_dexter@trimble.com
 
 ## Getting Involved
 
@@ -49,4 +50,4 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 | -------------------------------- | ------------------------ |
 | Home page developer illustration | https://undraw.co/       |
 | Code Style icons                 | https://simpleicons.org/ |
-| Dev Practise Icons               | https://fontawesome.com/ |
+| Development Practices Icons      | https://fontawesome.com/ |

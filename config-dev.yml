@@ -1,4 +1,4 @@
-baseurl: http://devguidelines.s3-website-us-east-1.amazonaws.com/
+baseurl: http://dev.devguide.trimble.com/
 disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
 googleAnalytics: "disabled"
 

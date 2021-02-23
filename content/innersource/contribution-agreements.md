@@ -9,7 +9,7 @@ Documentation known as the _Contributing Agreement_ which should be stored in th
 
 Bitbucket has full support for rendering Markdown into rich text format so it is easy for potential contributors to read and learn about the project.
 
-See [https://www.markdownguide.org/](https://www.markdownguide.org/) for the official documentation.
+See [https://www.markdownguide.org/](https://www.markdownguide.org/) for documentation.
 
 A simple online Markdown editor can be found at - [https://writeme.mattstow.com/](https://writeme.mattstow.com/)
 

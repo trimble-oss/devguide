@@ -14,7 +14,7 @@ code: true
 
 [Google's HTML guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-The [Code Guide](https://codeguide.co/) also provides excellent guidance for developing consistent, flexible, and sustainable HTML and CSS.
+The [Code Guide](https://codeguide.co/) also provides excellent guidance for developing consistent, flexible, and sustainable HTML.
 
 ## Implementing the Standard
 

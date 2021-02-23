@@ -5,11 +5,6 @@ description: ""
 innersource: true
 ---
 
-<style>
-  article h1 {display: none}
-  .menu-right{opacity:0}
-</style>
-
 Follow the steps below in order to configure the CODEOWNERS plugin:
 
 - Add a `CODEOWNERS` or a `.bitbucket/CODEOWNERS` file in your repository. Leave it with the `.file` extension.

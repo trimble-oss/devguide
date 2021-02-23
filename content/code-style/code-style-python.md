@@ -14,11 +14,11 @@ code: true
 
 The Python Software Foundation is responsible for developing and maintaining Python language standards. The Python foundation uses Python Enhancement Proposals (PEPs) to document the language and capture guidelines. Two PEPs are relevant to the topic of code style.
 
-**PEP 8 -- Style Guide for Python Code** <https://www.python.org/dev/peps/pep-0008>
-: PEP 8 specifies the conventions used to develop the standard libraries that ship as part of a Python distribution.
+- **[PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008)**<br>
+PEP 8 specifies the conventions used to develop the standard libraries that ship as part of a Python distribution.
 
-**PEP 257 -- Docstring Conventions** <https://www.python.org/dev/peps/pep-0257>
-: PEP 257 builds on PEP 8 to add the semantics and conventions for Python docstrings. Following these conventions enables off the shelf tools to process the docstrings.
+- **[PEP 257 -- Docstring Conventions](https://www.python.org/dev/peps/pep-0257)**<br>
+PEP 257 builds on PEP 8 to add the semantics and conventions for Python docstrings. Following these conventions enables off the shelf tools to process the docstrings.
 
 ## Exceptions to the Standard
 
