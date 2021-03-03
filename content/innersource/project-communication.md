@@ -17,7 +17,7 @@ See https://support.google.com/chat/answer/7653881?hl=en&ref_topic=7649113 for m
 
 ## Google Groups
 
-To set up a Google Group, go to https://groups.trimble.com and choose Create Group and follow the wizard. All Trimble groups have an associated e-mail address which always ends in -ug@trimble.com.
+To set up a Google Group, go to https://groups.google.com/my-groups and choose Create Group and follow the wizard. All Trimble groups have an associated e-mail address which always ends in -ug@trimble.com.
 
 See https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761 for more details on using Google Groups
 
