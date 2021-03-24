@@ -6,6 +6,7 @@ url: "/code-style/"
 code: true
 hideDocsToggle: true
 hideMenuColumn: true
+hideDate: true
 ---
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-6">
