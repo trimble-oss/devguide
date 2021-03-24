@@ -56,14 +56,3 @@ None. Any further exceptions that would benefit a project should be documented a
     <td></td>
   </tr>
 </table>
-
-### Appendix A: Businesses Using Language
-
-<table>
-  <tr>
-    <td>Business</td>
-    <td>Codebase</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-</table>

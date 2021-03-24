@@ -4,6 +4,7 @@ languageCode: en-US
 locale: en-US
 
 enableInlineShortcodes: true
+enableGitInfo: true
 googleAnalytics: "UA-106389617-3"
 
 params:

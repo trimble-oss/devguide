@@ -49,7 +49,7 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 (see [Project Tracking](./project-tracking.md) and [Project Communication](./project-communication.md))
 
-- [ ] An epic has been created within a JIRA project related to this repository to be used to track issues. The epic should have the label trimble-innersource.
+- [ ] An epic has been created within a Jira project related to this repository to be used to track issues. The epic should have the label trimble-innersource.
 - [ ] Details of the epic and how to log issues and feature request are included in the `CONTRIBUTING.md`.
 - [ ] A communication channel is established that allows contributors and consumers to contact the owners (e.g. Google Chat group or email group). This is detailed in the `README.md`.
 

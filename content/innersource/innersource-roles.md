@@ -42,13 +42,13 @@ The Trusted Committer role belongs to a person or persons who have been nominate
 
 3. Keep the relevant documentation up to date
 
-4. Keep feature request and bug reports up to date in JIRA.
+4. Keep feature request and bug reports up to date in Jira.
 
 5. Communicate with contributors setting realistic expectations for timescales for review of Pull Requests
 
 6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.md` file
 
-7. Participate and answer questions where appropriate (chat groups, JIRA etc.)
+7. Participate and answer questions where appropriate (chat groups, Jira etc.)
 
 ## The Contributor Role
 

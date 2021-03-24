@@ -12,7 +12,7 @@ code: true
 
 ## Reference Code Standard
 
-Google Java Style Guide: [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ## Exceptions to the Standard
 

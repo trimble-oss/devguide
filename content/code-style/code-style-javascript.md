@@ -11,7 +11,7 @@ code: true
 
 ## Reference Code Standard
 
-Google’s JavaScript style guide on GitHub: [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+[Google’s JavaScript style guide on GitHub](https://google.github.io/styleguide/jsguide.html)
 
 ## Exceptions to the Standard
 

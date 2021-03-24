@@ -46,7 +46,7 @@ A useful interactive tool for creating a readme can be found here - [https://www
 
 Numerous examples of `README.md` files can be found on GitHub.
 
-The `README.md` should also include details of the location and how to access the discussion forum as well as the relevant JIRA project details.
+The `README.md` should also include details of the location and how to access the discussion forum as well as the relevant Jira project details.
 
 **`GETTINGSTARTED.md`** - This could be optionally included to provide additional information which might not be needed in the general `README.md` for example a more detailed checklist of information which a contributor needs to know in order to provide a useful contribution - technical details of how the project is structured, how to run tests etc.
 
