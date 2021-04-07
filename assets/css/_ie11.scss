@@ -6,8 +6,7 @@
   }
 
   .bg-anim {
-    // background-color: #2A87C4;
-    // background-image: none;
+    background-image: linear-gradient(180deg, rgba(42,135,196,1) 0%, rgba(42,135,196,1) 66%, rgba(42,135,196,0) 66%, rgba(42,135,196,0) 100%) !important;
     background-repeat: repeat-x !important;
     background-position: bottom center;
     background-size: auto !important;

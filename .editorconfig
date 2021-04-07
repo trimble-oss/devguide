@@ -12,6 +12,7 @@ trim_trailing_whitespace = true
 
 [*.js]
 insert_final_newline = true
+
 [*.min.js]
 insert_final_newline = false
 
@@ -21,5 +22,6 @@ insert_final_newline = false
 
 [*.svg]
 insert_final_newline = false
+
 [CNAME]
 insert_final_newline = false

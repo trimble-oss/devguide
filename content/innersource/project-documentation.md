@@ -48,7 +48,6 @@ As Markdown format is not appropriate for certain cases, (e.g. a sequence diagra
 
 ## References
 
-- https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#why-write-docs
-- https://medium.com/capital-one-tech/art-of-open-source-documentation-5b8b3f5b0ab
-- https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#why-write-docs
-- https://opensource.googleblog.com/2018/10/building-great-open-source-documentation.html
+- [A beginner’s guide to writing documentation](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#why-write-docs)
+- [Art of Open Source Documentation](https://medium.com/capital-one-tech/art-of-open-source-documentation-5b8b3f5b0ab)
+- [Building great open source documentation (Google Open Source Blog)](https://opensource.googleblog.com/2018/10/building-great-open-source-documentation.html)
