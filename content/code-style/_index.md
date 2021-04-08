@@ -23,6 +23,9 @@ hideDate: true
 {{< card-start title="CSS" url="/code-style/css/" class="py-5 img-invert" header="code-style/css.svg" headerBGColor="#157286" >}}
 {{</ card-start >}}
 
+{{< card-start title="Go" url="/code-style/go/" class="py-5 img-invert" header="code-style/go.svg" headerBGColor="#5d57c6" >}}
+{{</ card-start >}}
+
 {{< card-start title="HTML" url="/code-style/html/" class="py-5 img-invert" header="code-style/html.svg" headerBGColor="#E34F26" >}}
 {{</ card-start >}}
 
@@ -30,6 +33,9 @@ hideDate: true
 {{</ card-start >}}
 
 {{< card-start title="Java" url="/code-style/java/" class="py-5 img-invert" header="code-style/java.svg" headerBGColor="#007396" >}}
+{{</ card-start >}}
+
+{{< card-start title="Kotlin" url="/code-style/kotlin/" class="py-5 img-invert" header="code-style/kotlin.svg" headerBGColor="#c7555f" >}}
 {{</ card-start >}}
 
 {{< card-start title="Objective C" url="/code-style/objective-c/" class="py-5 img-invert bg-secondary" header="code-style/objective-c.svg" >}}

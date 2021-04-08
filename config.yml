@@ -77,27 +77,33 @@ menu:
     - name: CSS
       url: /code-style/css/
       weight: 4
+    - name: Go
+      url: /code-style/go/
+      weight: 5
     - name: HTML
       url: /code-style/html/
-      weight: 5
+      weight: 6
     - name: Java
       url: /code-style/java/
-      weight: 6
+      weight: 7
     - name: JavaScript
       url: /code-style/javascript/
-      weight: 7
+      weight: 8
+    - name: Kotlin
+      url: /code-style/kotlin/
+      weight: 9
     - name: Objective C
       url: /code-style/objective-c/
-      weight: 8
+      weight: 10
     - name: Python
       url: /code-style/python/
-      weight: 9
+      weight: 11
     - name: Swift
       url: /code-style/swift/
-      weight: 10
+      weight: 12
     - name: TypeScript
       url: /code-style/typescript/
-      weight: 11
+      weight: 13
 
   innersource:
     - name: Introduction
