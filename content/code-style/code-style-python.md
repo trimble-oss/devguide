@@ -42,6 +42,30 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 | Agriculture  | Agronomy data processing, DevOps |
 | CEC          | Test Automation DevOps           |
 
+## Appendix B: Sample implementation
+
+To help enforce the standard, you can hook into Git. This can easily be applied to any language enforcement tooling.
+
+Here’s an example using Python's `pre-commit` package:
+
+```sh
+$ pip install pre-commit
+$ pre-commit install
+```
+* Create a file named `.pre-commit-config.yaml` in the root directory.
+
+```yaml
+# file: .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/pycqa/pylint
+    rev: pylint-2.6.0
+    hooks:
+      - id: pylint
+        args:
+          - --rcfile=.pylintrc
+        verbose: true
+```
+
 ## Bibliography
 
 - [PEP 8](https://www.python.org/dev/peps/pep-0008)
