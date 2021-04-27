@@ -45,7 +45,6 @@ Remember to check out the [implementation checklist](/innersource/implementation
 
 ## Resources
 
-- [Trimble Internal Open Source](../development-practises/internal-open-source.md) - Trimble's guidelines on internal open source
 - [InnerSource Commons Checklist](http://innersourcecommons.org/checklist/) - A free PDF by PayPal that describes ways to adopt InnerSource
 - [InnerSource Checklist Summary](https://github.com/commonality/generator-community/wiki/InnerSource-checklist)
 - Three-part series on InnerSource from Salesforce

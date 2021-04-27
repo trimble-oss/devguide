@@ -13,7 +13,6 @@ hideDate: true
 <!-- Welcome to Development Practices. Use the side bar on your left to navigate the development practices the Developer Guide Working Group has put together -->
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
-
 {{< card-start title="Code Documentation" url="/development-practices/code-documentation/" header="development-practices/code-documentation.svg" class="py-5 bg-light" >}}
 
 {{</ card-start >}}
@@ -22,7 +21,7 @@ hideDate: true
 
 {{</ card-start >}}
 
-{{< card-start title="Internal Open Source" url="/development-practices/internal-open-source/" header="development-practices/internal-open-source.svg" class="py-5 bg-light" >}}
+{{< card-start title="InnerSource" url="/innersource/" header="development-practices/innersource.svg" class="py-5 bg-light" >}}
 
 {{</ card-start >}}
 
