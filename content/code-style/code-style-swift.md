@@ -23,7 +23,7 @@ Triple slash (///) for documentation comments is not enforced.
 
 Because Swift is a relatively new language it’s easier and less time consuming to enforce formatting in the Git pre-commit hook so that it automatically formats added and modified files, for a working example see [this repo](https://bitbucket.trimble.tools/projects/SU/repos/mobile_tools/browse).
 
-## Appendix A: Businesses Using Language
+## Businesses Using Language
 
 | Business | Codebase | Notes                                                                                                    |
 | :------- | :------- | -------------------------------------------------------------------------------------------------------- |

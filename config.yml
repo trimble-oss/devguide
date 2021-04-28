@@ -37,11 +37,11 @@ menu:
     - name: Code Style
       url: "/code-style/"
       weight: 2
-    - name: Governance
-      url: "/governance/"
-      weight: 3
     - name: InnerSource
       url: "/innersource/introduction/"
+      weight: 3
+    - name: Governance
+      url: "/governance/"
       weight: 4
 
   development:

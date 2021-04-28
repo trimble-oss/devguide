@@ -18,6 +18,17 @@ We are happy to accept contributions from the community to improve this project.
 2. Run `npm run serve` to run local server. (If fails to run you may need to install Autoprefixer globally with `npm install -g autoprefixer`).
 3. The site will be available at <http://localhost:4000/> and will auto update when you make any changes
 
+## Making a Pull Request
+
+1. [Fork the devguide repo](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide?fork).
+2. Make your changes on your forked branch
+3. Make a [pull request from your branch](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/pull-requests?create)
+
+## Pull Request Checklist
+
+- Before opening a PR run `npm run test` and wait for all tests to pass.
+- If adding a new language Code Style page, please ensure that it includes Reference Code Standard and Implementing the Standard sections
+
 ### Images
 
 - Filenames Requirements: Lowercase (not Mixed Case)
@@ -31,8 +42,3 @@ We are happy to accept contributions from the community to improve this project.
 - PNG Bitmap images should be losslessly optimized with `npm run imagemin` or https://squoosh.app/
 - Image file size should never exceed 200 KB
 - Tip: Don't hotlink to images on external sites - images on other sites maybe removed, renamed or changed and it means an extra TLD/DNS round-trip
-
-## Pull Request Checklist
-
-- Before opening a PR run `npm run test` and wait for all tests to pass.
-

@@ -29,3 +29,10 @@
     letter-spacing: -1px;
   }
 }
+
+@media (max-width: 991px) {
+  .container-home-header,
+  .container-home-header .text-dark {
+    color: white !important;
+  }
+}

@@ -8,6 +8,7 @@ image: "/img/icons/code-style/python.svg"
 headerBGColor: "#3776AB"
 headerBGInvert: true
 code: true
+DoNotTranslateTitle: true
 ---
 
 ## Reference Code Standard
@@ -34,7 +35,7 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 # pylint: disable=no-member
 ```
 
-## Appendix A: Businesses Using Language
+## Businesses Using Language
 
 | Business     | Codebase                         |
 | :----------- | :------------------------------- |
@@ -42,7 +43,7 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 | Agriculture  | Agronomy data processing, DevOps |
 | CEC          | Test Automation DevOps           |
 
-## Appendix B: Sample implementation
+## Sample implementation
 
 To help enforce the standard, you can hook into Git. This can easily be applied to any language enforcement tooling.
 
@@ -52,7 +53,8 @@ Here’s an example using Python's `pre-commit` package:
 $ pip install pre-commit
 $ pre-commit install
 ```
-* Create a file named `.pre-commit-config.yaml` in the root directory.
+
+- Create a file named `.pre-commit-config.yaml` in the root directory.
 
 ```yaml
 # file: .pre-commit-config.yaml

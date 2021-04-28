@@ -10,7 +10,7 @@ hideDocsToggle: true
 
 ## How to contact the Dev Guidelines working group
 
-If you have questions or suggestions regarding the guidelines, the working group can be reached via dev-guidelines-working-group-ug@trimble.com.
+If you have questions or suggestions regarding the guidelines, the working group can be reached via {{< cloakemail "dev-guidelines-working-group-ug@trimble.com" >}}.
 
 ## How to contribute
 
