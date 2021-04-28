@@ -23,7 +23,7 @@ When sharing code with C++ that uses Google’s style, use 80 character limit pe
 
 Be consistent with the codebase and if source code doesn’t follow a particular style start introducing the style incrementally.
 
-## Appendix A: Businesses Using Language
+## Businesses Using Language
 
 | Business | Codebase | Notes                                                                                                                                     |
 | :------- | :------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

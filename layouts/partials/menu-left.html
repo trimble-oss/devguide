@@ -31,7 +31,7 @@
 
       {{- if .Params.code }}
       {{ range .Site.Menus.code }}
-      <li class="my-3"><a class="text-dark notranslate" href="{{ .URL }}">
+      <li class="my-3"><a class="text-dark notranslate" translate="no" href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>

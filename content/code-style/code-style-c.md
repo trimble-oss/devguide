@@ -18,41 +18,15 @@ In order to keep an easy-to-read, consistent and aesthetically pleasing look to 
   - Concise
   - Covers common C issues: portability, typedefs, gotos and pointer usage
 
-### Exceptions to the Standard
+## Exceptions to the Standard
 
 None. Any further exceptions that would benefit a project should be documented along with a rationale for the exception.
 
-### Implementing and enforcing the Standard
+## Implementing and enforcing the Standard
 
-<table class="table table-bordered table-sm">
-  <tr>
-    <td>Tools/Procedures</td>
-    <td>Type</td>
-    <td>In Use By</td>
-    <td>Notes</td>
-  </tr>
-  <tr>
-    <td>PC-Lint</td>
-    <td>Commercial</td>
-    <td></td>
-    <td>Checks MISRA C automotive guidelines</td>
-  </tr>
-  <tr>
-    <td>SonarQube</td>
-    <td>Free and Commercial</td>
-    <td>Tekla</td>
-    <td>Checks code quality</td>
-  </tr>
-  <tr>
-    <td>clang-format</td>
-    <td>Free</td>
-    <td>Tekla</td>
-    <td>Formats source code according to style guide.</td>
-  </tr>
-  <tr>
-    <td>Peer reviews</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+| Tools/Procedures | Type                | In Use By | Notes                                         |
+| ---------------- | ------------------- | --------- | --------------------------------------------- |
+| PC-Lint          | Commercial          |           | Checks MISRA C automotive guidelines          |
+| SonarQube        | Free and Commercial | Tekla     | Checks code quality                           |
+| clang-format     | Free                | Tekla     | Formats source code according to style guide. |
+| Peer reviews     |                     |           |

@@ -16,7 +16,7 @@ code: true
 
 The [Code Guide](https://codeguide.co/#css) also provides excellent guidance for developing consistent, flexible, and sustainable CSS.
 
-### Implementing the Standard
+## Implementing the Standard
 
 Many IDE's provide formatting, linting and hinting support.
 
