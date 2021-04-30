@@ -20,11 +20,11 @@ In order to keep an easy-to-read, consistent and aesthetically pleasing look to 
   - Provides good rationale for decisions, including even counter-arguments
   - Exceptions to the code style allowed to maintain local consistency in existing code
 
-### Exceptions to the Standard
+## Exceptions to the Standard
 
 None. Exceptions that would benefit a specific project should be documented along with a rationale for the exception.
 
-### Implementing and enforcing the Standard
+## Implementing the Standard
 
 | Tools/Procedures | Type                       | In Use By | Notes                                                                                                          |
 | ---------------- | -------------------------- | --------- | -------------------------------------------------------------------------------------------------------------- |
@@ -33,14 +33,14 @@ None. Exceptions that would benefit a specific project should be documented alon
 | clang-format     | Free                       | Tekla     | Formats source code according to style guide.                                                                  |
 | Peer reviews     |                            | SketchUp  | Validates of code style, code quality.                                                                         |
 
-### Appendix A: Businesses Using Language
+## Businesses Using Language
 
 | Business | Codebase   | Notes                         |
 | -------- | ---------- | ----------------------------- |
 | SketchUp |            |                               |
 | Tekla    | Structures | SonarQube as a style enforcer |
 
-### Appendix B: Recommended Reading
+## Recommended Reading
 
 - [Boost Library Req and Guidelines](https://www.boost.org/development/requirements.html)
 

@@ -12,9 +12,8 @@ code: true
 
 ## Reference Code Standard
 
-[Google's HTML guide](https://google.github.io/styleguide/htmlcssguide.html)
-
-The [Code Guide](https://codeguide.co/) also provides excellent guidance for developing consistent, flexible, and sustainable HTML.
+- [Google's HTML guide](https://google.github.io/styleguide/htmlcssguide.html)
+- The [Code Guide](https://codeguide.co/) also provides excellent guidance for developing consistent, flexible, and sustainable HTML.
 
 ## Implementing the Standard
 

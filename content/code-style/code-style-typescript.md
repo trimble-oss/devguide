@@ -11,13 +11,9 @@ code: true
 
 ## Reference Code Standard
 
-- [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
+- [TypeScript Docs](https://www.typescriptlang.org/docs/)
 
-## Detailed language specification
-
-- [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
-
-## Implementing and Enforcing the Standard
+## Implementing the Standard
 
 - [ESLint](https://eslint.org/)
 - [TypeScript specific rules for ESLint](https://github.com/typescript-eslint/typescript-eslint)
@@ -25,18 +21,13 @@ code: true
 
 ## Exceptions to the Standard
 
-- [TSLint (recommended only for applications using Angular &lt; version 11)](https://palantir.github.io/tslint/)
-
-Note: [TSLint is deprecated](https://www.infoq.com/news/2019/02/tslint-deprecated-eslint/)
+- [TSLint](https://palantir.github.io/tslint/) (recommended only for applications using Angular &lt; version 11)<br>
+  _Note: [TSLint is deprecated](https://www.infoq.com/news/2019/02/tslint-deprecated-eslint/)_
 
 ## Tools
 
-Official TypeScript playground - official online TypeScript interpreter
-
-[https://www.typescriptlang.org/play/index.html](https://www.typescriptlang.org/play/index.html)
+- [Official TypeScript playground](https://www.typescriptlang.org/play/index.html)
 
 ## Further reading
 
-One-stop-shop for TypeScript information - constantly being updated
-
-[https://github.com/dzharii/awesome-typescript](https://github.com/dzharii/awesome-typescript)
+- [One-stop-shop for TypeScript information](https://github.com/dzharii/awesome-typescript)

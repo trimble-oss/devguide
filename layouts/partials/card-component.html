@@ -4,7 +4,7 @@
       style="background-image: url(/img/headers/elements/{{ .Title | urlize }}.png);">
     </div>
     <div class="card-body bg-white border-0 pb-0">
-      <h3 class="card-title px-2 ml-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{ end -}}">
+      <h3 class="card-title px-2 ml-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate" translate="no{{ end -}}">
         {{- .Title -}}
       </h3>
       <p class="px-2 ml-n2">
