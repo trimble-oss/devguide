@@ -49,8 +49,8 @@ menu:
       url: "/development-practices/code-documentation/"
     - name: Code Review
       url: "/development-practices/code-review/"
-    - name: Internal Open Source
-      url: "/development-practices/internal-open-source/"
+    - name: InnerSource
+      url: "/innersource/introduction/"
     - name: Managing Code Complexity
       url: "/development-practices/managing-code-complexity/"
     - name: Open Source Usage
