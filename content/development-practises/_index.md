@@ -21,7 +21,7 @@ hideDate: true
 
 {{</ card-start >}}
 
-{{< card-start title="InnerSource" url="/innersource/" header="development-practices/innersource.svg" class="py-5 bg-light" >}}
+{{< card-start title="InnerSource" url="/innersource/introduction/" header="development-practices/innersource.svg" class="py-5 bg-light" >}}
 
 {{</ card-start >}}
 
