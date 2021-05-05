@@ -130,8 +130,8 @@ menu:
     - name: Project Tracking
       url: /innersource/project-tracking/
       weight: 8
-    - name: Publish it on Confluence
-      url: /innersource/publish-documentation-on-confluence/
+    - name: Publishing Your Documentation
+      url: /innersource/publish-documentation/
       weight: 9
 
   governance:
