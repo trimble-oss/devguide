@@ -18,6 +18,7 @@
     padding-right: 4px !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
+    letter-spacing: -1px;
   }
 }
 
@@ -25,8 +26,14 @@
   body {
     background-position: center 1.8% !important;
   }
+  .navbar-nav a[href="/governance/"] {
+    display: none;
+  }
   .navbar-nav a {
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
+  }
+  .container-home-header .lead {
+    font-size: 1rem;
   }
 }
 
