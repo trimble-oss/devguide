@@ -17,7 +17,7 @@ The Developer Guidelines website is run by the Developer Guidelines Working Grou
 
 ## Getting Involved
 
-Contributions to these guidelines are very welcome. Please see [here](CONTRIBUTING.md) for details.
+Contributions to these guidelines are very welcome. Please view [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### Tracking and reporting issues/suggestions with these guidelines
 
@@ -25,11 +25,12 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 
 ## Links
 
-| Resource       | Old Link                                                            |
-| -------------- | ------------------------------------------------------------------- |
-| Dev            | https://dev.devguide.trimble.com                                    |
-| Production     | https://devguide.trimble.com                                        |
-| Bitbucket Repo | https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse |
+| Resource          | Link                                                                |
+| ----------------- | ------------------------------------------------------------------- |
+| Dev               | https://dev.devguide.trimble.com                                    |
+| Production        | https://devguide.trimble.com                                        |
+| Bitbucket Repo    | https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse |
+| Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/          |
 
 ## Testing and Audits
 

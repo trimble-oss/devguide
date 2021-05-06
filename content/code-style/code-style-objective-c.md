@@ -13,7 +13,7 @@ DoNotTranslateTitle: true
 
 ## Reference Code Standard
 
-Follow [Google’s Objective-C Style Guide](https://google.github.io/styleguide/objcguide.xml), it will first direct you to read [Apple's Coding Guidelines](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) and then [Google’s C++ Style Guide](https://google.github.io/styleguide/cppguide.html), don’t skip these as they complement the Style Guide in a great way.
+Follow [Google’s Objective-C Style Guide](https://github.com/google/styleguide/blob/gh-pages/objcguide.md), it will first direct you to read [Apple's Coding Guidelines](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html) and then [Google’s C++ Style Guide](https://google.github.io/styleguide/cppguide.html), don’t skip these as they complement the Style Guide in a great way.
 
 ## Exceptions to the Standard
 
