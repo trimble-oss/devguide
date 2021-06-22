@@ -17,9 +17,9 @@ code: true
 
 ## Implementing the Standard
 
-Many IDE's provide formatting, linting and hinting support for HTML.
+We recommend using [HTMLHint](https://htmlhint.com). You can install this as [a plugin for your IDE](https://htmlhint.com/docs/user-guide/integrations/editor) or [for the command-line:](https://htmlhint.com/docs/user-guide/getting-started)
 
-We recommend using [HTMLHint](https://htmlhint.com). Example `.htmlhintrc`:
+Example `.htmlhintrc`:
 
 ```json
 {
@@ -105,6 +105,7 @@ We recommend using [HTMLHint](https://htmlhint.com). Example `.htmlhintrc`:
   "doctype-html5": true,
   "head-script-disabled": false,
   "href-abs-or-rel": false,
+  "html-lang-require": true,
   "id-class-ad-disabled": true,
   "id-class-value": false,
   "id-unique": false,
