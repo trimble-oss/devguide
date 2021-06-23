@@ -29,11 +29,11 @@ The more experienced may well spot more bugs, and that’s important. But more i
 
 ### Let automated tools do the work when possible
 
-If is inefficient to argue over code style and formatting issues. There are plenty of tools which can consistently highlight those things. Ensuring that the code is correct, understandable and maintainable is what’s important.
+It is inefficient to argue over code style and formatting issues. There are plenty of tools which can consistently highlight those things. Ensuring that the code is correct, understandable and maintainable is what’s important.
 
 ### Limit a review to fewer than 400 lines of code at a time
 
-A study has revealed that beyond 400 LOC the ability to find defects diminishes. The same research shows that when the inspection rate is faster than 500 LOC per hour results in a significant drop in the number of defects found. A reviewer’s effectiveness also falls after an hour of concentrated effort.
+A study has revealed that beyond 400 LOC the ability to find defects diminishes. The same research shows that inspection rate faster than 500 LOC per hour results in a significant drop in the number of defects found. A reviewer’s effectiveness also falls after an hour of concentrated effort.
 
 ### Authors should provide context for a review
 
@@ -41,7 +41,7 @@ Authors should annotate code before the review occurs because annotations guide 
 
 ### Use a Checklist
 
-A checklist helps to catch omissions which are one of the hardest things to catch in a review. A checklist assures that the review captures mistakes a team tends to repeat. The list should be updated over time to add repeated mistakes and remove ones the team has learned not to make. Appendix A contains a sample checklist
+A checklist helps to catch omissions which are one of the hardest things to catch in a review. A checklist assures that the review captures mistakes a team tends to repeat. The list should be updated over time to add repeated mistakes and remove ones the team has learned not to make. Appendix A contains a sample checklist.
 
 ## Appendix A: Code Review Checklist
 

@@ -15,11 +15,11 @@ Code complexity is an important issue to take into account during development to
 
 ### [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 
-- Code structure
+- Code structure.
 
-- Based purely on the execution flow (branches of execution in a function)
+- Based purely on the execution flow (branches of execution in a function).
 
-- Promotes splitting large functions into smaller, more manageable ones
+- Promotes splitting large functions into smaller, more manageable ones.
 
 - Any function with a cyclomatic complexity below 10 can be considered simple and testable while a cyclomatic complexity greater than 20 indicates an overly complex function, so an acceptance threshold for functions should be defined between 10 and 20, depending on the application domain.
 
@@ -27,13 +27,13 @@ Code complexity is an important issue to take into account during development to
 
 ### [Cognitive complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf)
 
-- Human understandability
+- Human understandability.
 
-- Based on code structure as well as cognitive factors in the code
+- Based on code structure as well as cognitive factors in the code.
 
-  - E.g. takes into account recursive calls and ignores shorthand expressions when forming a cognitive complexity score
+  - E.g. takes into account recursive calls and ignores shorthand expressions when forming a cognitive complexity score.
 
-- How easy or difficult it is for a human being to understand the purpose and behavior of a piece of code
+- How easy or difficult it is for a human being to understand the purpose and behavior of a piece of code.
 
 - Promotes reducing the amount of processing the developer has to do while reading the code
 

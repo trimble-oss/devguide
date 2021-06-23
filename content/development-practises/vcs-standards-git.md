@@ -50,45 +50,45 @@ some guidelines based on Chris’s post.
 
 - Define a standard that works for your team and stick to it.
 - Always capture Jira or any other system Id in your commit.
-- Summary line should always be 72 characters or less
-- Separate summary from body with a blank line
-- Begin summary line with a capital letter
+- Summary line should always be 72 characters or less.
+- Separate summary from body with a blank line.
+- Begin summary line with a capital letter.
 - Write the summary line and description of what you have done in the
   imperative mode, as if you were commanding someone. Start the line with
-  "Fix", "Add", "Change" instead of "Fixed", "Added", "Changed”
+  "Fix", "Add", "Change" instead of "Fixed", "Added", "Changed”.
 - The summary should be indicative of what the commit does when applied
-  rather than what you did with the code
-- Consider using pre-commit hooks to audit commit messages before a merge
+  rather than what you did with the code.
+- Consider using pre-commit hooks to audit commit messages before a merge.
 
 ### DON'Ts
 
-- Don’t end the summary line with a period
+- Don’t end the summary line with a period.
 - Don’t describe the code when writing body. Describe the intent and approach.
 - Don’t have any lazy commit messages. For e.g: any commit labeled as “Minor
-  Code changes”, “Code Review Comments”, “Code Fixes”, “Cleanup” or similar
-- Don’t mix white space changes with functional code changes
-- Don’t mix two unrelated functional changes
+  Code changes”, “Code Review Comments”, “Code Fixes”, “Cleanup” or similar.
+- Don’t mix white space changes with functional code changes.
+- Don’t mix two unrelated functional changes.
 - Avoid sending a large new feature in a single giant commit (Recommendation is
-  to do at least one commit every day)
+  to do at least one commit every day).
 
 ## General Guidelines
 
 ### DOs
 
-- Understand how your version control system works
-- Understand how your version control system works (yes, it’s that important)
-- Use merge requests or pull requests
-- Have clear commit messages
-- Include the issue number in your commit message
-- Squash and rebase (where appropriate)
-- Use feature branches and use an agreed upon format
-- Include a README.md file
+- Understand how your version control system works.
+- Understand how your version control system works (yes, it’s that important).
+- Use merge requests or pull requests.
+- Have clear commit messages.
+- Include the issue number in your commit message.
+- Squash and rebase (where appropriate).
+- Use feature branches and use an agreed upon format.
+- Include a README.md file.
 
 ### DONTs
 
-- Push directly to develop or master
-- Have meaningless commit messages like “fixed typo”
-- Push all of your local commits to your remote
+- Push directly to develop or master.
+- Have meaningless commit messages like “fixed typo”.
+- Push all of your local commits to your remote.
 
 1. [Atlassian Git workflows][1]
 2. [Git source code management][7]

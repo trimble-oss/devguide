@@ -49,9 +49,9 @@ This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/
 
 - Use wheels as the library package format build using setuptools.
 
-- Packages are installed using pip
+- Use pip to install packages.
 
-- Store internal packages in Artifactory
+- Store internal packages in Artifactory.
 
 ### Java
 
@@ -61,11 +61,11 @@ This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/
 
 - [Gradle](https://gradle.org/)
 
-  - Popular build and dependency management tool, which builds upon Apache Maven, using Groovy DSL (Domain Specific Language). Offers many benefits over Maven ([Maven vs. Gradle Feature Comparison](https://gradle.org/maven-vs-gradle/))
+  - Popular build and dependency management tool, which builds upon Apache Maven, using Groovy DSL (Domain Specific Language). Offers many benefits over Maven ([Maven vs. Gradle Feature Comparison](https://gradle.org/maven-vs-gradle/)).
 
 - [eTools Artifactory](https://sites.google.com/a/trimble.com/trimble-etools/tools) for consuming and publishing artifacts
 
-  - Consuming will be dependent on the build/dependency management tool chosen. Please see each tool’s documentation for details. Plugins will be necessary
+  - Consuming will be dependent on the build/dependency management tool chosen. Please see each tool’s documentation for details. Plugins will be necessary.
 
     - [Artifactory Maven Plugin documentation](https://www.jfrog.com/confluence/display/RTF/Maven+Artifactory+Plugin)
 
