@@ -7,11 +7,11 @@
   <!-- redirects to new URL and keeps the hash in place -->
   <script>
     var anchor = window.location.hash.substr(1)
-    location.href = '{{ .Page.Params.redirect | relURL }}' +
-      (anchor ? '#' + anchor : '')
+    location.href = '{{ .Params.redirect | relURL }}' +
+      (anchor ? '#' + anchor : '');
   </script>
   <!-- fallback redirect is JavaScript is not available-->
-  <meta http-equiv="refresh" content="0; url={{ .Page.Params.redirect | relURL }}">
+  <meta http-equiv="refresh" content="0; url={{ .Params.redirect | relURL }}">
   <title>{{ .Title }}</title>
 </head>
 
