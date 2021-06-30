@@ -22,6 +22,7 @@ Code should be self documenting, meaning that the code itself is written in a wa
 - Follow general guidelines for comments per a code style corresponding to your language (C++, Java, Python, PHP etc).
 
 Unless specified otherwise please:
+
 - Avoid inline comments. Make your code clear and well structured.
 - When appropriate document methods, their log, inputs, and outputs.
 - Always document classes in the code.
@@ -45,7 +46,7 @@ Some of the tools in use within Trimble.
 | [Java](/code-style/java/) | JavaDoc                      | Parses the declarations and documentation comments in a set of Java source files and produces a corresponding set of HTML pages that describe the public and protected classes, nested classes interfaces, constructors, methods, and fields.                                          |
 | [JavaScript](/code-style/javascript/)               | JsDoc                        | Generates documentation from annotations embedded in comments in the source code.                                                                                                                                                                                                       |
 | [Python](/code-style/python/)                    | Sphinx                       | The Sphinx autodoc module extracts documentation strings from python source. Documentation strings can contain reStructured Text. Additional narrative is supplied in reStructured text files. Sphinx can output HTML, PDF, ePub, LaTeX, Windows HTML Help.                             |
-| [TypeScript](/code-style/typescript/)                | TypeDoc                      | Simpler more compact annotations than with JsDoc, optimised for TypeScript, uses typings directly from the TypeScript compiler.                                                                                                                                                         |
+| [TypeScript](/code-style/typescript/)                | TypeDoc                      | Simpler more compact annotations than with JsDoc, optimized for TypeScript, uses typings directly from the TypeScript compiler.                                                                                                                                                         |
 
 ## Bibliography
 

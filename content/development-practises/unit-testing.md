@@ -30,7 +30,7 @@ development style in place - TDD or otherwise.
 
 ### Focused Tests
 
-Ensure the tests are against a very specific behaviour of the unit in question,
+Ensure the tests are against a very specific behavior of the unit in question,
 try to have one logical assertion per test and avoid repeated assertions in
 many tests.
 

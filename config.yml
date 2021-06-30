@@ -150,10 +150,10 @@ module:
       target: static/js/jquery.slim.min.js
     - source: node_modules/jquery/dist/jquery.slim.min.map
       target: static/js/jquery.slim.min.map
-    - source: node_modules/@trimbleinc/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
-      target: static/js/bootstrap.bundle.min.js
-    - source: node_modules/@trimbleinc/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
-      target: static/js/bootstrap.bundle.min.js.map
+    - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+      target: static/js/bootstrap.min.js
+    - source: node_modules/bootstrap/dist/js/bootstrap.min.js.map
+      target: static/js/bootstrap.min.js.map
     - source: node_modules/clipboard/dist/clipboard.min.js
       target: static/js/clipboard.min.js
 
