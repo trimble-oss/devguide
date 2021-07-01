@@ -23,7 +23,7 @@
     {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
     {{ if not .IsHome }}
-    <script src="/js/clipboard.min.js" async></script>
+    <script src="/js/clipboard.min.js"></script>
     {{ $copyToClipboard := resources.Get "js/copy-to-clipboard.js" }}
     {{ $gaEvents := resources.Get "js/google-analytics-events.min.js" }}
     {{ $js := slice $copyToClipboard $gaEvents | resources.Concat "js/app.js" | resources.Minify }}

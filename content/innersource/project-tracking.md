@@ -22,6 +22,6 @@ Any issues found in the project should be reported as an issue under the Epic
 ## Action on Issues
 
 - Owner checks with an existing ticket for possibilities of duplication
-- Project Owner will prioritise the issue if required will touch base with a reporter for more clarification and business impact
+- Project Owner will prioritize the issue if required will touch base with a reporter for more clarification and business impact
 - Owner assigns priority
 - Owner tracks the issue and close when it fixed

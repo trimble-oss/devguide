@@ -16,13 +16,7 @@ code: true
 
 ## Exceptions to the Standard
 
-NOTE: The following exceptions are CEC exceptions, but I think this was a matter of someone’s personal preference and not a case of it being better for any (practical) reason.
-
-- Line Length: changed to 120 from 100 columns.
-- Indentation:
-  - Offset: changed from 2 spaces to 4 spaces.
-  - Case statement: from 2 spaces to 0 spaces.
-  - Array Initialization: 4 spaces from 2 spaces
+- None.
 
 ## Implementing the Standard
 
