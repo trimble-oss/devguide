@@ -31,5 +31,4 @@ code: true
 | CEC                   | APIs & Backend        |
 | FSM                   | Oculus                |
 | TPaaS                 | Platform as a Service |
-| Connect?              |                       |
 | Trimble Rail (Nexala) | Backend               |

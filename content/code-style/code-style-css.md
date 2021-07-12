@@ -44,7 +44,7 @@ You should have a `.stylelintrc` file in your project's root. Example:
 }
 ```
 
-You may find it useful to add a `.styleintignore` file to your project's root so linting is not ran on minified and other file types. Example:
+You may find it useful to add a `.styleintignore` file to your project's root so linting is not run on minified and other file types. Example:
 
 ```txt
 node-modules/

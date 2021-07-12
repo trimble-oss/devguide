@@ -22,7 +22,7 @@
       {{ partial "menu-left.html" . }}
     </div>
 
-    <div class="col-12 col-xl-2 d-none d-xl-block menu-right order-last">
+    <div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
       {{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
       {{ partial "menu-right.html" . }}
       {{- end -}}

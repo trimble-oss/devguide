@@ -24,9 +24,9 @@ None. Any further exceptions that would benefit a project should be documented a
 
 ## Implementing and enforcing the Standard
 
-| Tools/Procedures | Type                | In Use By | Notes                                         |
-| ---------------- | ------------------- | --------- | --------------------------------------------- |
-| PC-Lint          | Commercial          |           | Checks MISRA C automotive guidelines          |
-| SonarQube        | Free and Commercial | Tekla     | Checks code quality                           |
-| clang-format     | Free                | Tekla     | Formats source code according to style guide. |
-| Peer reviews     |                     |           |
+| Tools/Procedures                                             | Type                | In Use By | Notes                                         |
+| ------------------------------------------------------------ | ------------------- | --------- | --------------------------------------------- |
+| [PC-lint Plus](https://www.gimpel.com/)                      | Commercial          |           | Checks MISRA C automotive guidelines          |
+| [SonarQube](https://www.sonarqube.org/)                      | Free and Commercial | Tekla     | Checks code quality                           |
+| [clang-format](https://clang.llvm.org/docs/ClangFormat.html) | Free                | Tekla     | Formats source code according to style guide. |
+| Peer reviews                                                 |                     |           |
