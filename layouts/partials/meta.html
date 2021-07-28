@@ -28,7 +28,6 @@
 
 <!-- no need to define additional Twitter card meta tags as fallback to OpenGraph -->
 <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
-<meta name="last-modified" content="{{ now.Format "2006-01-02"}}">
 
 <!-- Theme Color is used for the tab color on Chrome for Android -->
 <meta name="theme-color" content="#005f9e">
@@ -38,7 +37,7 @@
 <!-- Show custom 'LOC' favicon for serving locally -->
 {{- if .Site.IsServer -}}
 {{ $favicon := resources.Get "/static/favicon-loc.ico" }}
-<link rel="icon" href="{{ $favicon.RelPermalink }}">
+<link rel="icon" href="{{ $favicon.RelPermalink }}" sizes="any">
 {{ else }}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 {{ end }}
