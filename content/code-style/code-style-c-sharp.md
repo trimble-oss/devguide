@@ -14,7 +14,7 @@ code: true
 
 Follow Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) which are based off of the [dotnet/runtime C# Style Guidelines](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style) while using the [dotnet/runtime .editorconfig file](https://github.com/dotnet/runtime/blob/main/.editorconfig).
 
-External APIs shall use xmldoc. This allows for tools such as Swashbuckle (Swagger documentation tool) or [DocFX](https://dotnet.github.io/docfx/) (MSDN style documentation tool) to create detailed documentation.
+External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/oas/latest.html) (API documentation specification) and tools like [DocFX](https://dotnet.github.io/docfx/) (MSDN style documentation tool) to create detailed documentation.
 
 ## Implementing the Standard
 
@@ -35,7 +35,7 @@ External APIs shall use xmldoc. This allows for tools such as Swashbuckle (Swagg
 
 - Versions of Visual Studio prior to 2017 can use [an extension](https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig).
 
-- For VS Code, usage of the [Omnisharp](https://www.strathweb.com/2020/02/hidden-features-of-omnisharp-and-c-extension-for-vs-code/#:~:text=Warm%20up%20%E2%80%93%20analyzers%20and%20.editorconfig) extension  will automatically use any .editorconfig in the top level of the workspace.
+- For VS Code, the [C# (powered by OmniSharp)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension  will automatically use any .editorconfig in the top level of the workspace.
 
 ## Exceptions to the Standard
 
