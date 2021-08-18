@@ -8,6 +8,7 @@ image: "/img/icons/code-style/c-sharp.svg"
 headerBGColor: "#239120"
 headerBGInvert: true
 code: true
+hideClipboard: true
 ---
 
 ## Reference Code Standard
@@ -22,7 +23,7 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 
 - Download the [dotnet/runtime .editorconfig file](https://github.com/dotnet/runtime/blob/main/.editorconfig) and place it in the same directory as your solution file (SLN).
 
-```
+```txt
 -- Solution Root Folder
 ---- .editorconfig file
 ---- .sln file
@@ -35,7 +36,7 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 
 - Versions of Visual Studio prior to 2017 can use [an extension](https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig).
 
-- For VS Code, the [C# (powered by OmniSharp)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension  will automatically use any .editorconfig in the top level of the workspace.
+- For VS Code, the [C# (powered by OmniSharp)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extension will automatically use any `.editorconfig` in the top level of the workspace.
 
 ## Exceptions to the Standard
 
