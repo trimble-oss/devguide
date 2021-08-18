@@ -13,9 +13,9 @@ See [The Markdown Guide](https://www.markdownguide.org) for documentation.
 
 A simple online Markdown editor can be found at - [https://writeme.mattstow.com/](https://writeme.mattstow.com/)
 
-Visual Studio Code has excellent support for Markdown editing - see [https://code.visualstudio.com/docs/languages/markdown](https://code.visualstudio.com/docs/languages/markdown) for details.
+Visual Studio Code has excellent support for Markdown editing - see [their docs](https://code.visualstudio.com/docs/languages/markdown) for details.
 
-For Visual Studio a very popular editor is available at [https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
+For Visual Studio a popular [Markdown editor is available](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor).
 
 The InnerSource checklist suggested a number of useful items to consider for inclusion as part of the Contributing Agreement:
 
@@ -58,4 +58,4 @@ The `README.md` should also include details of the location and how to access th
 
 **`CODE_OF_CONDUCT.md`** - (required) information as to how a contributor should treat a reviewer of their work and expectations of what a contributor should expect from their reviewer.
 
-A good example code of conduct can be found at [https://github.com/Capgemini/innersource-template/blob/master/CODE_OF_CONDUCT.md](https://github.com/Capgemini/innersource-template/blob/master/CODE_OF_CONDUCT.md)
+The Organization for Ethical Source have [a good Code of Conduct example](https://github.com/EthicalSource/contributor_covenant/blob/release/CODE_OF_CONDUCT.md).
