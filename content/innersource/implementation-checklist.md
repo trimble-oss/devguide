@@ -34,7 +34,7 @@ You can use this checklist to ensure that you complete all of the necessary step
 - [ ] The repository has the trimble-innersource label.
 - [ ] The repository has open read permissions for everyone.
 - [ ] The repository has write permissions so that anyone can submit a pull request.
-- [ ] The master and develop branches are protected so code cannot be committed without a Pull Request.
+- [ ] The `main` and `develop` branches are protected so code cannot be committed without a Pull Request.
 - [ ] The auto-unapprove setting for the repository is set to ‘On’.
 
 ## Contribution Agreements
