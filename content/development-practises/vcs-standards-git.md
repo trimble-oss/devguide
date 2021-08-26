@@ -28,7 +28,7 @@ and only bug fixes should be committed to a release candidate branch (after
 being reviewed). Once the release branch is deemed stable and passes all testing
 the branch will be merged into `main` and a tag with the version number will be
 added. The release branch will also be merged back into `develop`. Hotfix
-branches are made from the tag of the release being hotfixed.
+branches are made from the tag of the release version number being hotfixed.
 
 For InnerSource repositories, it is recommended to use the [Forking
 workflow][8]. This will allow the maintainer of the InnerSource repository to
