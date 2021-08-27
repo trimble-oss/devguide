@@ -14,7 +14,7 @@ concepts may be applied to an VCS.
 
 Ultimately it’s up to you, the project maintainer, to determine what’s most
 important for your project but keep in mind that the cleaner and more organized
-your project is the more likely other will contribute to it …….
+your project is the more likely others will contribute to it.
 
 ## Branching and Merging
 
@@ -32,7 +32,7 @@ branches are made from the tag of the release version number being hotfixed.
 
 For InnerSource repositories, it is recommended to use the [Forking
 workflow][8]. This will allow the maintainer of the InnerSource repository to
-not have to manage permissions for contributors of the respository.
+not have to manage permissions for contributors of the repository.
 
 ## Squashing & Rebasing
 

@@ -1,12 +1,3 @@
-.table-whats-new th {
-  background-color: #eee;
-}
-
-.table-whats-new th:first-of-type {
-  max-width: 79px;
-  width: 79px;
-}
-
 main table {
   font-size: 0.9rem;
   width: 100%;
@@ -52,12 +43,12 @@ main tbody td:nth-child(1) th {
 }
 
 main table tbody tr td table thead th {
-  background-color: #e2e2e7 !important;
+  background-color: #eaeaef !important;
   color: #363545;
   border-bottom: 0 !important;
 }
 
 main table th code {
-  color: #eee;
+  color: #e2e2e7;
   opacity: 0.7;
 }

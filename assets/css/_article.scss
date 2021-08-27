@@ -40,7 +40,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #111 !important;
+  color: #1b1a26 !important;
 }
 
 article img {
@@ -48,9 +48,16 @@ article img {
 }
 
 // anchors # for deep links within docs
-.header-link {
+a.header-link {
   opacity: 0;
   pointer-events: none;
+}
+
+a.header-link::after {
+  content: "#";
+  min-width: 20px;
+  opacity: 0.9;
+  display: inline-block;
 }
 
 h2:hover .header-link,
