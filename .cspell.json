@@ -431,6 +431,7 @@
         "hodgeman",
         "homepage",
         "hornung",
+        "hotfix",
         "hotjar",
         "hoverable",
         "howtobuy",
@@ -1116,7 +1117,7 @@
         "\\#\\w+"
     ],
     "ignorePaths": [
-        "cspell.json",
+        ".cspell.json",
         "**/node_modules/**",
         "*.min.*",
         "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
