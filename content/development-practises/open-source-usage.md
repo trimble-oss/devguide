@@ -20,4 +20,3 @@ you create.
 For this reason, Trimble has a [Comprehensive Open Source Policy](https://sites.google.com/trimble.com/open-source/home/policy),
 that you should reference and live by as you take advantage of world of open
 source software.
-

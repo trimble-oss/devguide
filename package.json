@@ -17,7 +17,7 @@
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build:dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "imagemin": "npx imagemin-cli static/img/*.png --out-dir=static/img",
-    "lint-css": "stylelint \"assets/css/*.scss\"",
+    "lint-css": "stylelint \"assets/css/*.scss\" --fix",
     "lint-html": "htmlhint \"public/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\"",
     "lint-links": "npx linkinator https://devguide.trimble.com --recurse --silent --skip https://devguide.trimble.com",
