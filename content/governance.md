@@ -14,4 +14,4 @@ If you have questions or suggestions regarding the guidelines, the working group
 
 ## How to contribute
 
-The Dev Guidelines site source and content are hosted on BitBucket. Please refer to the [CONTRIBUTING.md](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse/CONTRIBUTING.md) for instructions on how to contribute to the site.
+The Dev Guidelines site source and content are hosted on GitHub. Please refer to the [CONTRIBUTING.md](https://github.com/trimble-oss/devguide/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the site.
