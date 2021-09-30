@@ -17,7 +17,7 @@ main thead th {
   border-top: 0;
   vertical-align: bottom;
   padding: 0.3rem;
-  background-color: #eee;
+  background-color: #E0E1E9;
   border-bottom: 2px solid #dee2e6;
 }
 
@@ -28,14 +28,14 @@ td code {
 /** sticky top headers **/
 main thead tr:nth-child(1) th {
   position: sticky;
-  border-bottom: 1px solid #ccc !important;
+  border-bottom: 1px solid #CBCDD6 !important;
   // top: 0;
   z-index: 99;
   top: 69px; //offset taking the fixed top navbar into account
 }
 
 main thead {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #CBCDD6;
 }
 
 main tbody td:nth-child(1) th {

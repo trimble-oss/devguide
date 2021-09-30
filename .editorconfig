@@ -16,10 +16,6 @@ insert_final_newline = true
 [*.min.js]
 insert_final_newline = false
 
-[cspell.json]
-indent_size = 4
-insert_final_newline = false
-
 [*.svg]
 insert_final_newline = false
 
