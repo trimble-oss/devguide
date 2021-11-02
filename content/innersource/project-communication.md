@@ -13,13 +13,13 @@ Recommended would be either a Google Chat room or Google group.
 
 For a Google Chat room you can pre-subscribe all the group members by inviting their group e-mail address to the chat room. Please remember to uncheck the email notification option.
 
-See https://support.google.com/chat/answer/7653881?hl=en&ref_topic=7649113 for more details.
+See [Google Chat Help](https://support.google.com/chat/answer/7653881?hl=en&ref_topic=7649113) for more details.
 
 ## Google Groups
 
-To set up a Google Group, go to https://groups.google.com/my-groups and choose Create Group and follow the wizard. All Trimble groups have an associated e-mail address which always ends in -ug@trimble.com.
+To set up a Google Group, go to [Google Groups](https://groups.google.com/my-groups) and choose Create Group and follow the wizard. All Trimble groups have an associated e-mail address which always ends in -ug@trimble.com.
 
-See https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761 for more details on using Google Groups
+See [Google Chat Help](https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761) for more details on using Google Groups
 
 ------
 

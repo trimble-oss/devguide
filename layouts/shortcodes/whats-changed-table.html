@@ -1,6 +1,0 @@
-{{ $htmlTable := .Inner | markdownify }}
-{{ $class := .Get 0 }}
-{{ $old := "<table>" }}
-{{ $new := printf "<h5 class=\"mt-4\">What's Changed</h5><table class=\"table table-whats-new table-sm %s\">" $class }}
-{{ $htmlTable := replace $htmlTable $old $new }}
-{{ $htmlTable | safeHTML }}
