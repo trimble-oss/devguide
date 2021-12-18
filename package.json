@@ -50,7 +50,7 @@
     "purgecss": "^4.0.3",
     "s3-deploy": "^1.4.0",
     "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^22.0.0"
   },
   "hugo-bin": {
