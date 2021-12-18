@@ -1,0 +1,295 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Managing Code Complexity | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content>
+<meta property="og:title" content="Managing Code Complexity">
+<meta property="og:description" content="Introduction  Code complexity is an important issue to take into account during development to prevent technical debt from accruing and development slowing down. Unmanaged complexity leads to less structured code that puts an unnecessary burden on the developer’s mind. The SOLID principles promote an understandable and maintainable software design.
+Different types of complexity metrics   Cyclomatic complexity     Code structure.
+  Based purely on the execution flow (branches of execution in a function).">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devguide.trimble.com/development-practices/managing-code-complexity/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="development-practises">
+<meta property="article:modified_time" content="2021-06-23T09:31:15-06:00"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/development-practices/managing-code-complexity/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head><body data-url=/development-practices/managing-code-complexity/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+<div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">Managing Code Complexity</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 col-md-3 col-lg-2 menu-left">
+<div class=container>
+<div class="row mt-n4 d-md-none">
+<div class=col>
+</div>
+<div class="col-1 px-1 mx-auto">
+<button class="btn search-docs-toggle d-md-none mx-auto px-0" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=true aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><path stroke="currentcolor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+</div>
+</div>
+</div>
+<div class="sticky-top sticky-offset border-bottom">
+<nav class="bd-links collapse" id=docs-nav>
+<ul class=list-unstyled id=menu-left>
+<li class=mb-3><a class=text-dark href=/development-practices/code-documentation/>Code Documentation</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/code-review/>Code Review</a>
+
+<li class=mb-3><a class=text-dark href=/innersource/introduction/>InnerSource</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/managing-code-complexity/>Managing Code Complexity</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/open-source-usage/>Open Source Usage</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/packaging-and-distribution/>Packaging and Distribution</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/unit-testing/>Unit Testing</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/vcs-standards-git/>VCS Standards - Git</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/versioning/>Versioning</a>
+</ul>
+</nav>
+</div>
+<script>$(function(){for(var nav=document.getElementById("menu-left"),anchor=nav.getElementsByTagName("a"),current=window.location,i=0;i<anchor.length;i++)anchor[i].href==current&&(anchor[i].className="text-dark active",anchor[i].setAttribute("aria-current","page"))})</script>
+</div>
+<div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
+<script>$(function(){jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0'),jQuery('#TableOfContents a').addClass('nav-link')})</script>
+<div class="sticky-top sticky-offset">
+<div class="h5 pt-2 ml-3">
+On this page
+</div><nav id=TableOfContents>
+<ul>
+<li><a href=#introduction>Introduction</a>
+<li><a href=#different-types-of-complexity-metrics>Different types of complexity metrics</a>
+<ul>
+<li><a href=#cyclomatic-complexityhttpsenwikipediaorgwikicyclomatic_complexity><a href=https://en.wikipedia.org/wiki/Cyclomatic_complexity>Cyclomatic complexity</a></a>
+<li><a href=#cognitive-complexityhttpswwwsonarsourcecomdocscognitivecomplexitypdf><a href=https://www.sonarsource.com/docs/CognitiveComplexity.pdf>Cognitive complexity</a></a>
+<li><a href=#depth-of-inheritance>Depth of Inheritance</a>
+<li><a href=#class-coupling>Class coupling</a>
+<li><a href=#lines-of-code-in-functions-classes-and-files>Lines of code in functions, classes and files</a>
+</ul>
+
+<li><a href=#tools-for-enforcing-complexity-limits>Tools for enforcing complexity limits</a>
+<li><a href=#bibliography>Bibliography</a>
+</ul>
+</nav></div>
+</div>
+<div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+<article id=main>
+<h2 class="h1 mt-5" id=introduction>Introduction
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#introduction></a>
+</h2><p>Code complexity is an important issue to take into account during development to prevent technical debt from accruing and development slowing down. Unmanaged complexity leads to less structured code that puts an unnecessary burden on the developer’s mind. The
+<a href=https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29 rel=noopener target=_blank>SOLID</a> principles promote an understandable and maintainable software design.
+<h2 class="h1 mt-5" id=different-types-of-complexity-metrics>Different types of complexity metrics
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#different-types-of-complexity-metrics></a>
+</h2>
+<h3 class="h2 mt-5" id=a-hrefhttps//en.wikipedia.org/wiki/cyclomatic_complexity-relnoopener-target_blankcyclomatic-complexity/a>
+<a href=https://en.wikipedia.org/wiki/Cyclomatic_complexity rel=noopener target=_blank>Cyclomatic complexity</a>
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#cyclomatic-complexityhttpsenwikipediaorgwikicyclomatic_complexity></a>
+</h3>
+<ul>
+<li>
+<p>Code structure.
+
+<li>
+<p>Based purely on the execution flow (branches of execution in a function).
+
+<li>
+<p>Promotes splitting large functions into smaller, more manageable ones.
+
+<li>
+<p>Any function with a cyclomatic complexity below 10 can be considered simple and testable while a cyclomatic complexity greater than 20 indicates an overly complex function, so an acceptance threshold for functions should be defined between 10 and 20, depending on the application domain.
+<ul>
+<li>Some applications and programming languages are inherently more manageable with higher cyclomatic complexity, so the exact threshold can vary from one application to another.
+</ul>
+
+</ul>
+<h3 class="h2 mt-5" id=a-hrefhttps//www.sonarsource.com/docs/cognitivecomplexity.pdf-relnoopener-target_blankcognitive-complexity/a>
+<a href=https://www.sonarsource.com/docs/CognitiveComplexity.pdf rel=noopener target=_blank>Cognitive complexity</a>
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#cognitive-complexityhttpswwwsonarsourcecomdocscognitivecomplexitypdf></a>
+</h3>
+<ul>
+<li>
+<p>Human understandability.
+
+<li>
+<p>Based on code structure as well as cognitive factors in the code.
+<ul>
+<li>E.g. takes into account recursive calls and ignores shorthand expressions when forming a cognitive complexity score.
+</ul>
+
+<li>
+<p>How easy or difficult it is for a human being to understand the purpose and behavior of a piece of code.
+
+<li>
+<p>Promotes reducing the amount of processing the developer has to do while reading the code
+
+<li>
+<p>SonarQube defines a cognitive complexity of 15 as the default threshold for functions. This is a good starting point.
+
+</ul>
+<h3 class="h2 mt-5" id=depth-of-inheritance>Depth of Inheritance
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#depth-of-inheritance></a>
+</h3>
+<ul>
+<li>It becomes less clear where an inherited method originates from when the number of levels in the inheritance tree grows. Consider composition over inheritance. This metric was developed by Chidamber and Kemerer as an indicator for how many ancestor classes affect the behavior of a given class.
+</ul>
+<h3 class="h2 mt-5" id=class-coupling>Class coupling
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#class-coupling></a>
+</h3>
+<ul>
+<li>The number of unique interdependencies between classes can be used to identify classes that have high coupling. These classes might be a burden to reuse if they need developers to also include all the dependent classes. Interface segregation (one of the SOLID principles) reduces coupling to dependencies.
+</ul>
+<h3 class="h2 mt-5" id=lines-of-code-in-functions-classes-and-files>Lines of code in functions, classes and files
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#lines-of-code-in-functions-classes-and-files></a>
+</h3>
+<ul>
+<li>
+<p>Long functions might have multiple behaviors that should be separated into their own functions. The purpose becomes unclear when a function does many things. If the function does not fit on one screen, consider splitting it up.
+
+<li>
+<p>Large classes run the risk of becoming all-encompassing facades for a multitude of logical entities. A class should have a
+<a href=https://en.wikipedia.org/wiki/Single_responsibility_principle rel=noopener target=_blank>single responsibility</a>.
+
+<li>
+<p>Long files make it difficult to find the required sections of code. This ties into the problem with too long classes, where a file contains so many features that it becomes a burden on the developer’s memory. A good rule of thumb is to have one class per file.
+
+</ul>
+<h2 class="h1 mt-5" id=tools-for-enforcing-complexity-limits>Tools for enforcing complexity limits
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#tools-for-enforcing-complexity-limits></a>
+</h2><ul>
+<li>
+<p><strong>Code reviews are the recommended way of manually assessing code complexity</strong>
+<ul>
+<li>
+<p>More of a fuzzy check since this is entirely subjective to the reviewer
+
+<li>
+<p>Should answer the question ‘Is the code under review readable enough and understandable by other developers?’
+
+</ul>
+
+<li>
+<p><strong>SonarQube is the recommended automated tool for enforcing complexity limits</strong>
+<ul>
+<li>
+<p>Automatic rule sets for identifying both cognitive and cyclomatic complexity
+
+<li>
+<p>There are several built-in rules in the Sonar analyzers for handling complexity on expression, function and class levels in supported languages. Just do a search in Sonar for all rules containing the string &ldquo;complexity&rdquo; and having the tag “brain-overload” to find all the relevant rules. “Brain-overload” is a tag for rules concerned with clarity and readability and there are many other rules to enforce clearer code in addition to those concerned with calculated complexity.
+
+</ul>
+
+</ul>
+<h2 class="h1 mt-5" id=bibliography>Bibliography
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#bibliography></a>
+</h2><ul>
+<li>
+<a href=http://web.archive.org/web/20201106092202/http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod rel=noopener target=_blank>SOLID Principles</a>
+<li>
+<a href=https://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf rel=noopener target=_blank>Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)</a>
+</ul>
+<footer class="mt-4 pt-3">
+<span class="text-secondary small"><i>
+Last updated June 23, 2021.
+</i></span></footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>VCS Standards - Git | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content>
+<meta property="og:title" content="VCS Standards - Git">
+<meta property="og:description" content="This document is intended as a guide for code management using using version control systems (VCS). While the terminology used in the document is for Git the concepts may be applied to an VCS.
+Why It&rsquo;s Important  Ultimately it’s up to you, the project maintainer, to determine what’s most important for your project but keep in mind that the cleaner and more organized your project is the more likely others will contribute to it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devguide.trimble.com/development-practices/vcs-standards-git/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="development-practises">
+<meta property="article:modified_time" content="2021-08-27T17:05:02+09:00"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/development-practices/vcs-standards-git/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head><body data-url=/development-practices/vcs-standards-git/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+<div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">VCS Standards - Git</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 col-md-3 col-lg-2 menu-left">
+<div class=container>
+<div class="row mt-n4 d-md-none">
+<div class=col>
+</div>
+<div class="col-1 px-1 mx-auto">
+<button class="btn search-docs-toggle d-md-none mx-auto px-0" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=true aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><path stroke="currentcolor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+</div>
+</div>
+</div>
+<div class="sticky-top sticky-offset border-bottom">
+<nav class="bd-links collapse" id=docs-nav>
+<ul class=list-unstyled id=menu-left>
+<li class=mb-3><a class=text-dark href=/development-practices/code-documentation/>Code Documentation</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/code-review/>Code Review</a>
+
+<li class=mb-3><a class=text-dark href=/innersource/introduction/>InnerSource</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/managing-code-complexity/>Managing Code Complexity</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/open-source-usage/>Open Source Usage</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/packaging-and-distribution/>Packaging and Distribution</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/unit-testing/>Unit Testing</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/vcs-standards-git/>VCS Standards - Git</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/versioning/>Versioning</a>
+</ul>
+</nav>
+</div>
+<script>$(function(){for(var nav=document.getElementById("menu-left"),anchor=nav.getElementsByTagName("a"),current=window.location,i=0;i<anchor.length;i++)anchor[i].href==current&&(anchor[i].className="text-dark active",anchor[i].setAttribute("aria-current","page"))})</script>
+</div>
+<div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
+<script>$(function(){jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0'),jQuery('#TableOfContents a').addClass('nav-link')})</script>
+<div class="sticky-top sticky-offset">
+<div class="h5 pt-2 ml-3">
+On this page
+</div><nav id=TableOfContents>
+<ul>
+<li><a href=#why-its-important>Why It&rsquo;s Important</a>
+<li><a href=#branching-and-merging>Branching and Merging</a>
+<li><a href=#squashing--rebasing>Squashing & Rebasing</a>
+<li><a href=#commit-messages>Commit Messages</a>
+<ul>
+<li><a href=#dos>DOs</a>
+<li><a href=#donts>DON&rsquo;Ts</a>
+</ul>
+
+<li><a href=#general-guidelines>General Guidelines</a>
+<ul>
+<li><a href=#dos-1>DOs</a>
+<li><a href=#donts-1>DONTs</a>
+</ul>
+
+</ul>
+</nav></div>
+</div>
+<div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+<article id=main>
+<p>This document is intended as a guide for code management using using version
+control systems (VCS). While the terminology used in the document is for Git the
+concepts may be applied to an VCS.
+<h2 class="h1 mt-5" id=why-itrsquos-important>Why It&rsquo;s Important
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#why-its-important></a>
+</h2><p>Ultimately it’s up to you, the project maintainer, to determine what’s most
+important for your project but keep in mind that the cleaner and more organized
+your project is the more likely others will contribute to it.
+<h2 class="h1 mt-5" id=branching-and-merging>Branching and Merging
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#branching-and-merging></a>
+</h2><p>The suggested workflow for repositories is
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow rel=noopener target=_blank>Gitflow workflow</a> which defines a
+strict branching model designed around the project release. The remote <code>develop</code>
+branch is the development trunk. New feature branches and bug fix branches are
+made from <code>develop</code> and these branches can be pushed to the remote repository at
+any time. When they are completed, a developer should issue a merge request back
+into the <code>develop</code> branch. Release candidate branches are made from <code>develop</code>,
+and only bug fixes should be committed to a release candidate branch (after
+being reviewed). Once the release branch is deemed stable and passes all testing
+the branch will be merged into <code>main</code> and a tag with the version number will be
+added. The release branch will also be merged back into <code>develop</code>. Hotfix
+branches are made from the tag of the release version number being hotfixed.
+<p>For InnerSource repositories, it is recommended to use the
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow rel=noopener target=_blank>Forking
+workflow</a>. This will allow the maintainer of the InnerSource repository to
+not have to manage permissions for contributors of the repository.
+<h2 class="h1 mt-5" id=squashing-amp-rebasing>Squashing & Rebasing
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#squashing--rebasing></a>
+</h2><p>When possible squash your commits or rebase them interactively. Minimizing the
+number of commits on a feature will help keep the history clean for others.
+Having a series of commit with <em>made compile, oops, or fixed typo</em> makes history
+cloudy and hard for other to follow especially when using history and tracking
+tools like
+<a href=https://git-scm.com/docs/git-blame rel=noopener target=_blank>git blame</a>,
+<a href=https://git-scm.com/docs/git-cherry-pick rel=noopener target=_blank>cherry-pick</a> and
+<a href=https://git-scm.com/docs/git-revert rel=noopener target=_blank>git revert</a>. Think of a
+commit as a discrete stand alone feature or bug fix. For large complex feature,
+refactoring, or bug fixes don’t be afraid to have multiple commits, just be sure
+they consist of logical discrete functions.
+<h2 class="h1 mt-5" id=commit-messages>Commit Messages
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#commit-messages></a>
+</h2><p>Review Chris Beams blog post on
+<a href=https://chris.beams.io/posts/git-commit/ rel=noopener target=_blank>Writing Good Commit Messages</a>. Below are
+some guidelines based on Chris’s post.
+<h3 class="h2 mt-5" id=dos>DOs
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#dos></a>
+</h3>
+<ul>
+<li>Define a standard that works for your team and stick to it.
+<li>Always capture Jira or any other system Id in your commit.
+<li>Summary line should always be 72 characters or less.
+<li>Separate summary from body with a blank line.
+<li>Begin summary line with a capital letter.
+<li>Write the summary line and description of what you have done in the imperative
+mode, as if you were commanding someone. Start the line with &ldquo;Fix&rdquo;, &ldquo;Add&rdquo;,
+&ldquo;Change&rdquo; instead of &ldquo;Fixed&rdquo;, &ldquo;Added&rdquo;, &ldquo;Changed”.
+<li>The summary should be indicative of what the commit does when applied rather
+than what you did with the code.
+<li>Consider using pre-commit hooks to audit commit messages before a merge.
+</ul>
+<h3 class="h2 mt-5" id=donrsquots>DON&rsquo;Ts
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#donts></a>
+</h3>
+<ul>
+<li>Don’t end the summary line with a period.
+<li>Don’t describe the code when writing body. Describe the intent and approach.
+<li>Don’t have any lazy commit messages. For e.g: any commit labeled as “Minor
+Code changes”, “Code Review Comments”, “Code Fixes”, “Cleanup” or similar.
+<li>Don’t mix white space changes with functional code changes.
+<li>Don’t mix two unrelated functional changes.
+<li>Avoid sending a large new feature in a single giant commit (Recommendation is
+to do at least one commit every day).
+</ul>
+<h2 class="h1 mt-5" id=general-guidelines>General Guidelines
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#general-guidelines></a>
+</h2>
+<h3 class="h2 mt-5" id=dos>DOs
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#dos-1></a>
+</h3>
+<ul>
+<li>Understand how your version control system works.
+<li>Understand how your version control system works (yes, it’s that important).
+<li>Use merge requests or pull requests.
+<li>Have clear commit messages.
+<li>Include the issue number in your commit message.
+<li>Squash and rebase (where appropriate).
+<li>Use feature branches and use an agreed upon format.
+<li>Include a README.md file.
+</ul>
+<h3 class="h2 mt-5" id=donts>DONTs
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#donts-1></a>
+</h3>
+<ul>
+<li>Push directly to <code>develop</code> or <code>main</code>.
+<li>Have meaningless commit messages like “fixed typo”.
+<li>Push all of your local commits to your remote.
+</ul>
+<ol>
+<li>
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows rel=noopener target=_blank>Atlassian Git workflows</a>
+<li>
+<a href=https://git-scm.com/ rel=noopener target=_blank>Git source code management</a>
+<li>
+<a href=https://chris.beams.io/posts/git-commit/ rel=noopener target=_blank>Chris Beams post on writing good commit messages</a>
+</ol>
+<footer class="mt-4 pt-3">
+<span class="text-secondary small"><i>
+Last updated August 27, 2021.
+</i></span></footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>

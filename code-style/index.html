@@ -1,0 +1,291 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Code Style | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content="Code Styles">
+<meta property="og:title" content="Code Style">
+<meta property="og:description" content="Code Styles">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devguide.trimble.com/code-style/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/code-style/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head>
+<body data-url=/code-style/><div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">Code Style</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 mx-auto">
+<article id=main>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-6">
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5" style=background-color:#a8b9cc ;>
+<img src=/img/icons/code-style/c.svg class="mx-auto text-center" width=52 height=52 alt=C style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>C</h4>
+<p><a href=/code-style/c/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#239120 ;>
+<img src=/img/icons/code-style/c-sharp.svg class="mx-auto text-center" width=52 height=52 alt=C# style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>C#</h4>
+<p><a href=/code-style/c-sharp/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#00599c ;>
+<img src=/img/icons/code-style/c-plus-plus.svg class="mx-auto text-center" width=52 height=52 alt=C++ style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>C++</h4>
+<p><a href=/code-style/c-plus-plus/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#157286 ;>
+<img src=/img/icons/code-style/css.svg class="mx-auto text-center" width=52 height=52 alt=CSS style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>CSS</h4>
+<p><a href=/code-style/css/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#5d57c6 ;>
+<img src=/img/icons/code-style/go.svg class="mx-auto text-center" width=52 height=52 alt=Go style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Go</h4>
+<p><a href=/code-style/go/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#e34f26 ;>
+<img src=/img/icons/code-style/html.svg class="mx-auto text-center" width=52 height=52 alt=HTML style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>HTML</h4>
+<p><a href=/code-style/html/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5" style=background-color:#f7df1e ;>
+<img src=/img/icons/code-style/javascript.svg class="mx-auto text-center" width=52 height=52 alt=JavaScript style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>JavaScript</h4>
+<p><a href=/code-style/javascript/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#007396 ;>
+<img src=/img/icons/code-style/java.svg class="mx-auto text-center" width=52 height=52 alt=Java style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Java</h4>
+<p><a href=/code-style/java/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#c7555f ;>
+<img src=/img/icons/code-style/kotlin.svg class="mx-auto text-center" width=52 height=52 alt=Kotlin style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Kotlin</h4>
+<p><a href=/code-style/kotlin/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert bg-secondary">
+<img src=/img/icons/code-style/objective-c.svg class="mx-auto text-center" width=52 height=52 alt="Objective C" style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Objective C</h4>
+<p><a href=/code-style/objective-c/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#3776ab ;>
+<img src=/img/icons/code-style/python.svg class="mx-auto text-center" width=52 height=52 alt=Python style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Python</h4>
+<p><a href=/code-style/python/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#fa7343 ;>
+<img src=/img/icons/code-style/swift.svg class="mx-auto text-center" width=52 height=52 alt=Swift style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>Swift</h4>
+<p><a href=/code-style/swift/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col h-100 mb-4">
+<div class="card card-blog-brief h-100 w-100 border shadow-sm">
+<div class="card-header text-center py-5 img-invert" style=background-color:#3178c6 ;>
+<img src=/img/icons/code-style/typescript.svg class="mx-auto text-center" width=52 height=52 alt=TypeScript style=opacity:.8>
+</div>
+<div class=card-body>
+<div class=card-title>
+<h4 class=h5>TypeScript</h4>
+<p><a href=/code-style/typescript/ class=stretched-link></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="mt-4 pt-3">
+</footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>

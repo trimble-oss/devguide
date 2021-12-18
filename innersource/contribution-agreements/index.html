@@ -1,0 +1,211 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Contribution Agreements | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content>
+<meta property="og:title" content="Contribution Agreements">
+<meta property="og:description" content="Documentation known as the Contributing Agreement which should be stored in the root of a repository or project in the case of a monorepo. Documentation should be provided in Markdown format.
+Bitbucket has full support for rendering Markdown into rich text format so it is easy for potential contributors to read and learn about the project.
+See The Markdown Guide for documentation.
+A simple online Markdown editor can be found at - https://writeme.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devguide.trimble.com/innersource/contribution-agreements/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="innersource">
+<meta property="article:modified_time" content="2021-08-18T20:41:34+09:00"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/innersource/contribution-agreements/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head><body data-url=/innersource/contribution-agreements/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+<div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">Contribution Agreements</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 col-md-3 col-lg-2 menu-left">
+<div class=container>
+<div class="row mt-n4 d-md-none">
+<div class=col>
+</div>
+<div class="col-1 px-1 mx-auto">
+<button class="btn search-docs-toggle d-md-none mx-auto px-0" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=true aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><path stroke="currentcolor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+</div>
+</div>
+</div>
+<div class="sticky-top sticky-offset border-bottom">
+<nav class="bd-links collapse" id=docs-nav>
+<ul class=list-unstyled id=menu-left>
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/introduction/>Introduction</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/implementation-checklist/>Implementation Checklist</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/innersource-roles/>InnerSource Roles</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/repository-configuration/>Repository Configuration</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/contribution-agreements/>Contribution Agreements</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-documentation/>Project Documentation</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-communication/>Project Communication</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-tracking/>Project Tracking</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/publish-documentation/>Publishing Your Documentation</a>
+</ul>
+</nav>
+</div>
+<script>$(function(){for(var nav=document.getElementById("menu-left"),anchor=nav.getElementsByTagName("a"),current=window.location,i=0;i<anchor.length;i++)anchor[i].href==current&&(anchor[i].className="text-dark active",anchor[i].setAttribute("aria-current","page"))})</script>
+</div>
+<div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
+<script>$(function(){jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0'),jQuery('#TableOfContents a').addClass('nav-link')})</script>
+<div class="sticky-top sticky-offset">
+<div class="h5 pt-2 ml-3">
+On this page
+</div><nav id=TableOfContents></nav></div>
+</div>
+<div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+<article id=main>
+<p>Documentation known as the <em>Contributing Agreement</em> which should be stored in the root of a repository or project in the case of a monorepo. Documentation should be provided in Markdown format.
+<p>Bitbucket has full support for rendering Markdown into rich text format so it is easy for potential contributors to read and learn about the project.
+<p>See
+<a href=https://www.markdownguide.org rel=noopener target=_blank>The Markdown Guide</a> for documentation.
+<p>A simple online Markdown editor can be found at -
+<a href=https://writeme.mattstow.com/ rel=noopener target=_blank>https://writeme.mattstow.com/</a>
+<p>Visual Studio Code has excellent support for Markdown editing - see
+<a href=https://code.visualstudio.com/docs/languages/markdown rel=noopener target=_blank>their docs</a> for details.
+<p>For Visual Studio a popular
+<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor" rel=noopener target=_blank>Markdown editor is available</a>.
+<p>The InnerSource checklist suggested a number of useful items to consider for inclusion as part of the Contributing Agreement:
+<ul>
+<li>The authoring TC’s specialties
+<li>Community guidelines
+<li>Code conventions
+<li>Testing conventions
+<li>Branching conventions
+<li>Commit-message conventions
+<li>Steps for creating good pull requests
+<li>How to submit feature requests
+<li>How to submit bug reports
+<li>How to submit security issue reports
+<li>How to write documentation
+<li>Definition of done
+<li>Dependencies
+<li>Build-process schedule
+<li>Sprint schedule
+<li>Road map
+</ul>
+<p>The Contributing Agreement should be broken down as follows:
+<p><strong><code>README.md</code></strong> - provides a general description of the project, its intent and who the Trusted Committer(s) are for the project.
+<p>This file is loaded by default when you open a repo in Bitbucket. The <code>README.md</code> should link to the other InnerSource files for easy navigation.
+<p>A useful interactive tool for creating a readme can be found here -
+<a href=https://www.makeareadme.com/ rel=noopener target=_blank>https://www.makeareadme.com/</a>
+<p>Numerous examples of <code>README.md</code> files can be found on GitHub.
+<p>The <code>README.md</code> should also include details of the location and how to access the discussion forum as well as the relevant Jira project details.
+<p><strong><code>GETTINGSTARTED.md</code></strong> - This could be optionally included to provide additional information which might not be needed in the general <code>README.md</code> for example a more detailed checklist of information which a contributor needs to know in order to provide a useful contribution - technical details of how the project is structured, how to run tests etc.
+<p><strong><code>CONTRIBUTING.md</code></strong> - provides information on how to submit a pull request, who to assign the pull request to - (i.e. the Trust Committer(s) for the project.
+<p><strong><code>CODEREVIEW.md</code></strong> - (optional file - this information could be included in <code>CONTRIBUTING.md</code>) should contain information as to how a pull request is evaluated for this project - what coding standards are required, expectations in terms of test coverage for unit tests, whether integration tests are required, what kind of turnaround time to expect for code review etc.
+<p><strong><code>HELPWANTED.md</code></strong> - (optional file) a list of &ldquo;most wanted&rdquo; features for which a project would like to invite external contributions
+<p><strong><code>CODE_OF_CONDUCT.md</code></strong> - (required) information as to how a contributor should treat a reviewer of their work and expectations of what a contributor should expect from their reviewer.
+<p>The Organization for Ethical Source have
+<a href=https://github.com/EthicalSource/contributor_covenant/blob/release/CODE_OF_CONDUCT.md rel=noopener target=_blank>a good Code of Conduct example</a>.
+<footer class="mt-4 pt-3">
+<span class="text-secondary small"><i>
+Last updated August 18, 2021.
+</i></span></footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>

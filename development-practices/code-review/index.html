@@ -1,0 +1,314 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Code Review | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content>
+<meta property="og:title" content="Code Review">
+<meta property="og:description" content="Rationale
+ Catch bugs Spread knowledge of the code base throughout the team Expose everyone to different approaches  Best Practices   Review before merging upstream   Merging to the upstream branch before review makes it too easy for code to slip through unreviewed. Once other developers have started to build on a questionable design it is much harder to change.
+Review all code   No code is too short or too simple.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devguide.trimble.com/development-practices/code-review/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="development-practises">
+<meta property="article:modified_time" content="2021-06-23T09:31:15-06:00"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/development-practices/code-review/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head><body data-url=/development-practices/code-review/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+<div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">Code Review</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 col-md-3 col-lg-2 menu-left">
+<div class=container>
+<div class="row mt-n4 d-md-none">
+<div class=col>
+</div>
+<div class="col-1 px-1 mx-auto">
+<button class="btn search-docs-toggle d-md-none mx-auto px-0" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=true aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><path stroke="currentcolor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+</div>
+</div>
+</div>
+<div class="sticky-top sticky-offset border-bottom">
+<nav class="bd-links collapse" id=docs-nav>
+<ul class=list-unstyled id=menu-left>
+<li class=mb-3><a class=text-dark href=/development-practices/code-documentation/>Code Documentation</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/code-review/>Code Review</a>
+
+<li class=mb-3><a class=text-dark href=/innersource/introduction/>InnerSource</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/managing-code-complexity/>Managing Code Complexity</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/open-source-usage/>Open Source Usage</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/packaging-and-distribution/>Packaging and Distribution</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/unit-testing/>Unit Testing</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/vcs-standards-git/>VCS Standards - Git</a>
+
+<li class=mb-3><a class=text-dark href=/development-practices/versioning/>Versioning</a>
+</ul>
+</nav>
+</div>
+<script>$(function(){for(var nav=document.getElementById("menu-left"),anchor=nav.getElementsByTagName("a"),current=window.location,i=0;i<anchor.length;i++)anchor[i].href==current&&(anchor[i].className="text-dark active",anchor[i].setAttribute("aria-current","page"))})</script>
+</div>
+<div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
+<script>$(function(){jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0'),jQuery('#TableOfContents a').addClass('nav-link')})</script>
+<div class="sticky-top sticky-offset">
+<div class="h5 pt-2 ml-3">
+On this page
+</div><nav id=TableOfContents>
+<ul>
+<li><a href=#best-practices>Best Practices</a>
+<ul>
+<li><a href=#review-before-merging-upstream>Review before merging upstream</a>
+<li><a href=#review-all-code>Review all code</a>
+<li><a href=#everyone-should-code-review>Everyone should code review</a>
+<li><a href=#let-automated-tools-do-the-work-when-possible>Let automated tools do the work when possible</a>
+<li><a href=#limit-a-review-to-fewer-than-400-lines-of-code-at-a-time>Limit a review to fewer than 400 lines of code at a time</a>
+<li><a href=#authors-should-provide-context-for-a-review>Authors should provide context for a review</a>
+<li><a href=#use-a-checklist>Use a Checklist</a>
+</ul>
+
+<li><a href=#appendix-a-code-review-checklist>Appendix A: Code Review Checklist</a>
+<ul>
+<li><a href=#general>General</a>
+<li><a href=#security>Security</a>
+<li><a href=#internationalization>Internationalization</a>
+<li><a href=#documentation>Documentation</a>
+<li><a href=#testing>Testing</a>
+</ul>
+
+<li><a href=#appendix-b-tools>Appendix B: Tools</a>
+<li><a href=#bibliography>Bibliography</a>
+</ul>
+</nav></div>
+</div>
+<div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+<article id=main>
+<p>Rationale
+<ul>
+<li>Catch bugs
+<li>Spread knowledge of the code base throughout the team
+<li>Expose everyone to different approaches
+</ul>
+<h2 class="h1 mt-5" id=best-practices>Best Practices
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#best-practices></a>
+</h2>
+<h3 class="h2 mt-5" id=review-before-merging-upstream>Review before merging upstream
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#review-before-merging-upstream></a>
+</h3>
+<p>Merging to the upstream branch before review makes it too easy for code to slip through unreviewed. Once other developers have started to build on a questionable design it is much harder to change.
+<h3 class="h2 mt-5" id=review-all-code>Review all code
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#review-all-code></a>
+</h3>
+<p>No code is too short or too simple. If you review everything then nothing gets missed. What’s more, it makes it part of the process, a habit and not an afterthought.
+<h3 class="h2 mt-5" id=everyone-should-code-review>Everyone should code review
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#everyone-should-code-review></a>
+</h3>
+<p>The more experienced may well spot more bugs, and that’s important. But more important is maintaining a positive attitude to code review in general and that means avoiding any ‘Us vs. Them’ attitude, or making reviewing code burdensome for someone.
+<h3 class="h2 mt-5" id=let-automated-tools-do-the-work-when-possible>Let automated tools do the work when possible
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#let-automated-tools-do-the-work-when-possible></a>
+</h3>
+<p>It is inefficient to argue over code style and formatting issues. There are plenty of tools which can consistently highlight those things. Ensuring that the code is correct, understandable and maintainable is what’s important.
+<h3 class="h2 mt-5" id=limit-a-review-to-fewer-than-400-lines-of-code-at-a-time>Limit a review to fewer than 400 lines of code at a time
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#limit-a-review-to-fewer-than-400-lines-of-code-at-a-time></a>
+</h3>
+<p>A study has revealed that beyond 400 LOC the ability to find defects diminishes. The same research shows that inspection rate faster than 500 LOC per hour results in a significant drop in the number of defects found. A reviewer’s effectiveness also falls after an hour of concentrated effort.
+<h3 class="h2 mt-5" id=authors-should-provide-context-for-a-review>Authors should provide context for a review
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#authors-should-provide-context-for-a-review></a>
+</h3>
+<p>Authors should annotate code before the review occurs because annotations guide the reviewer through the changes, showing which files to look at first and defending the reason behind each code modification. Annotations should be directed at other reviewers to ease the process and provide more depth in context.
+<h3 class="h2 mt-5" id=use-a-checklist>Use a Checklist
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#use-a-checklist></a>
+</h3>
+<p>A checklist helps to catch omissions which are one of the hardest things to catch in a review. A checklist assures that the review captures mistakes a team tends to repeat. The list should be updated over time to add repeated mistakes and remove ones the team has learned not to make. Appendix A contains a sample checklist.
+<h2 class="h1 mt-5" id=appendix-a-code-review-checklist>Appendix A: Code Review Checklist
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#appendix-a-code-review-checklist></a>
+</h2>
+<h3 class="h2 mt-5" id=general>General
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#general></a>
+</h3>
+<ul>
+<li>Does the code work? Does it perform its intended function, the logic is correct etc.
+<li>Is all the code easily understood?
+<li>Does it conform to your agreed coding conventions? These will usually cover location of braces, variable and function names, line length, indentations, formatting, and comments.
+<li>Is there any redundant or duplicate code?
+<li>Is the code as modular as possible?
+<li>Can any global variables be replaced?
+<li>Is there any commented out code?
+<li>Do loops have a set length and correct termination conditions?
+<li>Can any of the code be replaced with library functions?
+<li>Can any logging or debugging code be removed?
+</ul>
+<h3 class="h2 mt-5" id=security>Security
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#security></a>
+</h3>
+<ul>
+<li>Are all data inputs checked (for the correct type, length, format, and range) and encoded?
+<li>Where third-party utilities are used, are returning errors being caught?
+<li>Are output values checked and encoded?
+<li>Are invalid parameter values handled?
+</ul>
+<h3 class="h2 mt-5" id=internationalization>Internationalization
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#internationalization></a>
+</h3>
+<ul>
+<li>Is parsing and formatting using discipline specific libraries?
+<li>Is translation supported? Resources that need translation must be stored in a format that can be sent to translators.
+<li>Can the translator control noun verb order?
+<li>Are resources that need translation embedded in the code? If so they need to be extracted to a resource file.
+</ul>
+<h3 class="h2 mt-5" id=documentation>Documentation
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#documentation></a>
+</h3>
+<ul>
+<li>Do comments exist and describe the intent of the code?
+<li>Are all functions commented?
+<li>Is any unusual behavior or edge-case handling described?
+<li>Is the use and function of third-party libraries documented?
+<li>Are data structures and units of measurement explained?
+<li>Is there any incomplete code? If so, should it be removed or flagged with a suitable marker like ‘TODO’?
+</ul>
+<h3 class="h2 mt-5" id=testing>Testing
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#testing></a>
+</h3>
+<ul>
+<li>Is the code testable? i.e. don’t add too many or hide dependencies, unable to initialize objects, test frameworks can use methods etc.
+<li>Do tests exist and are they comprehensive? i.e. has at least your agreed on code coverage.
+<li>Do unit tests actually test that the code is performing the intended functionality?
+<li>Are arrays checked for ‘out-of-bound’ errors?
+</ul>
+<h2 class="h1 mt-5" id=appendix-b-tools>Appendix B: Tools
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#appendix-b-tools></a>
+</h2><p>Code review tools known to be in use at Trimble
+<ul>
+<li>
+<a href=https://github.com/rietveld-codereview/rietveld/wiki rel=noopener target=_blank>Rietveld</a>
+<li>
+<a href=https://confluence.atlassian.com/bitbucketserver0414/using-pull-requests-in-bitbucket-server-895367664.html rel=noopener target=_blank>Bitbucket Pull Requests</a>
+<li>
+<a href=https://www.atlassian.com/software/crucible rel=noopener target=_blank>Crucible</a>
+<li>
+<a href="https://docs.microsoft.com/azure/devops/repos/tfvc/get-code-reviewed-vs?view=azure-devops" rel=noopener target=_blank>Team Foundation Server Code Reviews</a>
+</ul>
+<h2 class="h1 mt-5" id=bibliography>Bibliography
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#bibliography></a>
+</h2><ul>
+<li>
+<a href=https://web.archive.org/web/20180219163514/blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/ rel=noopener target=_blank>Increase Defect Detection with our Code Review Checklist</a>
+<li>
+<a href=https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ rel=noopener target=_blank>Best Practices for Code Review</a>
+<li>
+<a href=https://web.archive.org/web/20180313140443/https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/ rel=noopener target=_blank>Effective Code Reviews – 9 Tips from a Converted Skeptic</a>
+<li>
+<a href=https://www.atlassian.com/agile/code-reviews rel=noopener target=_blank>Why code reviews matter (and actually save time!)</a>
+<li>
+<a href=http://www.evoketechnologies.com/blog/code-review-checklist-perform-effective-code-reviews/ rel=noopener target=_blank>Code Review Checklist – To Perform Effective Code Reviews</a>
+<li>
+<a href=https://smartbear.com/resources/ebooks/best-kept-secrets-of-code-review/ rel=noopener target=_blank>Best Kept Secrets of Peer Code Review</a>
+</ul>
+<footer class="mt-4 pt-3">
+<span class="text-secondary small"><i>
+Last updated June 23, 2021.
+</i></span></footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Introduction to InnerSource | Developer Guidelines</title>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+<link rel=stylesheet href=/css/styles.min.css?2021-12-18><script src=/js/jquery.slim.min.js></script>
+<script src=/js/bootstrap.min.js async></script>
+<meta name=description content="Open Source has brought a lot of advantages to software development, such as transparency, collaboration, communication, etc.">
+<meta property="og:title" content="Introduction to InnerSource">
+<meta property="og:description" content="Open Source has brought a lot of advantages to software development, such as transparency, collaboration, communication, etc.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devguide.trimble.com/innersource/introduction/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="innersource">
+<meta property="article:modified_time" content="2021-04-27T17:31:52+01:00"><meta property="og:site_name" content="Developer Guidelines">
+<meta property="og:locale" content="en_US">
+<meta name=theme-color content="#005f9e">
+<link rel=canonical href=https://devguide.trimble.com/innersource/introduction/>
+<link rel=icon href=/favicon.svg type=image/svg+xml>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
+</head><body data-url=/innersource/introduction/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+<div class=bg-anim>
+<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<div class="container flex-column flex-md-row justify-content-end">
+<a class="navbar-brand mr-left mr-md-auto font-weight-bold" href=/>
+<img src=/img/trimble-logo-rev.svg width=107 height=24 class=img-fluid alt=home>
+<div class="small text-white">Developer Guidelines</div>
+</a>
+<div class="skippy overflow-hidden">
+<div class=container>
+<a class="sr-only sr-only-focusable nav-item mt-3 mx-0 mx-sm-1" href=#main>Skip to
+main content</a>
+</div>
+</div>
+<div class=navbar-nav-scroll>
+<ul class=navbar-nav>
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
+
+<li class="nav-item mx-0 mx-sm-1 mx-md-2">
+<a class="nav-link text-white" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+</nav>
+<header class="container-fluid px-0 pt-5 pt-md-1">
+<div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
+<div class="row py-lg-3 pb-xl-4">
+<div class="col-12 py-lg-4 pb-5 text-center">
+<h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white">Introduction to InnerSource</h1>
+</div>
+</div>
+</div>
+</header>
+</div>
+<main role=main class="mb-5 container">
+<div class=row>
+<div class="col-12 col-md-3 col-lg-2 menu-left">
+<div class=container>
+<div class="row mt-n4 d-md-none">
+<div class=col>
+</div>
+<div class="col-1 px-1 mx-auto">
+<button class="btn search-docs-toggle d-md-none mx-auto px-0" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=true aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><path stroke="currentcolor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+</div>
+</div>
+</div>
+<div class="sticky-top sticky-offset border-bottom">
+<nav class="bd-links collapse" id=docs-nav>
+<ul class=list-unstyled id=menu-left>
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/introduction/>Introduction</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/implementation-checklist/>Implementation Checklist</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/innersource-roles/>InnerSource Roles</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/repository-configuration/>Repository Configuration</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/contribution-agreements/>Contribution Agreements</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-documentation/>Project Documentation</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-communication/>Project Communication</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/project-tracking/>Project Tracking</a>
+
+<li class=mb-3><a class="text-dark notranslate" href=/innersource/publish-documentation/>Publishing Your Documentation</a>
+</ul>
+</nav>
+</div>
+<script>$(function(){for(var nav=document.getElementById("menu-left"),anchor=nav.getElementsByTagName("a"),current=window.location,i=0;i<anchor.length;i++)anchor[i].href==current&&(anchor[i].className="text-dark active",anchor[i].setAttribute("aria-current","page"))})</script>
+</div>
+<div class="col-12 col-xl-2 d-none d-xl-block d-print-none menu-right order-last">
+<script>$(function(){jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0'),jQuery('#TableOfContents a').addClass('nav-link')})</script>
+<div class="sticky-top sticky-offset">
+<div class="h5 pt-2 ml-3">
+On this page
+</div><nav id=TableOfContents>
+<ul>
+<li><a href=#implementing-the-guidelines>Implementing the Guidelines</a>
+<li><a href=#resources>Resources</a>
+</ul>
+</nav></div>
+</div>
+<div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
+<article id=main>
+<p>Open Source has brought a lot of advantages to software development, such as transparency, collaboration, communication, etc. InnerSource is an attempt for us to bring these advantages into our internal development by adopting the practices and culture of Open Source.
+<blockquote>
+<p>To understand the appeal of InnerSource project management, consider what has made open source software development so successful:
+<ul>
+<li>Programmers share their work with a wide audience, instead of just with a manager or team. In most open source projects, any‐ one in the world is free to view the code, comment on it, learn new skills by examining it, and submit changes that they think will improve it or customize it to their needs.
+<li>New code repositories (branches) based on the project can be made freely, so that sites with unanticipated uses for the code can adapt it. There are usually rules and technical support for remerging different branches into the original master branch.
+<li>People at large geographical distances, at separate times, can work on the same code or contribute different files of code to the same project.
+<li>Communication tends to be written and posted to public sites instead of shared informally by word of mouth, which provides a history of the project as well as learning opportunities for new project members.
+<li>Writing unit tests becomes a key programming task. A “unit test” is a small test that checks for a particular, isolated behavior such as rejecting incorrect input or taking the proper branch under certain conditions. In open source and InnerSource, testing is done constantly as changes are checked in, to protect against failures during production runs.
+</ul>
+</blockquote>
+<blockquote>
+<p>InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefiting from the creativity and diverse perspectives contributed by people throughout the organization.
+</blockquote>
+<h2 class="h1 mt-5" id=implementing-the-guidelines>Implementing the Guidelines
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#implementing-the-guidelines></a>
+</h2><p>You can find the detailed guidelines on implementing the various aspects of InnerSource in this section of the Developer Guidelines website. Additionally an
+<a href=/innersource/implementation-checklist/>implementation checklist</a> to help guide you through the steps is also available. In summary the following steps should be taken to prepare your project for InnerSource:
+<ol>
+<li>
+<p>Define the Owner(s) and Trusted Committer(s) for your project, following the
+<a href=/innersource/innersource-roles/>InnerSource Roles guidance</a>.
+
+<li>
+<p>Configure your Bitbucket repository to allow InnerSource contributions correctly. Follow the guidance on
+<a href=/innersource/repository-configuration/>repository configuration</a>.
+
+<li>
+<p>Create the Contribution Agreement for the project which sets the ground rules for how people can contribute to the project. Follow the specific guidance on
+<a href=/innersource/contribution-agreements/>creating the Contribution Agreement</a>.
+
+<li>
+<p>Create and maintain the documentation for the project - ensuring documentation in the repository is kept up to date - particularly including details of the current Trusted Committer if the role is rotated. Follow the guidance on
+<a href=/innersource/project-documentation/>project documentation</a>.
+
+<li>
+<p>Set up a method of communication for existing contributors, consumers and people who want to contribute. Follow the guidance on
+<a href=/innersource/project-communication/>project communication</a>.
+
+<li>
+<p>Setup a project tracking to allow people to report and track issues/suggestions for your project. Follow the guidance on
+<a href=/innersource/project-tracking/>project tracking</a>.
+
+</ol>
+<p>Remember to check out the
+<a href=/innersource/implementation-checklist/>implementation checklist</a> for more detailed steps and the rest of this section for more specific detail on the different InnerSource concepts.
+<h2 class="h1 mt-5" id=resources>Resources
+<a class="header-link text-light text-decoration-none font-weight-normal" href=#resources></a>
+</h2><ul>
+<li>
+<a href=http://innersourcecommons.org/checklist/ rel=noopener target=_blank>InnerSource Commons Checklist</a> - A free PDF by PayPal that describes ways to adopt InnerSource
+<li>
+<a href=https://github.com/commonality/generator-community/wiki/InnerSource-checklist rel=noopener target=_blank>InnerSource Checklist Summary</a>
+<li>Three-part series on InnerSource from Salesforce
+<ul>
+<li>
+<a href=https://engineering.salesforce.com/inner-sourcing-whats-this-ef2220ae59ec rel=noopener target=_blank>Inner Sourcing: What’s this?</a>
+<li>
+<a href=https://engineering.salesforce.com/inner-sourcing-the-mechanics-c0b1421230fd rel=noopener target=_blank>Inner Sourcing: The Mechanics</a>
+<li>
+<a href=https://engineering.salesforce.com/inner-sourcing-the-ups-and-downs-3d443d5417b9 rel=noopener target=_blank>Inner Sourcing: The Ups and Downs</a>
+</ul>
+
+</ul>
+<footer class="mt-4 pt-3">
+<span class="text-secondary small"><i>
+Last updated April 27, 2021.
+</i></span></footer>
+</article>
+</div>
+</div>
+</main> <footer class="p-2 footer pt-4 bg-light">
+<div class="container text-dark">
+<div class="row pt-2">
+<div class="col-12 mb-4 mt-2">
+<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
+</a>
+</div>
+</div>
+<div class="row py-2">
+<div class="col-11 col-md-5 col-lg-4">
+<p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+and digital worlds.
+</div>
+<div class="col-12 col-sm-1 col-lg-4">
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<ul class=list-unstyled>
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
+
+<li class="my-2 px-0 mx-0">
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
+</ul>
+</div>
+</div>
+<div class="row p-3">
+<div class="col-12 border-top border-light opacity-50">
+</div>
+</div>
+<div class="row pt-2">
+<div class="col-12 col-sm-6 small">
+Copyright &copy; 2021, Trimble Inc.
+</div>
+<div class="col-12 col-sm-6 text-sm-right small">
+<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+<script src=/js/clipboard.min.js></script>
+<script src=/js/app.min.js async></script>
+</body>
+</html>
