@@ -39,7 +39,7 @@
     "eslint": "^8.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
-    "htmlhint": "^1.0.0",
+    "htmlhint": "^1.1.0",
     "hugo-bin": "^0.79.2",
     "jquery": "^3.6.0",
     "markdownlint-cli": "^0.30.0",
