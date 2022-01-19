@@ -5,7 +5,7 @@
 <title>Managing Code Complexity | Developer Guidelines</title>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-17><script src=/js/jquery.slim.min.js></script>
+<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-19><script src=/js/jquery.slim.min.js></script>
 <script src=/js/bootstrap.min.js async></script>
 <meta name=description content>
 <meta property="og:title" content="Managing Code Complexity">
@@ -19,7 +19,8 @@ Different types of complexity metrics   Cyclomatic complexity     Code structure
 <meta name=theme-color content="#005f9e">
 <link rel=canonical href=https://trimble-oss.github.io/devguide/development-practices/managing-code-complexity/>
 <link rel=icon href=/favicon.svg type=image/svg+xml>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js data-document-language=true data-domain-script=2e2d00e4-e7f3-4620-ae76-75d090e533f8></script>
+<script>function OptanonWrapper(){}</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
 </head><body data-url=/devguide/development-practices/managing-code-complexity/ data-spy=scroll data-target=#TableOfContents data-offset=126>
 <div class=bg-anim>
@@ -126,12 +127,13 @@ On this page
 <h2 class="h1 mt-5" id=introduction>Introduction
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#introduction></a>
 </h2><p>Code complexity is an important issue to take into account during development to prevent technical debt from accruing and development slowing down. Unmanaged complexity leads to less structured code that puts an unnecessary burden on the developer’s mind. The
-<a href=https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29 rel=noopener target=_blank>SOLID</a> principles promote an understandable and maintainable software design.
+<a href=https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29 target=_blank>SOLID</a>
+principles promote an understandable and maintainable software design.
 <h2 class="h1 mt-5" id=different-types-of-complexity-metrics>Different types of complexity metrics
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#different-types-of-complexity-metrics></a>
 </h2>
-<h3 class="h2 mt-5" id=a-hrefhttps//en.wikipedia.org/wiki/cyclomatic_complexity-relnoopener-target_blankcyclomatic-complexity/a>
-<a href=https://en.wikipedia.org/wiki/Cyclomatic_complexity rel=noopener target=_blank>Cyclomatic complexity</a>
+<h3 class="h2 mt-5" id=a-hrefhttps//en.wikipedia.org/wiki/cyclomatic_complexity-target_blank-cyclomatic-complexity/a>
+<a href=https://en.wikipedia.org/wiki/Cyclomatic_complexity target=_blank>Cyclomatic complexity</a>
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#cyclomatic-complexityhttpsenwikipediaorgwikicyclomatic_complexity></a>
 </h3>
 <ul>
@@ -151,8 +153,8 @@ On this page
 </ul>
 
 </ul>
-<h3 class="h2 mt-5" id=a-hrefhttps//www.sonarsource.com/docs/cognitivecomplexity.pdf-relnoopener-target_blankcognitive-complexity/a>
-<a href=https://www.sonarsource.com/docs/CognitiveComplexity.pdf rel=noopener target=_blank>Cognitive complexity</a>
+<h3 class="h2 mt-5" id=a-hrefhttps//www.sonarsource.com/docs/cognitivecomplexity.pdf-target_blank-cognitive-complexity/a>
+<a href=https://www.sonarsource.com/docs/CognitiveComplexity.pdf target=_blank>Cognitive complexity</a>
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#cognitive-complexityhttpswwwsonarsourcecomdocscognitivecomplexitypdf></a>
 </h3>
 <ul>
@@ -196,7 +198,8 @@ On this page
 
 <li>
 <p>Large classes run the risk of becoming all-encompassing facades for a multitude of logical entities. A class should have a
-<a href=https://en.wikipedia.org/wiki/Single_responsibility_principle rel=noopener target=_blank>single responsibility</a>.
+<a href=https://en.wikipedia.org/wiki/Single_responsibility_principle target=_blank>single responsibility</a>
+.
 
 <li>
 <p>Long files make it difficult to find the required sections of code. This ties into the problem with too long classes, where a file contains so many features that it becomes a burden on the developer’s memory. A good rule of thumb is to have one class per file.
@@ -232,9 +235,11 @@ On this page
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#bibliography></a>
 </h2><ul>
 <li>
-<a href=http://web.archive.org/web/20201106092202/http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod rel=noopener target=_blank>SOLID Principles</a>
+<a href=http://web.archive.org/web/20201106092202/http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod target=_blank>SOLID Principles</a>
+
 <li>
-<a href=https://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf rel=noopener target=_blank>Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)</a>
+<a href=https://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf target=_blank>Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6)</a>
+
 </ul>
 <footer class="mt-4 pt-3">
 <span class="text-secondary small"><i>
@@ -247,7 +252,7 @@ Last updated June 23, 2021.
 <div class="container text-dark">
 <div class="row pt-2">
 <div class="col-12 mb-4 mt-2">
-<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<a href=https://www.trimble.com/ target=_blank>
 <img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
 </a>
 </div>
@@ -284,7 +289,8 @@ and digital worlds.
 Copyright &copy; 2022, Trimble Inc.
 </div>
 <div class="col-12 col-sm-6 text-sm-right small">
-<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+<a href=https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use target=_blank>Terms of Use</a> -
+<a href=/cookies/>Cookies</a>
 </div>
 </div>
 </div>

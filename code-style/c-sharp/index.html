@@ -5,7 +5,7 @@
 <title>C# Code Style | Developer Guidelines</title>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-17><script src=/js/jquery.slim.min.js></script>
+<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-19><script src=/js/jquery.slim.min.js></script>
 <script src=/js/bootstrap.min.js async></script>
 <meta name=description content="Trimble's code style guidelines for C#">
 <meta property="og:title" content="C# Code Style">
@@ -17,7 +17,8 @@
 <meta name=theme-color content="#005f9e">
 <link rel=canonical href=https://trimble-oss.github.io/devguide/code-style/c-sharp/>
 <link rel=icon href=/favicon.svg type=image/svg+xml>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js data-document-language=true data-domain-script=2e2d00e4-e7f3-4620-ae76-75d090e533f8></script>
+<script>function OptanonWrapper(){}</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
 </head>
 <body data-url=/devguide/code-style/c-sharp/><div class=bg-anim>
@@ -126,12 +127,17 @@ On this page
 <h2 class="h1 mt-5" id=reference-code-standard>Reference Code Standard
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#reference-code-standard></a>
 </h2><p>Follow Microsoft&rsquo;s
-<a href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions rel=noopener target=_blank>C# Coding Conventions</a> which are based off of the
-<a href=https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style rel=noopener target=_blank>dotnet/runtime C# Style Guidelines</a> while using the
-<a href=https://github.com/dotnet/runtime/blob/main/.editorconfig rel=noopener target=_blank>dotnet/runtime .editorconfig file</a>.
+<a href=https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions target=_blank>C# Coding Conventions</a>
+which are based off of the
+<a href=https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style target=_blank>dotnet/runtime C# Style Guidelines</a>
+while using the
+<a href=https://github.com/dotnet/runtime/blob/main/.editorconfig target=_blank>dotnet/runtime .editorconfig file</a>
+.
 <p>External APIs shall use xmldoc. This allows
-<a href=https://spec.openapis.org/oas/latest.html rel=noopener target=_blank>OpenAPI</a> (API documentation specification) and tools like
-<a href=https://dotnet.github.io/docfx/ rel=noopener target=_blank>DocFX</a> (MSDN style documentation tool) to create detailed documentation.
+<a href=https://spec.openapis.org/oas/latest.html target=_blank>OpenAPI</a>
+(API documentation specification) and tools like
+<a href=https://dotnet.github.io/docfx/ target=_blank>DocFX</a>
+(MSDN style documentation tool) to create detailed documentation.
 <h2 class="h1 mt-5" id=implementing-the-standard>Implementing the Standard
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#implementing-the-standard></a>
 </h2><ul>
@@ -140,7 +146,8 @@ On this page
 
 <li>
 <p>Download the
-<a href=https://github.com/dotnet/runtime/blob/main/.editorconfig rel=noopener target=_blank>dotnet/runtime .editorconfig file</a> and place it in the same directory as your solution file (SLN).
+<a href=https://github.com/dotnet/runtime/blob/main/.editorconfig target=_blank>dotnet/runtime .editorconfig file</a>
+and place it in the same directory as your solution file (SLN).
 
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-txt data-lang=txt>-- Solution Root Folder
@@ -150,20 +157,25 @@ On this page
 </code></pre></div><ul>
 <li>
 <p>Tools from JetBrains can make this standard compatible with any version of .NET and Visual Studio (
-<a href=https://www.jetbrains.com/help/resharper/Using_EditorConfig.html rel=noopener target=_blank>ReSharper</a>/
-<a href=https://www.jetbrains.com/help/rider/Using_EditorConfig.html rel=noopener target=_blank>Rider</a>).
+<a href=https://www.jetbrains.com/help/resharper/Using_EditorConfig.html target=_blank>ReSharper</a>
+/
+<a href=https://www.jetbrains.com/help/rider/Using_EditorConfig.html target=_blank>Rider</a>
+).
 
 <li>
 <p>
-<a href=https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers rel=noopener target=_blank>Analyzers can be enabled</a> in versions of .NET prior to 5.
+<a href=https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers target=_blank>Analyzers can be enabled</a>
+in versions of .NET prior to 5.
 
 <li>
 <p>Versions of Visual Studio prior to 2017 can use
-<a href="https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig" rel=noopener target=_blank>an extension</a>.
+<a href="https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig" target=_blank>an extension</a>
+.
 
 <li>
 <p>For VS Code, the
-<a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp" rel=noopener target=_blank>C# (powered by OmniSharp)</a> extension will automatically use any <code>.editorconfig</code> in the top level of the workspace.
+<a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp" target=_blank>C# (powered by OmniSharp)</a>
+extension will automatically use any <code>.editorconfig</code> in the top level of the workspace.
 
 </ul>
 <h2 class="h1 mt-5" id=exceptions-to-the-standard>Exceptions to the Standard
@@ -208,21 +220,25 @@ On this page
 </h2><ul>
 <li>
 <p>For an introductory article on how to structure and format C# code see
-<a href=https://docs.microsoft.com/dotnet/csharp/programming-guide/inside-a-program/coding-conventions rel=noopener target=_blank>C# Coding Conventions (C# Programming Guide)</a>.
+<a href=https://docs.microsoft.com/dotnet/csharp/programming-guide/inside-a-program/coding-conventions target=_blank>C# Coding Conventions (C# Programming Guide)</a>
+.
 
 <li>
 <p>Design principles (SOLID).
-<a href=https://en.wikipedia.org/wiki/SOLID rel=noopener target=_blank>SOLID</a> is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
+<a href=https://en.wikipedia.org/wiki/SOLID target=_blank>SOLID</a>
+is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 <ul>
 <li>Recommended Reading:
-<a href=https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204 rel=noopener target=_blank>Adaptive Code via C#</a>
+<a href=https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204 target=_blank>Adaptive Code via C#</a>
+
 </ul>
 
 </ul>
 <h2 class="h1 mt-5" id=allowing-exceptions>Allowing Exceptions
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#allowing-exceptions></a>
 </h2><p>If there needs to be an exception to the standard, it can be called out with a
-<a href="https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?view=vs-2019#suppressmessage-attribute" rel=noopener target=_blank>SuppressMessage attribute</a>. This should be rarely needed. Example below:
+<a href="https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?view=vs-2019#suppressmessage-attribute" target=_blank>SuppressMessage attribute</a>
+. This should be rarely needed. Example below:
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=na>[SuppressMessage(&#34;Performance&#34;, &#34;CA1823:Avoid unused private fields&#34;)]</span>
 <span class=k>public</span> <span class=k>class</span> <span class=nc>X</span>
 <span class=p>{</span>
@@ -239,7 +255,7 @@ Last updated August 18, 2021.
 <div class="container text-dark">
 <div class="row pt-2">
 <div class="col-12 mb-4 mt-2">
-<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<a href=https://www.trimble.com/ target=_blank>
 <img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
 </a>
 </div>
@@ -276,7 +292,8 @@ and digital worlds.
 Copyright &copy; 2022, Trimble Inc.
 </div>
 <div class="col-12 col-sm-6 text-sm-right small">
-<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+<a href=https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use target=_blank>Terms of Use</a> -
+<a href=/cookies/>Cookies</a>
 </div>
 </div>
 </div>

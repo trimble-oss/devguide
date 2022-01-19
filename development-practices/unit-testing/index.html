@@ -5,7 +5,7 @@
 <title>Unit Testing | Developer Guidelines</title>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-17><script src=/js/jquery.slim.min.js></script>
+<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-19><script src=/js/jquery.slim.min.js></script>
 <script src=/js/bootstrap.min.js async></script>
 <meta name=description content>
 <meta property="og:title" content="Unit Testing">
@@ -17,7 +17,8 @@
 <meta name=theme-color content="#005f9e">
 <link rel=canonical href=https://trimble-oss.github.io/devguide/development-practices/unit-testing/>
 <link rel=icon href=/favicon.svg type=image/svg+xml>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js data-document-language=true data-domain-script=2e2d00e4-e7f3-4620-ae76-75d090e533f8></script>
+<script>function OptanonWrapper(){}</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
 </head><body data-url=/devguide/development-practices/unit-testing/ data-spy=scroll data-target=#TableOfContents data-offset=126>
 <div class=bg-anim>
@@ -218,7 +219,8 @@ testing coverage better than you found it&rdquo;.
 <tr>
 <td>Angular JS
 <td>
-<a href=https://github.com/jasmine/ rel=noopener target=_blank>Jasmine</a>
+<a href=https://github.com/jasmine/ target=_blank>Jasmine</a>
+
 <td>Jasmine
 <td>Karma <br>Cobertura
 
@@ -226,44 +228,63 @@ testing coverage better than you found it&rdquo;.
 <td>C#
 <td>NUnit <br>XUnit <br>MSUnitTest
 <td>NUnit mocks <br>Moq <br>
-<a href=https://nsubstitute.github.io/ rel=noopener target=_blank>NSubstitute</a>
+<a href=https://nsubstitute.github.io/ target=_blank>NSubstitute</a>
+
 <td>OpenCover <br>ReportGenerator
 
 <tr>
 <td>C++
 <td>
-<a href=https://github.com/google/googletest rel=noopener target=_blank>Google Test</a> <br>
-<a href=https://github.com/catchorg/Catch2 rel=noopener target=_blank>Catch2</a>
+<a href=https://github.com/google/googletest target=_blank>Google Test</a>
+<br>
+<a href=https://github.com/catchorg/Catch2 target=_blank>Catch2</a>
+
 <td>
-<a href=https://github.com/google/googletest/tree/master/googlemock rel=noopener target=_blank>Google Mock</a> <br>
-<a href=https://github.com/eranpeer/FakeIt rel=noopener target=_blank>FakeIt</a>
+<a href=https://github.com/google/googletest/tree/master/googlemock target=_blank>Google Mock</a>
+<br>
+<a href=https://github.com/eranpeer/FakeIt target=_blank>FakeIt</a>
+
 <td>
-<a href=https://github.com/csoltenborn/GoogleTestAdapter rel=noopener target=_blank>Google Test Adapter</a> <br>
-<a href=https://www.jetbrains.com/teamcity/ rel=noopener target=_blank>TeamCity</a>
+<a href=https://github.com/csoltenborn/GoogleTestAdapter target=_blank>Google Test Adapter</a>
+<br>
+<a href=https://www.jetbrains.com/teamcity/ target=_blank>TeamCity</a>
+
 
 <tr>
 <td>Java
 <td>
-<a href=https://junit.org/ rel=noopener target=_blank>JUnit</a> <br>
-<a href=https://testng.org/doc/ rel=noopener target=_blank>Test NG</a>
+<a href=https://junit.org/ target=_blank>JUnit</a>
+<br>
+<a href=https://testng.org/doc/ target=_blank>Test NG</a>
+
 <td>
-<a href=https://site.mockito.org/ rel=noopener target=_blank>Mockito</a> <br>
-<a href=https://jmockit.github.io/ rel=noopener target=_blank>JMockit</a>
+<a href=https://site.mockito.org/ target=_blank>Mockito</a>
+<br>
+<a href=https://jmockit.github.io/ target=_blank>JMockit</a>
+
 <td>
-<a href=https://gradle.org/ rel=noopener target=_blank>Gradle</a> <br>
-<a href=https://maven.apache.org/surefire/maven-surefire-plugin/ rel=noopener target=_blank>Surefire plugin</a> <br>
-<a href=https://www.eclemma.org/jacoco/ rel=noopener target=_blank>Jacoco</a> <br>
-<a href=https://www.sonarqube.org/ rel=noopener target=_blank>SonarQube</a>
+<a href=https://gradle.org/ target=_blank>Gradle</a>
+<br>
+<a href=https://maven.apache.org/surefire/maven-surefire-plugin/ target=_blank>Surefire plugin</a>
+<br>
+<a href=https://www.eclemma.org/jacoco/ target=_blank>Jacoco</a>
+<br>
+<a href=https://www.sonarqube.org/ target=_blank>SonarQube</a>
+
 
 <tr>
 <td>Python
 <td>
-<a href=https://docs.pytest.org/en/latest/ rel=noopener target=_blank>pytest</a>
+<a href=https://docs.pytest.org/en/latest/ target=_blank>pytest</a>
+
 <td>
-<a href=https://pypi.python.org/pypi/pytest-mock rel=noopener target=_blank>pytest-mock</a> <br> wrapper for
-<a href=https://pypi.python.org/pypi/mock rel=noopener target=_blank>mock</a>
+<a href=https://pypi.python.org/pypi/pytest-mock target=_blank>pytest-mock</a>
+<br> wrapper for
+<a href=https://pypi.python.org/pypi/mock target=_blank>mock</a>
+
 <td>
-<a href=https://pytest-cov.readthedocs.io/en/latest/ rel=noopener target=_blank>pytest-cov</a>
+<a href=https://pytest-cov.readthedocs.io/en/latest/ target=_blank>pytest-cov</a>
+
 
 
 </table>
@@ -271,11 +292,14 @@ testing coverage better than you found it&rdquo;.
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#bibliography></a>
 </h2><ul>
 <li>
-<a href=https://pragprog.com/book/bopytest/python-testing-with-pytest rel=noopener target=_blank>Python Testing with pytest</a> by Brian Okken is a great introduction to pytest
+<a href=https://pragprog.com/book/bopytest/python-testing-with-pytest target=_blank>Python Testing with pytest</a>
+by Brian Okken is a great introduction to pytest
 <li>
-<a href=https://stackify.com/unit-testing-basics-best-practices/ rel=noopener target=_blank>You Still Don’t Know How to Do Unit Testing (and Your Secret is Safe with Me)</a>
+<a href=https://stackify.com/unit-testing-basics-best-practices/ target=_blank>You Still Don’t Know How to Do Unit Testing (and Your Secret is Safe with Me)</a>
+
 <li>
-<a href=https://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/ rel=noopener target=_blank>Writing Great Unit Tests: Best and Worst Practices</a>
+<a href=https://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/ target=_blank>Writing Great Unit Tests: Best and Worst Practices</a>
+
 </ul>
 <footer class="mt-4 pt-3">
 <span class="text-secondary small"><i>
@@ -288,7 +312,7 @@ Last updated August 27, 2021.
 <div class="container text-dark">
 <div class="row pt-2">
 <div class="col-12 mb-4 mt-2">
-<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<a href=https://www.trimble.com/ target=_blank>
 <img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
 </a>
 </div>
@@ -325,7 +349,8 @@ and digital worlds.
 Copyright &copy; 2022, Trimble Inc.
 </div>
 <div class="col-12 col-sm-6 text-sm-right small">
-<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+<a href=https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use target=_blank>Terms of Use</a> -
+<a href=/cookies/>Cookies</a>
 </div>
 </div>
 </div>

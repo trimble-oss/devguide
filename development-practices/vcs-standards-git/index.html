@@ -5,7 +5,7 @@
 <title>VCS Standards - Git | Developer Guidelines</title>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-17><script src=/js/jquery.slim.min.js></script>
+<link rel=stylesheet href=/devguide/css/styles.min.css?2022-01-19><script src=/js/jquery.slim.min.js></script>
 <script src=/js/bootstrap.min.js async></script>
 <meta name=description content>
 <meta property="og:title" content="VCS Standards - Git">
@@ -18,7 +18,8 @@ Why It&rsquo;s Important  Ultimately it’s up to you, the project maintainer, t
 <meta name=theme-color content="#005f9e">
 <link rel=canonical href=https://trimble-oss.github.io/devguide/development-practices/vcs-standards-git/>
 <link rel=icon href=/favicon.svg type=image/svg+xml>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js data-document-language=true data-domain-script=2e2d00e4-e7f3-4620-ae76-75d090e533f8></script>
+<script>function OptanonWrapper(){}</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
 </head><body data-url=/devguide/development-practices/vcs-standards-git/ data-spy=scroll data-target=#TableOfContents data-offset=126>
 <div class=bg-anim>
@@ -136,7 +137,8 @@ your project is the more likely others will contribute to it.
 <h2 class="h1 mt-5" id=branching-and-merging>Branching and Merging
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#branching-and-merging></a>
 </h2><p>The suggested workflow for repositories is
-<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow rel=noopener target=_blank>Gitflow workflow</a> which defines a
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow target=_blank>Gitflow workflow</a>
+which defines a
 strict branching model designed around the project release. The remote <code>develop</code>
 branch is the development trunk. New feature branches and bug fix branches are
 made from <code>develop</code> and these branches can be pushed to the remote repository at
@@ -148,8 +150,9 @@ the branch will be merged into <code>main</code> and a tag with the version numb
 added. The release branch will also be merged back into <code>develop</code>. Hotfix
 branches are made from the tag of the release version number being hotfixed.
 <p>For InnerSource repositories, it is recommended to use the
-<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow rel=noopener target=_blank>Forking
-workflow</a>. This will allow the maintainer of the InnerSource repository to
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow target=_blank>Forking
+workflow</a>
+. This will allow the maintainer of the InnerSource repository to
 not have to manage permissions for contributors of the repository.
 <h2 class="h1 mt-5" id=squashing-amp-rebasing>Squashing & Rebasing
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#squashing--rebasing></a>
@@ -158,16 +161,20 @@ number of commits on a feature will help keep the history clean for others.
 Having a series of commit with <em>made compile, oops, or fixed typo</em> makes history
 cloudy and hard for other to follow especially when using history and tracking
 tools like
-<a href=https://git-scm.com/docs/git-blame rel=noopener target=_blank>git blame</a>,
-<a href=https://git-scm.com/docs/git-cherry-pick rel=noopener target=_blank>cherry-pick</a> and
-<a href=https://git-scm.com/docs/git-revert rel=noopener target=_blank>git revert</a>. Think of a
+<a href=https://git-scm.com/docs/git-blame target=_blank>git blame</a>
+,
+<a href=https://git-scm.com/docs/git-cherry-pick target=_blank>cherry-pick</a>
+and
+<a href=https://git-scm.com/docs/git-revert target=_blank>git revert</a>
+. Think of a
 commit as a discrete stand alone feature or bug fix. For large complex feature,
 refactoring, or bug fixes don’t be afraid to have multiple commits, just be sure
 they consist of logical discrete functions.
 <h2 class="h1 mt-5" id=commit-messages>Commit Messages
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#commit-messages></a>
 </h2><p>Review Chris Beams blog post on
-<a href=https://chris.beams.io/posts/git-commit/ rel=noopener target=_blank>Writing Good Commit Messages</a>. Below are
+<a href=https://chris.beams.io/posts/git-commit/ target=_blank>Writing Good Commit Messages</a>
+. Below are
 some guidelines based on Chris’s post.
 <h3 class="h2 mt-5" id=dos>DOs
 <a class="header-link text-light text-decoration-none font-weight-normal" href=#dos></a>
@@ -224,11 +231,14 @@ to do at least one commit every day).
 </ul>
 <ol>
 <li>
-<a href=https://www.atlassian.com/git/tutorials/comparing-workflows rel=noopener target=_blank>Atlassian Git workflows</a>
+<a href=https://www.atlassian.com/git/tutorials/comparing-workflows target=_blank>Atlassian Git workflows</a>
+
 <li>
-<a href=https://git-scm.com/ rel=noopener target=_blank>Git source code management</a>
+<a href=https://git-scm.com/ target=_blank>Git source code management</a>
+
 <li>
-<a href=https://chris.beams.io/posts/git-commit/ rel=noopener target=_blank>Chris Beams post on writing good commit messages</a>
+<a href=https://chris.beams.io/posts/git-commit/ target=_blank>Chris Beams post on writing good commit messages</a>
+
 </ol>
 <footer class="mt-4 pt-3">
 <span class="text-secondary small"><i>
@@ -241,7 +251,7 @@ Last updated August 27, 2021.
 <div class="container text-dark">
 <div class="row pt-2">
 <div class="col-12 mb-4 mt-2">
-<a href=https://www.trimble.com/ rel=noopener target=_blank>
+<a href=https://www.trimble.com/ target=_blank>
 <img src=/img/trimble-logo.svg width=107 height=24 alt=Trimble>
 </a>
 </div>
@@ -278,7 +288,8 @@ and digital worlds.
 Copyright &copy; 2022, Trimble Inc.
 </div>
 <div class="col-12 col-sm-6 text-sm-right small">
-<a href=https://www.trimble.com/Corporate/Terms_of_Use.aspx rel=noopener target=_blank>Terms of Use</a>
+<a href=https://www.trimble.com/en/legal/terms-and-conditions/terms-of-use target=_blank>Terms of Use</a> -
+<a href=/cookies/>Cookies</a>
 </div>
 </div>
 </div>
