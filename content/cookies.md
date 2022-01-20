@@ -3,9 +3,10 @@ title: "Cookies Policy"
 layout: "single"
 description: ""
 url: "/cookies/"
-# private: true
+private: true
 hideToc: true
 sitemap_exclude: true
+hideDocsToggle: true
 ---
 
 <p>
