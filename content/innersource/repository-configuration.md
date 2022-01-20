@@ -21,4 +21,4 @@ Follow these guidelines to configure the Bitbucket repository for your project c
 
 - Reviewers should always be asked to approve a Pull Request before being able to merge to develop or `main`. This can be configured from the auto-unapprove configuration screen.
 
-Active Pull Requests against a project can be managed in BitBucket from the dashboard by clicking on the  ![image alt text](/img/innersource/pull-request.png) icon on the left-hand side.
+Active Pull Requests against a project can be managed in BitBucket from the dashboard by clicking on the ![icon](/img/innersource/pull-request.png) icon on the left-hand side.

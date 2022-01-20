@@ -10,7 +10,7 @@
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $css := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <!--  | resources.Fingerprint "md5" -->
-<link rel="stylesheet" href="{{ $css.RelPermalink }}?{{ now.Format "2006-01-02"}}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}?{{- hugo.Version -}}">
 
 {{- if .IsHome -}}
 {{- hugo.Generator -}}
