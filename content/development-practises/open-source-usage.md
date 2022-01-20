@@ -17,8 +17,7 @@ are opening up and sharing their IP.
 where you technically have given up ownership of the IP of the software that
 you create.
 
-For this reason, Trimble has a [Comprehensive Open Source Policy][1], that you
-should reference and live by as you take advantage of world of open source
-software.
+For this reason, Trimble has a [Comprehensive Open Source Policy](https://sites.google.com/trimble.com/open-source/home/policy),
+that you should reference and live by as you take advantage of world of open
+source software.
 
-[1]:https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Ftrimble.com%2Ftrimble-open-source%2Foss-policy&sa=D&sntz=1&usg=AFQjCNGVd22ih97YasAZ3v30zSUlHyLIfw
