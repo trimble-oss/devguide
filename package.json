@@ -16,8 +16,6 @@
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build:dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
-    "deploy": "cross-env s3-deploy './public/**/*.{css,html,ico,jpg,js,json,map,png,svg,webmanifest,xml}' --cwd './public/' --region us-east-1 --bucket devguidelines",
-    "deploy:dev": "cross-env s3-deploy './public/**/*.{css,html,ico,jpg,js,json,map,png,svg,webmanifest,xml}' --cwd './public/' --region us-east-1 --bucket devguidelines",
     "imagemin": "npx imagemin-cli static/img/*.png --out-dir=static/img",
     "lint-css": "stylelint \"assets/css/*.scss\"",
     "lint-html": "htmlhint \"public/**/*.html\"",
@@ -26,16 +24,15 @@
     "lint-markdown": "npx markdownlint content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\"",
     "prettier": "prettier --write \"assets/**/*.*\"",
-    "purgecss": "purgecss --css public/css/styles.min.css --content public/**/*.html --output public/css/ --safelist body,btn,dropdown,menu-left,row-cols-2,row-cols-sm-3,sticky-top",
     "serve": "npx hugo serve --port 4000 --disableFastRender",
     "svgo": "npx svgo -f static/img/icons/development-practices/",
     "test": "npm-run-all lint-css && npx hugo && npm run lint-html"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
     "@trimbleinc/modus-bootstrap": "^1.3.1",
     "autoprefixer": "^10.4.2",
     "clipboard": "^2.0.8",
-    "cross-env": "^7.0.3",
     "eslint": "^8.7.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
@@ -47,7 +44,6 @@
     "postcss-cli": "^9.1.0",
     "prettier": "^2.5.1",
     "purgecss": "^4.1.3",
-    "s3-deploy": "^1.4.0",
     "stylelint": "^14.2.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0"
