@@ -12,15 +12,25 @@
 }
 
 /** Accept All Cookies button **/
+.button-theme,
 .onetrust-close-btn-handler,
 #accept-recommended-btn-handler,
 #onetrust-accept-btn-handler {
   background-color: #0063a3 !important;
   border-color: #0063a3 !important;
-  padding: .1875rem 1rem;
+  padding: .1875rem 1rem !important;
   font-size: .8rem !important;
   font-weight: 600 !important;
   user-select: none !important;
+  line-height: 1.75 !important;
+  text-transform: lowercase;
+}
+
+.button-theme,
+.onetrust-close-btn-handler::first-letter,
+#accept-recommended-btn-handler::first-letter,
+#onetrust-accept-btn-handler::first-letter {
+  text-transform: uppercase;
 }
 
 /** 'Cookie Settings' button **/
@@ -33,7 +43,14 @@
   text-decoration: none !important;
 }
 
-#cookie-policy-description,
+#ot-sdk-cookie-policy {
+  min-height: 820px;
+}
+
+#cookie-policy-description {
+  display: none;
+}
+
 .ot-sdk-cookie-policy-group-desc,
 #optanon-cookie-policy,
 #optanon-cookie-policy h3,
@@ -55,6 +72,10 @@
   border-radius: 0 !important;
 }
 
+#ot-sdk-cookie-policy table thead {
+  background-color: #f1f1f6 !important;
+}
+
 .optanon-cookie-policy-subgroup-table tr th {
   background-color: #f1f1f6 !important;
   color: #252a2e !important;
@@ -63,6 +84,7 @@
   font-weight: 600 !important;
   border-top: 1px solid #b7b9c3;
 }
+
 .ot-pc-footer-logo a {
   opacity: .7;
 }
@@ -100,7 +122,14 @@
 
 #ot-sdk-btn {
   border-color: #0063a3 !important;
-  font-size: 14px;
+  font-size: 14px !important;
+  padding: .1875rem 1rem !important;
+  text-transform: lowercase;
+  line-height: 1.75 !important;
+}
+
+#ot-sdk-btn::first-letter {
+  text-transform: uppercase;
 }
 
 #ot-sdk-btn:hover {
