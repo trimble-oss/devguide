@@ -5,23 +5,24 @@
 <title>Packaging and Distribution | Developer Guidelines</title>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-<link rel=stylesheet href=/devguide/css/styles.min.css?0.92.0><script src=/js/jquery.slim.min.js></script>
+<link rel=stylesheet href=/css/styles.min.css?0.92.0><script src=/js/jquery.slim.min.js></script>
 <script src=/js/bootstrap.min.js async></script>
 <meta name=description content>
 <meta property="og:title" content="Packaging and Distribution">
 <meta property="og:description" content="Introduction  Packaging software allows a user of the software to treat multiple interacting software modules as a single cohesive whole. The assumption being that the system has been tested and the modules are confirmed to work together. This provides a means of eliminating uncertainty when it comes to running the software.
 Packaging software also provides a convenient way of distributing software as a single unit, including any configuration or auxiliary files which might be needed.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://trimble-oss.github.io/devguide/development-practices/packaging-and-distribution/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="development-practises">
+<meta property="og:url" content="https://devguide.trimble.com/development-practices/packaging-and-distribution/"><meta property="og:image" content="https://devguide.trimble.com/img/preview.png"><meta property="article:section" content="development-practises">
 <meta property="article:modified_time" content="2021-06-23T09:31:15-06:00"><meta property="og:site_name" content="Developer Guidelines">
 <meta property="og:locale" content="en_US">
 <meta name=theme-color content="#005f9e">
-<link rel=canonical href=https://trimble-oss.github.io/devguide/development-practices/packaging-and-distribution/>
+<link rel=canonical href=https://devguide.trimble.com/development-practices/packaging-and-distribution/>
+<link rel=icon href=/favicon.ico type=image/x-icon>
 <link rel=icon href=/favicon.svg type=image/svg+xml>
 <script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js data-document-language=true data-domain-script=2e2d00e4-e7f3-4620-ae76-75d090e533f8></script>
 <script>function OptanonWrapper(){}</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-106389617-3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-106389617-3',{anonymize_ip:!0})</script>
-</head><body data-url=/devguide/development-practices/packaging-and-distribution/ data-spy=scroll data-target=#TableOfContents data-offset=126>
+</head><body data-url=/development-practices/packaging-and-distribution/ data-spy=scroll data-target=#TableOfContents data-offset=126>
 <div class=bg-anim>
 <nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
 <div class="container flex-column flex-md-row justify-content-end">
@@ -38,16 +39,16 @@ main content</a>
 <div class=navbar-nav-scroll>
 <ul class=navbar-nav>
 <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-<a class="nav-link text-white" href=/devguide/development-practices/>Development Practices</a>
+<a class="nav-link text-white" href=/development-practices/>Development Practices</a>
 
 <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-<a class="nav-link text-white" href=/devguide/code-style/>Code Style</a>
+<a class="nav-link text-white" href=/code-style/>Code Style</a>
 
 <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-<a class="nav-link text-white" href=/devguide/innersource/introduction/>InnerSource</a>
+<a class="nav-link text-white" href=/innersource/introduction/>InnerSource</a>
 
 <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-<a class="nav-link text-white" href=/devguide/governance/>Governance</a>
+<a class="nav-link text-white" href=/governance/>Governance</a>
 </ul>
 </div>
 </div>
@@ -77,23 +78,23 @@ main content</a>
 <div class="sticky-top sticky-offset border-bottom">
 <nav class="bd-links collapse" id=docs-nav>
 <ul class=list-unstyled id=menu-left>
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/code-documentation/>Code Documentation</a>
+<li class=mb-3><a class=text-dark href=/development-practices/code-documentation/>Code Documentation</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/code-review/>Code Review</a>
+<li class=mb-3><a class=text-dark href=/development-practices/code-review/>Code Review</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/innersource/introduction/>InnerSource</a>
+<li class=mb-3><a class=text-dark href=/innersource/introduction/>InnerSource</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/managing-code-complexity/>Managing Code Complexity</a>
+<li class=mb-3><a class=text-dark href=/development-practices/managing-code-complexity/>Managing Code Complexity</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/open-source-usage/>Open Source Usage</a>
+<li class=mb-3><a class=text-dark href=/development-practices/open-source-usage/>Open Source Usage</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/packaging-and-distribution/>Packaging and Distribution</a>
+<li class=mb-3><a class=text-dark href=/development-practices/packaging-and-distribution/>Packaging and Distribution</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/unit-testing/>Unit Testing</a>
+<li class=mb-3><a class=text-dark href=/development-practices/unit-testing/>Unit Testing</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/vcs-standards-git/>VCS Standards - Git</a>
+<li class=mb-3><a class=text-dark href=/development-practices/vcs-standards-git/>VCS Standards - Git</a>
 
-<li class=mb-3><a class=text-dark href=/devguide/development-practices/versioning/>Versioning</a>
+<li class=mb-3><a class=text-dark href=/development-practices/versioning/>Versioning</a>
 </ul>
 </nav>
 </div>
@@ -337,16 +338,16 @@ and digital worlds.
 <div class="col-12 col-md-6 col-lg-4">
 <ul class=list-unstyled>
 <li class="my-2 px-0 mx-0">
-<a class="text-decoration-none text-dark" href=/devguide/development-practices/>Development Practices</a>
+<a class="text-decoration-none text-dark" href=/development-practices/>Development Practices</a>
 
 <li class="my-2 px-0 mx-0">
-<a class="text-decoration-none text-dark" href=/devguide/code-style/>Code Style</a>
+<a class="text-decoration-none text-dark" href=/code-style/>Code Style</a>
 
 <li class="my-2 px-0 mx-0">
-<a class="text-decoration-none text-dark" href=/devguide/innersource/introduction/>InnerSource</a>
+<a class="text-decoration-none text-dark" href=/innersource/introduction/>InnerSource</a>
 
 <li class="my-2 px-0 mx-0">
-<a class="text-decoration-none text-dark" href=/devguide/governance/>Governance</a>
+<a class="text-decoration-none text-dark" href=/governance/>Governance</a>
 </ul>
 </div>
 </div>
@@ -366,6 +367,6 @@ Copyright &copy; 2022, Trimble Inc.
 </div>
 </footer>
 <script src=/js/clipboard.min.js></script>
-<script src=/devguide/js/app.min.js async></script>
+<script src=/js/app.min.js async></script>
 </body>
 </html>
