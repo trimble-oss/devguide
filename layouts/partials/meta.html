@@ -39,5 +39,6 @@
 {{ $favicon := resources.Get "/static/favicon-loc.ico" }}
 <link rel="icon" href="{{ $favicon.RelPermalink }}" sizes="any">
 {{ else }}
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 {{ end }}
