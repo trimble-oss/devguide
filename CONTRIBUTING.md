@@ -2,16 +2,6 @@
 
 We are happy to accept contributions from the community to improve this project.
 
-## Editing using the Bitbucket Web Interface
-
-1. Open the [Bitbucket site](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse) in your browser.
-2. Navigate to the page you'd like to edit within the 'content' directory.
-3. To edit, first click the grey 'Show source' button in the top-right of the content preview pane.
-4. Make your text changes. When you've finished, click the blue 'Commit' button in the bottom-right.
-5. In the 'Commit file' popup modal, enter a descriptive title of the change you're making and check the 'Create a pull request for this change' checkbox (you don't need to change the branch name).
-6. On the 'Create pull request' screen you can enter a description for the change.
-7. The Dev Guidelines Team will review, merge and publish your request or contact you with any follow-up questions.
-
 ### Setup (for creating a build of the site locally)
 
 1. Install dependencies with `npm install`
@@ -20,9 +10,9 @@ We are happy to accept contributions from the community to improve this project.
 
 ## Making a Pull Request
 
-1. [Fork the devguide repo](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide?fork).
+1. Fork the [devguide repo](https://github.com/trimble-oss/devguide/).
 2. Make your changes on your forked branch
-3. Make a [pull request from your branch](https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/pull-requests?create)
+3. Make a [pull request from your branch](https://github.com/trimble-oss/devguide/pulls)
 
 ## Pull Request Checklist
 
