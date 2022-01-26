@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.trimble.tools/trim/devguide.git"
+    "url": "ssh://git@github.com:trimble-oss/devguide.git"
   },
   "license": "private",
   "author": "Trimble",
