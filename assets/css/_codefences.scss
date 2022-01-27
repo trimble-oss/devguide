@@ -1,6 +1,7 @@
 // syntax highlighting for code blocks
 // https://gohugo.io/getting-started/configuration-markup#highlight
 
+/*! purgecss start ignore */
 /* prettier-ignore */
 /* stylelint-disable */
 .highlight {
@@ -249,3 +250,4 @@
 .highlight .il {
   color: #40a070;
 } /* Literal.Number.Integer.Long */
+/*! purgecss end ignore */
