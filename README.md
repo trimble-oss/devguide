@@ -27,7 +27,6 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 
 | Resource          | Link                                                       |
 | ----------------- | ---------------------------------------------------------- |
-| Dev               | https://symmetrical-giggle-bc266b4d.pages.github.io/       |
 | Production        | https://devguide.trimble.com                               |
 | GitHub Repo       | https://github.com/trimble-oss/devguide                    |
 | Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/ |
