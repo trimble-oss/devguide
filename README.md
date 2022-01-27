@@ -25,12 +25,12 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 
 ## Links
 
-| Resource          | Link                                                                |
-| ----------------- | ------------------------------------------------------------------- |
-| Dev               | https://dev.devguide.trimble.com                                    |
-| Production        | https://devguide.trimble.com                                        |
-| Bitbucket Repo    | https://bitbucket.trimble.tools/projects/TRIM/repos/devguide/browse |
-| Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/          |
+| Resource          | Link                                                       |
+| ----------------- | ---------------------------------------------------------- |
+| Dev               | https://symmetrical-giggle-bc266b4d.pages.github.io/       |
+| Production        | https://devguide.trimble.com                               |
+| GitHub Repo       | https://github.com/trimble-oss/devguide                    |
+| Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/ |
 
 ## Testing and Audits
 
