@@ -369,6 +369,7 @@
     "frontline",
     "fsac",
     "fsevents",
+    "fullhuman",
     "Fullscreen",
     "gammatech",
     "gdpr",
@@ -1151,8 +1152,8 @@
     "zonar",
     "ZOOMRADII"
   ],
-  "flagWords": ["grey", "hte"],
+  "flagWords": ["blacklist", "grandfathered", "grey", "hte", "slave", "whitelist"],
   "language": "en,en-US",
   "ignoreRegExpList": ["<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1", "\\[(\\*{2})?@\\w+?\\1\\]", "\\[`\\w+`\\]", "ve{2,}r{2,}y", "ve+r+y+long\\w*", "\\/.*?\\/", "\\_\\w+", "\\#\\w+"],
-  "ignorePaths": [".cspell.json", "**/node_modules/**", "*.min.*", "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*", "*.{log,svg,snap}", "test.*"]
+  "ignorePaths": [".cspell.json", "**/node_modules/**", "*.min.*", "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*", "*.{log,scss,svg,snap}", "test.*"]
 }
