@@ -29,9 +29,8 @@ td code {
 main thead tr:nth-child(1) th {
   position: sticky;
   border-bottom: 1px solid #CBCDD6 !important;
-  // top: 0;
   z-index: 99;
-  top: 69px; //offset taking the fixed top navbar into account
+  top: 69px; // offset taking the fixed top navbar into account
 }
 
 main thead {

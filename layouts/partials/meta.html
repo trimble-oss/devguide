@@ -14,10 +14,9 @@
 
 {{- if .IsHome -}}
 {{- hugo.Generator -}}
-{{- else -}}
-<script src="/js/jquery.slim.min.js"></script>
-<script src="/js/bootstrap.min.js" async></script>
 {{- end }}
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 
 <meta name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
@@ -33,6 +32,25 @@
 <meta name="theme-color" content="#005f9e">
 
 <link rel="canonical" href="{{ .Permalink }}">
+
+{{- if not .Params.hideSearch -}}
+<script>
+  $(function () {
+    $("#search-by").attr('title', '');
+  });
+</script>
+
+<script>
+  var baseurl = "{{.Site.BaseURL}}";
+</script>
+
+<!-- Combines and minifies the 3x JS files which are used for the Search -->
+{{ $autocomplete := resources.Get "js/auto-complete.min.js" }}
+{{ $lunr := resources.Get "js/lunr.min.js" }}
+{{ $search := resources.Get "js/search.min.js" }}
+{{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{- end -}}
 
 <!-- Show custom 'LOC' favicon for serving locally -->
 {{- if .Site.IsServer -}}

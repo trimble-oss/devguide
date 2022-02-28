@@ -39,6 +39,7 @@
   border: 1px solid #0063a3 !important;
   font-size: .8rem !important;
   font-weight: 600 !important;
+
   // padding: .1875rem 1rem;
   text-decoration: none !important;
 }
@@ -98,6 +99,7 @@
 #ot-pc-content {
   color: #252a2e !important;
 }
+
 .ot-pc-logo {
   opacity: 0;
 }
@@ -106,7 +108,7 @@
   border-color: #0063a3 !important;
 }
 
-#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob:before {
+#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob::before {
   background-color: #0063a3 !important;
 }
 
