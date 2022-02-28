@@ -2,15 +2,17 @@
 // https://gohugo.io/getting-started/configuration-markup#highlight
 
 /*! purgecss start ignore */
+
 /* prettier-ignore */
 /* stylelint-disable */
 .highlight {
   background-color: #E0E1E9;
 }
-.highlight pre {
 
+.highlight pre {
   position: relative;
 }
+
 .highlight pre code {
   display: block;
   padding: 1rem;
@@ -18,9 +20,11 @@
   min-height: 30px;
   overflow-x: hidden;
 }
+
 .highlight .hll {
   background-color: #ffc;
 }
+
 .highlight .c {
   color: #60a0b0;
   font-style: italic;
@@ -165,6 +169,7 @@
 .highlight .nx {
   color: #383a42;
 }
+
 .highlight .ow {
   color: #007020;
   font-weight: bold;
@@ -250,4 +255,5 @@
 .highlight .il {
   color: #40a070;
 } /* Literal.Number.Integer.Long */
+
 /*! purgecss end ignore */

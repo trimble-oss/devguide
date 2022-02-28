@@ -12,6 +12,7 @@
     background-position: center top;
     background-image: none;
   }
+
   .navbar-nav a {
     font-size: 0.8rem !important;
     padding-left: 4px !important;
@@ -26,12 +27,16 @@
   body {
     background-position: center 1.8% !important;
   }
-  .navbar-nav a[href="/governance/"] {
-    display: none;
+
+  .navbar-nav.nav-item,
+  .navbar-nav a {
+    display: block !important;
   }
+
   .navbar-nav a {
     letter-spacing: -0.5px;
   }
+
   .container-home-header .lead {
     font-size: 1rem;
   }

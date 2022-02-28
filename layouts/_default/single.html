@@ -3,8 +3,9 @@
 <header class="container-fluid px-0 pt-5 pt-md-1">
   <div class="container py-md-3 pt-5 pt-xl-1 pb-lg-4 pb-xl-5">
     <div class="row py-lg-3 pb-xl-4">
-      <div class="col-12 py-lg-4 pb-5 text-center">
-        <h1 class="display-4 font-weight-bold pt-md-4 mt-1 mt-sm-2 mt-md-4 pb-xl-5 text-white{{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+      <div class="col-12 py-lg-4 pb-5 text-center mt-5 mt-md-0">
+        <h1
+          class="display-4 font-weight-bold pt-md-4 mt-5 mt-md-2 pb-xl-5 text-white{{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
           {{- .Title -}}
         </h1>
       </div>
@@ -13,7 +14,7 @@
 </header>
 </div>
 
-<main role="main" class="mb-5 container">
+<main class="mb-5 container">
 
   <div class="row">
 
@@ -51,9 +52,9 @@
           <!-- this displays date that markdown file was last committed to Git -->
           {{- if not .Params.hideDate -}}
           {{- if ne .Lastmod .Date -}}
-          <span class="text-secondary small"><i>
+          <div class="text-secondary small"><em>
               Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year }}.
-            </i></span>
+            </em></div>
           {{- end -}}
           {{- end -}}
 

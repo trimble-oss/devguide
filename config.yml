@@ -9,6 +9,7 @@ googleAnalytics: "UA-106389617-3"
 
 params:
   title: Developer Guidelines
+  copyrightHolder: "Trimble Inc."
   author: "Trimble"
   images:
     - https://devguide.trimble.com/img/preview.png
@@ -18,7 +19,7 @@ disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
 pygmentsUseClasses: true
 
 outputs:
-  home: ["HTML"]
+  home: ["HTML", "JSON"]
 
 privacy:
   googleAnalytics:
@@ -146,10 +147,10 @@ module:
       target: static/favicon.ico
     - source: assets/static/robots.txt
       target: static/robots.txt
-    - source: node_modules/jquery/dist/jquery.slim.min.js
-      target: static/js/jquery.slim.min.js
-    - source: node_modules/jquery/dist/jquery.slim.min.map
-      target: static/js/jquery.slim.min.map
+    - source: node_modules/jquery/dist/jquery.min.js
+      target: static/js/jquery.min.js
+    - source: node_modules/jquery/dist/jquery.min.map
+      target: static/js/jquery.min.map
     - source: node_modules/bootstrap/dist/js/bootstrap.min.js
       target: static/js/bootstrap.min.js
     - source: node_modules/bootstrap/dist/js/bootstrap.min.js.map
