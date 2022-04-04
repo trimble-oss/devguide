@@ -9,7 +9,7 @@ Opening up a project to InnerSource is one thing, but it is equally important to
 
 Trimble maintains a list of projects which have been InnerSourced across the company. You can find the current list on the [Engineering @ Trimble website](https://sites.google.com/trimble.com/engineering/how-we-develop/innersource-shared-components).
 
-If you would like to have your InnerSource project included here then please contact {{< cloakemail address="matthew_dexter@trimble.com" display="Matthew Dexter" >}}.
+If you would like to have your InnerSource project included here then please contact {{< cloak-email address="matthew_dexter@trimble.com" display="Matthew Dexter" >}}.
 
 There are a couple of ways in which you can publish the documentation itself.
 
@@ -23,4 +23,4 @@ You can also render Markdown files into Atlassian Confluence.
 The MEP group in Trimble have developed a macro for Confluence which is deployed to the e-Tools Confluence instance and which can be used to very quickly
 get your documentation published if it is stored in BitBucket. You can find more details on the [MEP InnerSource website](https://confluence.trimble.tools/display/MEPG/MEP+InnerSource?file=raw/Guidelines/Publish_documentation_on_confluence.md).
 
-For more information about this macro please contact  {{< cloakemail address="matthew_dexter@trimble.com" display="Matthew Dexter" >}}.
+For more information about this macro please contact  {{< cloak-email address="matthew_dexter@trimble.com" display="Matthew Dexter" >}}.
