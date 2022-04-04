@@ -42,7 +42,7 @@ Follow the steps below in order to configure the CODEOWNERS plugin:
 
 # Files starting with a `#` or a `!` can still be used by escaping them.
 \#myfile.rb              @Some_Guy_Paul@trimble.com
-\!yourfile.rb            @@MyDevs
+\!your-file.rb           @@MyDevs
 
 # AnnTheScalaPro is the code owner of all files in the /src/main/scala directory at
 # the root and all its descendants (e.g., /src/main/scala/com/x/y/z.scala).
