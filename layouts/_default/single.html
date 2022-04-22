@@ -47,8 +47,15 @@
 
         {{- .Content -}}
 
-        <div class="feedback-center">
-          {{- partial "was-this-page-helpful.html" . -}}
+        <div class="row">
+          <div class="feedback-center col-6">
+            {{- partial "was-this-page-helpful.html" . -}}
+          </div>
+          <div class="col-6">
+            <a class="btn btn-sm btn-outline-dark mt-5 float-right text-dark"
+              href="https://github.com/trimble-oss/devguide/tree/main/content/{{ .Page.File.Path | replaceRE `\\` "/" }}"
+              title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
         </div>
         <footer class="mt-4 pt-3">
 
