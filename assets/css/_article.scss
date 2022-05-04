@@ -60,6 +60,11 @@ a.header-link::after {
   display: inline-block;
 }
 
+article a.btn-outline-dark::after {
+ width: 0 !important;
+ display: none !important;
+}
+
 h2:hover .header-link,
 h3:hover .header-link,
 h4:hover .header-link,
