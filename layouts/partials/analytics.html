@@ -1,14 +1,11 @@
 {{- if not .Site.IsServer -}}
-<!-- OneTrust Cookies Consent Notice start for devguide.trimble.com -->
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" charset="UTF-8"
-  data-domain-script="2e2d00e4-e7f3-4620-ae76-75d090e533f8"></script>
-<script>function OptanonWrapper() { }</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}" fetchpriority="low"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ .Site.GoogleAnalytics }}', { 'anonymize_ip': true });
+  gtag('config', '{{ .Site.GoogleAnalytics }}', {ad_storage:"denied", analytics_storage:"denied"});
 </script>
+
+<script id="plausible" defer data-domain="devguide.trimble.com" src="https://plausible.io/js/script.compat.outbound-links.js"></script>
 {{- end -}}
