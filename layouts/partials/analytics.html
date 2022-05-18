@@ -7,5 +7,6 @@
   gtag('config', '{{ .Site.GoogleAnalytics }}', {ad_storage:"denied", analytics_storage:"denied"});
 </script>
 
-<script id="plausible" defer data-domain="devguide.trimble.com" src="https://plausible.io/js/script.compat.outbound-links.js"></script>
+<script id="plausible" defer data-domain="devguide.trimble.com"
+  src="https://plausible.io/js/script.compat.outbound-links.js" fetchpriority="low"></script>
 {{- end -}}

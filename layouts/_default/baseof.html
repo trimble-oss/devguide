@@ -24,7 +24,7 @@
 
     {{ if not .IsHome }}
     {{ if not .Params.hideClipboard }}
-    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/clipboard.min.js" fetchpriority="low"></script>
     {{ end }}
 	{{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
     {{ $copyToClipboard := resources.Get "js/copy-to-clipboard.js" }}

@@ -17,7 +17,7 @@
 <meta name="google-site-verification" content="NMOesOkCLPuh0w1wyYyMje6YCd3XpJ30lrK5RfvEj7g" />
 {{- end }}
 <script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js" fetchpriority="low"></script>
 
 <meta name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">

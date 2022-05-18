@@ -7,6 +7,7 @@ private: true
 hideToc: true
 sitemap_exclude: true
 hideDocsToggle: true
+hidden: true
 ---
 
 <p>
@@ -15,10 +16,10 @@ hideDocsToggle: true
 </p>
 
 <!-- OneTrust Cookies List -->
-<div id="ot-sdk-cookie-policy"></div>
+<div id="ot-sdk-cookie-policy" hidden></div>
 
 <!-- OneTrust Cookies Settings button start -->
-<button id="ot-sdk-btn" class="btn btn-primary text-white ot-sdk-show-settings">
+<button id="ot-sdk-btn" class="btn btn-primary text-white ot-sdk-show-settings" hidden>
   Cookie Settings
 </button>
 
