@@ -45,7 +45,7 @@ Remember to check out the [implementation checklist](/innersource/implementation
 
 ## Resources
 
-- [InnerSource Commons Checklist](http://innersourcecommons.org/checklist/) - A free PDF by PayPal that describes ways to adopt InnerSource
+- [InnerSource Commons Checklist](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/) - A free PDF by PayPal that describes ways to adopt InnerSource
 - [InnerSource Checklist Summary](https://github.com/commonality/generator-community/wiki/InnerSource-checklist)
 - Three-part series on InnerSource from Salesforce
   - [Inner Sourcing: What’s this?](https://engineering.salesforce.com/inner-sourcing-whats-this-ef2220ae59ec)

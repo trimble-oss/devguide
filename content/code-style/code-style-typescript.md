@@ -26,7 +26,7 @@ code: true
 
 ## Tools
 
-- [Official TypeScript playground](https://www.typescriptlang.org/play/index.html)
+- [Official TypeScript playground](https://www.typescriptlang.org/play)
 
 ## Further reading
 
