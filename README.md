@@ -6,7 +6,7 @@ The Developer Guidelines website is run by the Developer Guidelines Working Grou
 
 **Owner**:
 
-- Bob Wold - bob_wold@trimble.com
+- Jeff Doolittle - jeffrey_doolittle@trimble.com
 
 **Trusted Committers**:
 
