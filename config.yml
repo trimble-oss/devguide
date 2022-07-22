@@ -5,7 +5,7 @@ locale: en-US
 
 enableInlineShortcodes: true
 enableGitInfo: true
-googleAnalytics: "UA-106389617-3"
+googleAnalytics: "G-JSL7J81XML"
 
 params:
   title: Developer Guidelines
