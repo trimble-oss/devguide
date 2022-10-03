@@ -70,7 +70,7 @@ some guidelines based on Chris’s post.
 - Don’t describe the code when writing body. Describe the intent and approach.
 - Don’t have any lazy commit messages. For e.g: any commit labeled as “Minor
   Code changes”, “Code Review Comments”, “Code Fixes”, “Cleanup” or similar.
-- Don’t mix white space changes with functional code changes.
+- Don’t mix whitespace changes with functional code changes.
 - Don’t mix two unrelated functional changes.
 - Avoid sending a large new feature in a single giant commit (Recommendation is
   to do at least one commit every day).

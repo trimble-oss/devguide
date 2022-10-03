@@ -42,8 +42,6 @@ jobs:
           app_location: "public" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
-        env:
-          HUGO_VERSION: 0.101.0
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

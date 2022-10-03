@@ -13,7 +13,7 @@ Software changes, interface compatibility breaks, old functionality becomes
 deprecated in favor of improved implementations. With a consistent versioning
 scheme users can immediately determine whether or not an upgrade to their
 library will cause problems with compilation or linkage or if a new version of
-their end-user software might cause disruptions to their existing workflow.
+their end user software might cause disruptions to their existing workflow.
 
 Consistency in versioning helps developers choose non-breaking changes when
 determining what changes could be backported to older maintained versions. A
@@ -29,8 +29,8 @@ distinction between versions that are:
 
 1. Minor bugfixes or changes that do not alter the interface (patch)
 
-2. Backwards compatible, but might deprecate some features or introduce new
-   ones that do not require major adjustments from the end-user (minor)
+2. Backward compatible, but might deprecate some features or introduce new
+   ones that do not require major adjustments from the end user (minor)
 
 3. Backwards incompatible, require the user of a library to modify or
    re-implement the code interfacing the library or the user of a desktop

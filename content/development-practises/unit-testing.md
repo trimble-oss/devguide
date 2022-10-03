@@ -81,7 +81,7 @@ ensure that these tests are made deterministic as early as possible.
 ### Test Coverage, Measurements, and Goals
 
 While the specific Unit Test Coverage goals will be highly dependent on the
-team & code base, the act of measuring Unit Test Coverage in a continuous way,
+team & codebase, the act of measuring Unit Test Coverage in a continuous way,
 and monitoring how you are performing against your team goals is a recommended
 best practice.
 
