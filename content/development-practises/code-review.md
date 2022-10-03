@@ -10,7 +10,7 @@ development: true
 Rationale
 
 - Catch bugs
-- Spread knowledge of the code base throughout the team
+- Spread knowledge of the codebase throughout the team
 - Expose everyone to different approaches
 
 ## Best Practices
