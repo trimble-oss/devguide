@@ -25,5 +25,7 @@ jobs:
           JAVASCRIPT_DEFAULT_STYLE: prettier
           LINTER_RULES_PATH: /
           LOG_LEVEL: NOTICE
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
           SUPPRESS_POSSUM: true
+          VALIDATE_EDITORCONFIG: false
           VALIDATE_XML: false
