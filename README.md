@@ -11,7 +11,7 @@ The Developer Guidelines website is run by the Developer Guidelines Working Grou
 **Trusted Committers**:
 
 - Ryan Kuhn - ryan_kuhn@trimble.com
-- Christian Oliff - christain_oliff@trimble.com
+- Christian Oliff - christian_oliff@trimble.com
 - Ian Welch - ian_welch@trimble.com
 - Matthew Dexter- matthew_dexter@trimble.com
 
@@ -27,23 +27,22 @@ Please email the [Developer Guidelines Working Group](mailto:dev-guidelines-work
 
 | Resource          | Link                                                       |
 | ----------------- | ---------------------------------------------------------- |
-| Dev               | https://symmetrical-giggle-bc266b4d.pages.github.io/       |
 | Production        | https://devguide.trimble.com                               |
 | GitHub Repo       | https://github.com/trimble-oss/devguide                    |
 | Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/ |
 
 ## Testing and Audits
 
-| Resource           | Link                                                                                     |
-| ------------------ | ---------------------------------------------------------------------------------------- |
-| Google Lighthouse  | https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://devguide.trimble.com    |
-| OpenGraph Test     | https://opengraphcheck.com/result.php?url=https://devguide.trimble.com                   |
-| Page Speed Test    | https://developers.google.com/speed/pagespeed/insights/?url=https://devguide.trimble.com |
-| Website Grader     | https://website.grader.com/results/devguide.trimble.com                                  |
-| SEO, Social & More | https://www.seoptimer.com/devguide.trimble.com                                           |
-| Security           | https://observatory.mozilla.org/analyze/devguide.trimble.com                             |
-| Security Headers   | https://securityheaders.com/?q=devguide.trimble.com&followRedirects=on                   |
-| SSL Labs           | https://www.ssllabs.com/ssltest/analyze?d=devguide.trimble.com                           |
+| Resource           | Link                                                                                                       |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| Google Lighthouse  | https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://devguide.trimble.com                      |
+| OpenGraph Test     | https://opengraphcheck.com/result.php?url=https://devguide.trimble.com                                     |
+| Page Speed Test    | https://pagespeed.web.dev/report?utm_source=psi&utm_medium=redirect&url=https%3A%2F%2Fdevguide.trimble.com |
+| Website Grader     | https://website.grader.com/results/devguide.trimble.com                                                    |
+| SEO, Social & More | https://www.seoptimer.com/devguide.trimble.com                                                             |
+| Security           | https://observatory.mozilla.org/analyze/devguide.trimble.com                                               |
+| Security Headers   | https://securityheaders.com/?q=devguide.trimble.com&followRedirects=on                                     |
+| SSL Labs           | https://www.ssllabs.com/ssltest/analyze?d=devguide.trimble.com                                             |
 
 ## Assets
 

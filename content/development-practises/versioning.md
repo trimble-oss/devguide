@@ -17,7 +17,7 @@ their end-user software might cause disruptions to their existing workflow.
 
 Consistency in versioning helps developers choose non-breaking changes when
 determining what changes could be backported to older maintained versions. A
-version increment denotes a step in the software life cycle. As a part of
+version increment denotes a step in the software lifecycle. As a part of
 managing user expectations, the version increments should match the
 significance of improvements and features implemented.
 
