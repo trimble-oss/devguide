@@ -27,7 +27,7 @@ None.
 
 ## Implementing the Standard
 
-[Pylint](https://pylint.pycqa.org/en/latest/) is the recommended code analysis tool for verifying compliance with the PEP 8 style guide. Pylint can be run from the command line for integrating in CI environment. There are also Pylint integrations for most Python IDEs and many text editors.
+[Pylint](https://pylint.pycqa.org/en/latest/) is the recommended code analysis tool for verifying compliance with the PEP 8 style guide. Pylint can be run from the command-line for integrating in CI environment. There are also Pylint integrations for most Python IDEs and many text editors.
 
 When a rule violation is the result of a conscious decision a rule can be disabled with a comment of the form
 
@@ -39,7 +39,7 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 
 | Business     | Codebase                         |
 | :----------- | :------------------------------- |
-| Trimble Data | Processing (Pegasus) back end    |
+| Trimble Data | Processing (Pegasus) backend     |
 | Agriculture  | Agronomy data processing, DevOps |
 | CEC          | Test Automation DevOps           |
 

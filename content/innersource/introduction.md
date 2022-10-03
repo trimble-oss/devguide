@@ -31,7 +31,7 @@ You can find the detailed guidelines on implementing the various aspects of Inne
 
 1. Define the Owner(s) and Trusted Committer(s) for your project, following the [InnerSource Roles guidance](/innersource/innersource-roles/).
 
-2. Configure your Bitbucket repository to allow InnerSource contributions correctly. Follow the guidance on [repository configuration](/innersource/repository-configuration/).
+2. Configure your repository to allow InnerSource contributions correctly. Follow the guidance on [repository configuration](/innersource/repository-configuration/).
 
 3. Create the Contribution Agreement for the project which sets the ground rules for how people can contribute to the project. Follow the specific guidance on [creating the Contribution Agreement](/innersource/contribution-agreements/).
 
