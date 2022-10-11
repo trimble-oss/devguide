@@ -1,21 +1,25 @@
-name: Whitesource Security Scan
+name: WhiteSource Scan
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
-  build:
+  scan:
+    name: WhiteSource Scan Runner
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
-    steps:
-      - uses: actions/checkout@v3
+    permissions:
+      contents: read
 
-      - name: Run Whitesource Action
-        uses: TheAxZim/Whitesource-Scan-Action@v1.0.0
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          wssURL: https://app-eu.whitesourcesoftware.com/agent
+          submodules: 'true'
+
+      - name: Run WhiteSource Scan Action
+        uses: trimble-oss/gh-actions/mend-scanner@main
+
+        with:
           apiKey: ${{ secrets.WSS_API_KEY }}
-          configFile: "whitesource.config"
+          configFile: 'whitesource.config'
