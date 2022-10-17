@@ -20,7 +20,7 @@ The [Code Guide](https://codeguide.co/#css) also provides excellent guidance for
 
 Many IDE's provide formatting, linting and hinting support.
 
-- [Editorconfig](https://editorconfig.org/)
+- [EditorConfig](https://editorconfig.org/)
 - [Stylelint](https://stylelint.io)
 
 We recommend linting CSS with [Stylelint](https://stylelint.io). The [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)

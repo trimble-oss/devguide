@@ -22,6 +22,7 @@ module.exports = {
         "d-block",
         "d-inline-block",
         "footer",
+        "gh",
         "highlight",
         "language-txt",
         "main",

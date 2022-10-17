@@ -13,7 +13,7 @@ The Developer Guidelines website is run by the Developer Guidelines Working Grou
 - Ryan Kuhn - ryan_kuhn@trimble.com
 - Christian Oliff - christian_oliff@trimble.com
 - Ian Welch - ian_welch@trimble.com
-- Matthew Dexter- matthew_dexter@trimble.com
+- Matthew Dexter - matthew_dexter@trimble.com
 
 ## Getting Involved
 
