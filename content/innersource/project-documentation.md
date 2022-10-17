@@ -23,7 +23,7 @@ innersource: true
 ## Project documentation
 
 Because you want to promote both the consumption and contribution of your software, the documentation guidelines should be split between these two type of personas.
-We recommend to storing all the documentation files in BitBucket, in the Markdown format, so it is closer to the code it documents.
+We recommend to storing all the documentation files in the repository, in the Markdown format, so it is closer to the code it documents.
 As Markdown format is not appropriate for certain cases, (e.g. a sequence diagram), we recommend using other tools (e.g. Miro) and adding a link into the Markdown file.
 
 ### Consumer
