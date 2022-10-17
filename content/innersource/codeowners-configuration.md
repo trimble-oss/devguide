@@ -7,7 +7,7 @@ innersource: true
 
 Follow the steps below in order to configure the CODEOWNERS plugin:
 
-- Add a `CODEOWNERS` or a `.bitbucket/CODEOWNERS` file in your repository. Leave it with the `.file` extension.
+- Add a `CODEOWNERS` file in the root of your repository.
 
 - In the Bitbucket repository, go to `Repository Settings -> Merge Checks` and enable the `Code Owners minimum approvals` option. If there are multiple teams that own the project use the `Min. # of approvals for each group` option.
 
@@ -71,4 +71,4 @@ groovy/                  @@MyDevs
 CODEOWNERS               @AllMighty_Owner@trimble.com
 ```
 
-Helpful links: <https://mibexsoftware.atlassian.net/wiki/spaces/CODEOWNERS/pages/222822413/Usage>
+[Learn more about Code Owners for Bitbucket](https://mibexsoftware.atlassian.net/wiki/spaces/CODEOWNERS/overview)
