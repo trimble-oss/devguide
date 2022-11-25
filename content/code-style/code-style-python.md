@@ -35,14 +35,6 @@ When a rule violation is the result of a conscious decision a rule can be disabl
 # pylint: disable=no-member
 ```
 
-## Businesses Using Language
-
-| Business     | Codebase                         |
-| :----------- | :------------------------------- |
-| Trimble Data | Processing (Pegasus) backend     |
-| Agriculture  | Agronomy data processing, DevOps, Test Automation |
-| CEC          | Test Automation, DevOps           |
-
 ## Sample implementation
 
 To help enforce the standard, you can hook into Git. This can easily be applied to any language enforcement tooling.

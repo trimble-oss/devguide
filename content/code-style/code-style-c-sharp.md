@@ -42,24 +42,13 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 
 - None
 
-
-## Businesses Using Language
-
-| Business    | Codebase                                                           |
-| ----------- | ------------------------------------------------------------------ |
-| Agriculture | Trimble Ag Desktop                                                 |
-| Agriculture | Trimble Ag Software (Web)                                          |
-| Agriculture | Device Licensing API                                               |
-| MEP         | Estimating, Contractor Solutions, Sysque, Nova, Accubid, ProDesign |
-| Buildings   | Tekla Structures                                                   |
-
 ## Recommended Reading
 
 - For an introductory article on how to structure and format C# code see [C# Coding Conventions (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/inside-a-program/coding-conventions).
 
 - Design principles (SOLID). [SOLID](https://en.wikipedia.org/wiki/SOLID) is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 
-    - Recommended Reading: [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204)
+- Recommended Reading: [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204)
 
 ## Allowing Exceptions
 
