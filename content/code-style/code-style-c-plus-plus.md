@@ -33,13 +33,6 @@ None. Exceptions that would benefit a specific project should be documented alon
 | clang-format     | Free                       | Tekla     | Formats source code according to style guide.                                                                  |
 | Peer reviews     |                            | SketchUp  | Validates of code style, code quality.                                                                         |
 
-## Businesses Using Language
-
-| Business | Codebase   | Notes                         |
-| -------- | ---------- | ----------------------------- |
-| SketchUp |            |                               |
-| Tekla    | Structures | SonarQube as a style enforcer |
-
 ## Recommended Reading
 
 - [Boost Library Req and Guidelines](https://www.boost.org/development/requirements.html)

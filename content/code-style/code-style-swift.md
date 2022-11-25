@@ -22,9 +22,3 @@ Triple slash (///) for documentation comments is not enforced.
 ## Implementing the Standard
 
 Because Swift is a relatively new language it’s easier and less time consuming to enforce formatting in the Git pre-commit hook so that it automatically formats added and modified files, for a working example see [this repo](https://bitbucket.trimble.tools/projects/SU/repos/mobile_tools/browse).
-
-## Businesses Using Language
-
-| Business | Codebase | Notes                                                                                                    |
-| :------- | :------- | -------------------------------------------------------------------------------------------------------- |
-| SketchUp | Mobile   | Automatically format added or modified swift files with the swift-format tool using the pre-commit hook. |
