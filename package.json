@@ -38,7 +38,7 @@
     "clipboard": "^2.0.11",
     "eslint": "^8.31.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "htmlhint": "^1.1.4",
     "hugo-bin": "^0.97.0",
     "jquery": "^3.6.3",
