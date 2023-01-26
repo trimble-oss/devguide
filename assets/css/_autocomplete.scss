@@ -1,7 +1,7 @@
 /*! purgecss start ignore */
 .autocomplete-suggestions {
   cursor: default;
-  border: 1px solid #CBCDD6;
+  border: 1px solid #cbcdd6;
   border-top: 0;
   background: #fff;
   position: absolute;
@@ -21,27 +21,27 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #353A40;
+  color: #353a40;
 }
 
 .autocomplete-suggestion b {
   font-weight: 400;
-  color: #217CBB;
+  color: #217cbb;
 }
 
 .autocomplete-suggestion.selected {
-  background: #353A40;
+  background: #353a40;
   color: #fff;
 }
 
 .autocomplete-suggestion:hover {
-  background: #464B52;
+  background: #464b52;
   color: #fff;
 }
 
 .autocomplete-suggestion > .context {
   font-size: 12px;
-  color: #7D808D;
+  color: #7d808d;
 }
 
 .autocomplete-suggestion.selected > .context {

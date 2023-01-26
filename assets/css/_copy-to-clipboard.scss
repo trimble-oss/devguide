@@ -10,7 +10,7 @@ pre .copy-to-clipboard {
   background-position: center;
   background-size: 16px 16px;
   background-repeat: no-repeat;
-  background-color: #CBCDD6;
+  background-color: #cbcdd6;
   width: 27px;
   height: 1.5rem;
   display: inline-block;
@@ -35,8 +35,8 @@ p .copy-to-clipboard {
 }
 
 body[data-url^="/innersource/"] .copy-to-clipboard {
- opacity: 0;
- display: none;
+  opacity: 0;
+  display: none;
 }
 
 /*! purgecss end ignore */
