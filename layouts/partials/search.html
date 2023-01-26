@@ -1,6 +1,10 @@
 <form class="form-group mt-3 ml-3 d-md-block" name="search">
-  <label for="search-by" class="sr-only">Search</label>
-  <input id="search-by" data-search-input="" autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
-    class="form-control search-desktop" aria-label="Search" name="query" placeholder="Search..." autocomplete="off"
-    title="" required onkeypress="return event.keyCode!=13">
+  <div class="input-with-icon-left">
+    <input aria-label="Search" id="search-by" data-search-input="" autocorrect="off" spellcheck="false"
+      autocapitalize="off" type="search" class="form-control search-desktop" name="query" placeholder="Search..."
+      autocomplete="off" title="" required onkeypress="return event.keyCode!=13">
+    <div class="input-icon">
+      {{ partial "icons/modus-outline/search.svg" (dict "class" "text-dark opacity-75 mt-1" "width" "20" "height" "20") }}
+    </div>
+  </div>
 </form>
