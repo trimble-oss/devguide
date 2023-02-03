@@ -45,8 +45,8 @@
         Code Styles
       </h3>
 
-      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6">
-        {{ range first 15 (where .Site.RegularPages ".Section" "in" "code-style") }}
+      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-7">
+        {{ range first 17 (where .Site.RegularPages ".Section" "in" "code-style") }}
         {{- if not .Params.hideDocsToggle }}
         {{- partial "blog-brief.html" . -}}
         {{- end -}}
