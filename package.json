@@ -18,15 +18,15 @@
   },
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
-    "build:dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
+    "build:dev": "npm-run-all lint-css && npx hugo --config hugo.yml,hugo-dev.yml && npm run lint-html",
     "imagemin": "npx imagemin-cli static/img/*.png --out-dir=static/img",
     "lint-css": "stylelint \"assets/css/*.scss\"",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\"",
-    "lint-links": "npx linkinator https://devguide.trimble.com --recurse --silent --skip https://devguide.trimble.com",
+    "lint-links": "npx linkinator ./",
     "lint-markdown": "npx markdownlint content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
-    "prettier": "prettier --write \"assets/**/*.*\"",
+    "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "npx hugo serve --port 4000 --disableFastRender --navigateToChanged",
     "svgo": "npx svgo -f static/img/icons/development-practices/",
     "test": "npm-run-all lint-css && npm run lint-html && npm run lint-js && npx hugo"
