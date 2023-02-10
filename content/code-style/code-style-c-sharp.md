@@ -13,11 +13,23 @@ hideClipboard: true
 
 ## Reference Code Standard
 
-Follow Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) which are based off of the [dotnet/runtime C# Style Guidelines](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style) while using the [dotnet/runtime .editorconfig file](https://github.com/dotnet/runtime/blob/main/.editorconfig).
+Follow Microsoft's guidelines:
+- [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [C# Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
+- [dotnet/runtime C# Style Guidelines](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style)
 
-External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/oas/latest.html) (API documentation specification) and tools like [DocFX](https://dotnet.github.io/docfx/) (MSDN style documentation tool) to create detailed documentation.
+Microsoft has a default [.editorconfig](https://github.com/dotnet/runtime/blob/main/.editorconfig) that matches their coding conventions.
+
+External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/oas/latest.html) (API documentation specification) implemented by [Swashbuckle](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-7.0&tabs=visual-studio) and tools like [DocFX](https://dotnet.github.io/docfx/) (MSDN style documentation tool) to create detailed documentation.
 
 ## Implementing the Standard
+
+| Tools/Procedures                                              | Type       | Notes                                                      |
+| ------------------------------------------------------------- | ---------- | ---------------------------------------------------------- |
+| [Visual Studio](https://visualstudio.microsoft.com/downloads) | Commercial | Requires .NET 5 or higher and Visual Studio 2017 or higher |
+| [ReSharper](https://www.jetbrains.com/resharper/)             | Commercial | IntelliSense Code Linter for C++ evaluates as you type     |
+| [Visual Studio Code](https://code.visualstudio.com/Download)  | Free       | Formats source code according to style guide.              |
+
 
 - This standard requires .NET 5 or higher and Visual Studio 2017 or higher to run out of the box.
 
@@ -40,7 +52,7 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 
 ## Exceptions to the Standard
 
-- None
+None. Exceptions that would benefit a specific project should be documented along with a rationale for the exception.
 
 ## Recommended Reading
 
@@ -48,7 +60,7 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 
 - Design principles (SOLID). [SOLID](https://en.wikipedia.org/wiki/SOLID) is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
 
-- Recommended Reading: [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-via-principles-Developer/dp/0735683204)
+- Recommended Reading: [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-Developer-Best-Practices-dp-0136891446/dp/0136891446)
 
 ## Allowing Exceptions
 
