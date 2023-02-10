@@ -10,15 +10,10 @@ headerBGInvert: true
 code: true
 ---
 
-In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.
-
 ## Reference Code Standard
 
-- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-
-  - Modern
-  - Provides good rationale for decisions, including even counter-arguments
-  - Exceptions to the code style allowed to maintain local consistency in existing code
+Follow Google's guidelines which includes coding conventions and naming style:
+- [C++ Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## Exceptions to the Standard
 
@@ -26,12 +21,12 @@ None. Exceptions that would benefit a specific project should be documented alon
 
 ## Implementing the Standard
 
-| Tools/Procedures | Type                       | In Use By | Notes                                                                                                          |
-| ---------------- | -------------------------- | --------- | -------------------------------------------------------------------------------------------------------------- |
-| cpplint.py       | Open Source                | Tekla     | Validates Google code style. It can be modified to account for any exceptions we add to the original standard. |
-| SonarQube        | Open Source and Commercial | Tekla     | Continuous Inspection, centralization of quality, DevOps integration, detection of tricky issues.              |
-| clang-format     | Free                       | Tekla     | Formats source code according to style guide.                                                                  |
-| Peer reviews     |                            | SketchUp  | Validates of code style, code quality.                                                                         |
+| Tools/Procedures                                                      | Type        | Notes                                                                                                          |
+| --------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------- |
+| [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) | Open Source | Validates Google code style. It can be modified to account for any exceptions we add to the original standard. |
+| [Visual Studio 2022](https://visualstudio.microsoft.com/downloads)    | Commercial  | IntelliSense Code Linter for C++ evaluates as you type                                                         |
+| [ReSharper C++](https://www.jetbrains.com/resharper-cpp/)             | Commercial  | IntelliSense Code Linter for C++ evaluates as you type                                                         |
+| [clang-format](https://clang.llvm.org/docs/ClangFormat.html)          | Free        | Formats source code according to style guide.                                                                  |
 
 ## Recommended Reading
 
