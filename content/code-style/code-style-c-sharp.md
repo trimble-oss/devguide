@@ -14,6 +14,7 @@ hideClipboard: true
 ## Reference Code Standard
 
 Follow Microsoft's guidelines:
+
 - [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 - [C# Naming Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 - [dotnet/runtime C# Style Guidelines](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md#c-coding-style)

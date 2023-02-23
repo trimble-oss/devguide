@@ -13,6 +13,7 @@ code: true
 ## Reference Code Standard
 
 Follow Google's guidelines which includes coding conventions and naming style:
+
 - [C++ Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## Exceptions to the Standard
