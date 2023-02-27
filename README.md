@@ -4,6 +4,15 @@
 
 The Developer Guidelines website is run by the Developer Guidelines Working Group.
 
+| Role              | Person                                                 |
+|-------------------|--------------------------------------------------------|
+| Owner / Chair     | [Jeff Doolittle](mailto:jeffrey_doolittle@trimble.com) |
+| Trusted Committer | [Matthew Dexter](mailto:matthew_dexter@trimble.com)    |
+| Trusted Committer | [Ryan Kuhn](mailto:ryan_kuhn@trimble.com)              |
+| Trusted Committer | [Kevin Chapman](mailto:kevin_chapman@trimble.com)      |
+| Trusted Committer | [Christian Oliff](mailto:christian_oliff@trimble.com)  |
+| Trusted Committer | [Ian Welch](mailto:ian_welch@trimble.com)              |
+
 ## Getting Involved
 
 Contributions to these guidelines are very welcome. Please view [CONTRIBUTING.md](CONTRIBUTING.md) for details.
@@ -15,7 +24,7 @@ Please email the [Developer Guidelines Working Group](mailto:devguide-ug@trimble
 ## Links
 
 | Resource          | Link                                                       |
-| ----------------- | ---------------------------------------------------------- |
+|-------------------|------------------------------------------------------------|
 | Production        | https://devguide.trimble.com                               |
 | GitHub Repo       | https://github.com/trimble-oss/devguide                    |
 | Previous Versions | https://web.archive.org/save/https://devguide.trimble.com/ |
@@ -23,7 +32,7 @@ Please email the [Developer Guidelines Working Group](mailto:devguide-ug@trimble
 ## Testing and Audits
 
 | Resource           | Link                                                                                                       |
-| ------------------ | ---------------------------------------------------------------------------------------------------------- |
+|--------------------|------------------------------------------------------------------------------------------------------------|
 | Google Lighthouse  | https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://devguide.trimble.com                      |
 | Page Speed Test    | https://pagespeed.web.dev/report?utm_source=psi&utm_medium=redirect&url=https%3A%2F%2Fdevguide.trimble.com |
 | Website Grader     | https://website.grader.com/results/devguide.trimble.com                                                    |
@@ -35,7 +44,7 @@ Please email the [Developer Guidelines Working Group](mailto:devguide-ug@trimble
 ## Assets
 
 | Resource                         | Link                     |
-| -------------------------------- | ------------------------ |
+|----------------------------------|--------------------------|
 | Home page developer illustration | https://undraw.co/       |
 | Code Style icons                 | https://simpleicons.org/ |
 | Development Practices Icons      | https://fontawesome.com/ |
