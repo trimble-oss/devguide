@@ -4,14 +4,14 @@
 
 The Developer Guidelines website is run by the Developer Guidelines Working Group.
 
-| Role              | Person                                                 |
-|-------------------|--------------------------------------------------------|
-| Owner / Chair     | [Jeff Doolittle](mailto:jeffrey_doolittle@trimble.com) |
-| Trusted Committer | [Matthew Dexter](mailto:matthew_dexter@trimble.com)    |
-| Trusted Committer | [Ryan Kuhn](mailto:ryan_kuhn@trimble.com)              |
-| Trusted Committer | [Kevin Chapman](mailto:kevin_chapman@trimble.com)      |
-| Trusted Committer | [Christian Oliff](mailto:christian_oliff@trimble.com)  |
-| Trusted Committer | [Ian Welch](mailto:ian_welch@trimble.com)              |
+| Role              | Person          |
+|-------------------|-----------------|
+| Owner / Chair     | Jeff Doolittle  |
+| Trusted Committer | Matthew Dexter  |
+| Trusted Committer | Ryan Kuhn       |
+| Trusted Committer | Kevin Chapman   |
+| Trusted Committer | Christian Oliff |
+| Trusted Committer | Ian Welch       |
 
 ## Getting Involved
 
