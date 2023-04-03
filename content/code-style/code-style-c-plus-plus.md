@@ -14,7 +14,7 @@ code: true
 
 Follow Google's guidelines which includes coding conventions and naming style:
 
-- [C++ Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 ## Exceptions to the Standard
 
