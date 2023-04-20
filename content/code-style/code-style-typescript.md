@@ -19,11 +19,6 @@ code: true
 - [TypeScript specific rules for ESLint](https://github.com/typescript-eslint/typescript-eslint)
 - [ESLint integrations for various IDEs and coding environments](https://eslint.org/docs/user-guide/integrations)
 
-## Exceptions to the Standard
-
-- [TSLint](https://palantir.github.io/tslint/) (recommended only for applications using Angular &lt; version 11)<br>
-  _Note: [TSLint is deprecated](https://www.infoq.com/news/2019/02/tslint-deprecated-eslint/)_
-
 ## Tools
 
 - [Official TypeScript playground](https://www.typescriptlang.org/play)
