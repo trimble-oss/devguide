@@ -8,7 +8,7 @@ main table {
 
 main td {
   min-width: 75px;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e62e;
   vertical-align: top;
   padding: 0.3rem;
 }
@@ -17,7 +17,7 @@ main thead th {
   border-top: 0;
   vertical-align: bottom;
   padding: 0.3rem;
-  background-color: #E0E1E9;
+  background-color: #e0e1e9;
   border-bottom: 2px solid #dee2e6;
 }
 
@@ -28,13 +28,13 @@ td code {
 /** sticky top headers **/
 main thead tr:nth-child(1) th {
   position: sticky;
-  border-bottom: 1px solid #CBCDD6 !important;
+  border-bottom: 1px solid #cbcdd6 !important;
   z-index: 99;
   top: 69px; // offset taking the fixed top navbar into account
 }
 
 main thead {
-  border-bottom: 1px solid #CBCDD6;
+  border-bottom: 1px solid #cbcdd6;
 }
 
 main tbody td:nth-child(1) th {

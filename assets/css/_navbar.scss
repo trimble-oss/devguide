@@ -1,6 +1,7 @@
 .navbar a {
   font-weight: 600;
   font-size: 14px;
+  color: #fff !important;
 }
 
 .navbar .form-control {
@@ -10,7 +11,7 @@
 // 'frosted glass' effect on top navbar
 .navbar.fixed-top {
   // background-color: #2b87c4;
-  background-image: linear-gradient(99deg, rgba(44,137,198,39) 0%, rgba(33,116,172,59) 100%);
+  background-image: linear-gradient(99deg, rgba(44, 137, 198, 39) 0%, rgba(33, 116, 172, 59) 100%);
   backdrop-filter: blur(6px);
   opacity: 0.96;
   z-index: 11111; // prevents overlapping navbar on mobile as scroll past
@@ -31,9 +32,9 @@ body[data-url^="/innersource/"] .navbar-nav li a[href^="/innersource/"] {
 
 .navbar-nav li a {
   border-bottom: 2px solid transparent;
-  color: #0063A3;
+  color: #0063a3;
 }
 
 .navbar-nav li a:hover {
-  border-bottom: 2px solid #E0E1E9;
+  border-bottom: 2px solid #e0e1e9;
 }
