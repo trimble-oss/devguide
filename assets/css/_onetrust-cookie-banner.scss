@@ -18,8 +18,8 @@
 #onetrust-accept-btn-handler {
   background-color: #0063a3 !important;
   border-color: #0063a3 !important;
-  padding: .1875rem 1rem !important;
-  font-size: .8rem !important;
+  padding: 0.1875rem 1rem !important;
+  font-size: 0.8rem !important;
   font-weight: 600 !important;
   user-select: none !important;
   line-height: 1.75 !important;
@@ -37,7 +37,7 @@
 #onetrust-pc-btn-handler {
   color: #0063a3 !important;
   border: 1px solid #0063a3 !important;
-  font-size: .8rem !important;
+  font-size: 0.8rem !important;
   font-weight: 600 !important;
 
   // padding: .1875rem 1rem;
@@ -87,7 +87,7 @@
 }
 
 .ot-pc-footer-logo a {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /** prefrence center modal **/
@@ -104,11 +104,11 @@
   opacity: 0;
 }
 
-#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob {
+#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob {
   border-color: #0063a3 !important;
 }
 
-#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob::before {
+#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob::before {
   background-color: #0063a3 !important;
 }
 
@@ -125,7 +125,7 @@
 #ot-sdk-btn {
   border-color: #0063a3 !important;
   font-size: 14px !important;
-  padding: .1875rem 1rem !important;
+  padding: 0.1875rem 1rem !important;
   text-transform: lowercase;
   line-height: 1.75 !important;
 }
