@@ -60,8 +60,32 @@ repos:
         verbose: true
 ```
 
+## Other recommended practices
+
+It's advised to write type annotated code whenever possible. The following PEP is relevant to this:
+
+- **[PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484)**<br>
+PEP 484 introduces type hints to Python code. It enables annotating function and variable types to improve code clarity and maintainability.
+
+Type-checking code at build time is possible with type checking tools such as [mypy](https://mypy.readthedocs.io/en/stable/index.html). Conscious rule violations can be silenced using:
+
+```python
+# type: ignore
+```
+
+mypy can be added to the `pre-commit-config.yaml` in the following way:
+
+```yaml
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+    -   id: mypy
+```
+
 ## Bibliography
 
+- [mypy](https://mypy.readthedocs.io/en/stable/index.html)
 - [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 - [PEP 257](https://www.python.org/dev/peps/pep-0257/)
+- [PEP 484](https://www.python.org/dev/peps/pep-0484)
 - [Pylint](https://pylint.pycqa.org/en/latest/)
