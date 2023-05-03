@@ -62,18 +62,14 @@ repos:
 
 ## Other recommended practices
 
-It's advised to write type annotated code whenever possible. The following PEP is relevant to this:
+It's strongly advised to write type annotated code whenever possible. The following PEP is relevant to this:
 
 - **[PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484)**<br>
 PEP 484 introduces type hints to Python code. It enables annotating function and variable types to improve code clarity and maintainability.
 
-Type-checking code at build time is possible with type checking tools such as [mypy](https://mypy.readthedocs.io/en/stable/index.html). Conscious rule violations can be silenced using:
+Annotated code is already checked during build time with static type checking tools. [mypy](https://mypy.readthedocs.io/en/stable/index.html) is recommended. It works like a linter, and uses type annotations of variables and functions to ensure that they are used correctly. In this way, possible problems in the code are revealed even before a program is run.
 
-```python
-# type: ignore
-```
-
-mypy can be added to the `pre-commit-config.yaml` in the following way:
+mypy can also be added to the `pre-commit-config.yaml` in the following way:
 
 ```yaml
 -   repo: https://github.com/pre-commit/mirrors-mypy
@@ -81,6 +77,13 @@ mypy can be added to the `pre-commit-config.yaml` in the following way:
     hooks:
     -   id: mypy
 ```
+
+Just in case, conscious type checking violations can be silenced using:
+
+```python
+# type: ignore[<code>]
+```
+
 
 ## Bibliography
 
