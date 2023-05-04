@@ -60,7 +60,7 @@ repos:
         verbose: true
 ```
 
-## Other recommended practices
+## Recommended practices
 
 It's strongly advised to write type annotated code whenever possible. The following PEP is relevant to this:
 
