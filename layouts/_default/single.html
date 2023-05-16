@@ -5,7 +5,7 @@
     <div class="row py-lg-3 pb-xl-4">
       <div class="col-12 py-lg-4 pb-5 text-center mt-5 mt-md-0">
         <h1
-          class="display-4 font-weight-bold pt-md-4 mt-5 mt-md-2 pb-xl-5 text-white{{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+          class="display-4 font-weight-bold pt-md-4 mt-5 mt-md-2 pb-xl-5 {{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
           {{- .Title -}}
         </h1>
       </div>

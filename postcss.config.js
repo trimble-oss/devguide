@@ -34,6 +34,7 @@ module.exports = {
         "opacity-75",
         "ot-*",
         "row",
+        "row-cols-xl-7",
         "sr-only",
         "table",
         "td",

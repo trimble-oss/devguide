@@ -1,9 +1,9 @@
 <div class="bg-anim">
-<nav class="navbar navbar-expand fixed-top" aria-label="main navigation">
+<nav class="navbar navbar-blue navbar-expand fixed-top" aria-label="main navigation">
   <div class="container flex-column flex-md-row justify-content-end">
     <a class="navbar-brand mr-left mr-md-auto font-weight-bold" href="/">
       <img src="/img/trimble-logo-rev.svg" width="107" height="24" class="img-fluid" alt="home">
-      <div class="small text-white">Developer Guidelines</div>
+      <div class="small">Developer Guidelines</div>
     </a>
     {{ partial "skippy" . }}
     <div class="navbar-nav-scroll">
@@ -11,7 +11,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-          <a class="nav-link text-white {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+          <a class="nav-link {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
             {{- .Name -}}
           </a>
         </li>
