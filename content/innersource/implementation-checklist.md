@@ -31,9 +31,9 @@ You can use this checklist to ensure that you complete all of the necessary step
 (see [Repository Configuration](./repository-configuration.md) for more in-depth details on this)
 
 - [ ] The repository description has a relevant description.
-- [ ] The repository has the trimble-innersource label for Bitbucket or the trimble-innersource topic in Github.
+- [ ] The repository has the trimble-innersource label for Bitbucket or the trimble-innersource topic in GitHub.
 - [ ] The repository has open read permissions for everyone.
-- [ ] For Bitbucket, the repository has write permissions so that anyone can submit a pull request, this is not required for Github.
+- [ ] For Bitbucket, the repository has write permissions so that anyone can submit a pull request, this is not required for GitHub.
 - [ ] The `main` and `develop` branches are protected so code cannot be committed without a Pull Request.
 - [ ] The repository should be configured to auto-unapprove Pull Requests when there is a new commit against the PR.
 
