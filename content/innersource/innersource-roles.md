@@ -48,7 +48,7 @@ The Trusted Committer role belongs to a person or persons who have been nominate
 
 6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.md` file
 
-7. Participate and answer questions where appropriate (chat groups, Github discussions, Jira etc.)
+7. Participate and answer questions where appropriate (chat groups, GitHub discussions, Jira etc.)
 
 ## The Contributor Role
 

@@ -7,7 +7,7 @@ innersource: true
 
 Documentation known as the _Contributing Agreement_ which should be stored in the root of a repository or project subfolder in the case of a monorepo. Documentation should be provided in Markdown format.
 
-Both Bitbucket and Github have full support for rendering Markdown so it is easy for potential contributors to read and learn about the project.
+Both Bitbucket and GitHub have full support for rendering Markdown so it is easy for potential contributors to read and learn about the project.
 
 See [The Markdown Guide](https://www.markdownguide.org) for documentation.
 
@@ -40,7 +40,7 @@ The Contributing Agreement should be broken down as follows:
 
 **`README.md`** - provides a general description of the project, its intent and who the Trusted Committer(s) are for the project.
 
-This file is loaded by default when you open a repo in Bitbucket or Github. The `README.md` should link to the other InnerSource files for easy navigation.
+This file is loaded by default when you open a repo in Bitbucket or GitHub. The `README.md` should link to the other InnerSource files for easy navigation.
 
 A useful interactive tool for creating a readme can be found here - [https://www.makeareadme.com/](https://www.makeareadme.com/)
 
