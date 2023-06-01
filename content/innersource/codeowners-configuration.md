@@ -5,8 +5,9 @@ description: ""
 innersource: true
 hideToc: true
 ---
+For Github Code Owners is built in. See [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) in the Github documentation for configuration details.
 
-Follow the steps below in order to configure the CODEOWNERS plugin:
+For Bitbucket, follow the steps below in order to configure the CODEOWNERS plugin.
 
 - Add a `CODEOWNERS` file in the root of your repository.
 

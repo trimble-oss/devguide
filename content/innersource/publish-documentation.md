@@ -8,8 +8,6 @@ hideToc: true
 
 Opening up a project to InnerSource is one thing, but it is equally important to get users to adopt and contribute to it. It is therefore highly advisable that you have a way of publishing the project and making the InnerSource documentation available.
 
-Trimble maintains a list of projects which have been InnerSourced across the company. You can find the current list on the [Engineering @ Trimble website](https://sites.google.com/trimble.com/engineering/how-we-develop/innersource-shared-components).
-
 If you would like to have your InnerSource project included here then please contact {{< cloak-email address="matthew_dexter@trimble.com" display="Matthew Dexter" >}}.
 
 There are a couple of ways in which you can publish the documentation itself.

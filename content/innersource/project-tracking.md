@@ -7,7 +7,7 @@ innersource: true
 
 ## Guidelines for Project Owner
 
-The owner should create an **_Epic_** on a Jira project related to this with a label **trimble-innersource**. This Epic will be used to create tasks when someone finds any issues in this project or has improvement suggestions.
+The owner should create an **_Epic_** on a Jira project or equivalent issue management system with a label **trimble-innersource**. This Epic will be used to create tasks when someone finds any issues in this project or has improvement suggestions.
 
 ## Guidelines for Issue Reporters
 
