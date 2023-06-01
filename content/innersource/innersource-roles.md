@@ -14,7 +14,7 @@ The Owner is the person that has overall ownership of the project and who can ap
 
 ### Expectations of Owner
 
-- Works with the Architecture Review Board to ensure that this project's architecture direction is in line with the overall strategy and doesn't duplicate functionality available elsewhere
+- Works with the relevant project stakeholders to ensure that this project's architecture direction is in line with the overall strategy and doesn't duplicate functionality available elsewhere
 - Ensures that the InnerSource guidelines are applied to the project correctly.
 - Provides high-level business requirements and works with product owners, if relevant for this project, to ensure these requirements meet expected business outcomes.
 - Demonstrate excellent judgment, teamwork and ability to uphold development principles.
@@ -42,13 +42,13 @@ The Trusted Committer role belongs to a person or persons who have been nominate
 
 3. Keep the relevant documentation up to date
 
-4. Keep feature request and bug reports up to date in Jira.
+4. Keep feature request and bug reports up to date in Jira or equivalent issue manager.
 
 5. Communicate with contributors setting realistic expectations for timescales for review of Pull Requests
 
 6. Conduct code reviews with contributors according the code of conduct defined in the `CODE_OF_CONDUCT.md` file
 
-7. Participate and answer questions where appropriate (chat groups, Jira etc.)
+7. Participate and answer questions where appropriate (chat groups, Github discussions, Jira etc.)
 
 ## The Contributor Role
 

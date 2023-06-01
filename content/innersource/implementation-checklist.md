@@ -28,14 +28,14 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 ## Repository Configuration
 
-(see [Repository Configuration](./repository-configuration.md))
+(see [Repository Configuration](./repository-configuration.md) for more in-depth details on this)
 
-- [ ] The repository description has a short description including the owner details.
-- [ ] The repository has the trimble-innersource label.
+- [ ] The repository description has a relevant description.
+- [ ] The repository has the trimble-innersource label for Bitbucket or the trimble-innersource topic in Github.
 - [ ] The repository has open read permissions for everyone.
-- [ ] The repository has write permissions so that anyone can submit a pull request.
+- [ ] For Bitbucket, the repository has write permissions so that anyone can submit a pull request, this is not required for Github.
 - [ ] The `main` and `develop` branches are protected so code cannot be committed without a Pull Request.
-- [ ] The auto-unapprove setting for the repository is set to ‘On’.
+- [ ] The repository should be configured to auto-unapprove Pull Requests when there is a new commit against the PR.
 
 ## Contribution Agreements
 
@@ -49,7 +49,7 @@ You can use this checklist to ensure that you complete all of the necessary step
 
 (see [Project Tracking](./project-tracking.md) and [Project Communication](./project-communication.md))
 
-- [ ] An epic has been created within a Jira project related to this repository to be used to track issues. The epic should have the label trimble-innersource.
+- [ ] An epic has been created within a Jira project or equivalent Issue Manager related to this repository to be used to track issues. The epic should have the label trimble-innersource.
 - [ ] Details of the epic and how to log issues and feature request are included in the `CONTRIBUTING.md`.
 - [ ] A communication channel is established that allows contributors and consumers to contact the owners (e.g. Google Chat group or email group). This is detailed in the `README.md`.
 

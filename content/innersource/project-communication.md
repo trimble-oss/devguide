@@ -7,7 +7,7 @@ innersource: true
 
 It is very important to set up a method of communication for existing contributors and people who want to contribute.
 
-Recommended would be either a Google Chat room or Google group.
+Recommended would be either a Google Chat room or group or Github discussions.
 
 ## Google Chat
 
@@ -20,6 +20,10 @@ See [Google Chat Help](https://support.google.com/chat/answer/7653881?hl=en&ref_
 To set up a Google Group, go to [Google Groups](https://groups.google.com/my-groups) and choose Create Group and follow the wizard. All Trimble groups have an associated email address which always ends in -ug@trimble.com.
 
 See [Google Chat Help](https://support.google.com/groups/answer/2464926?hl=en&ref_topic=2458761) for more details on using Google Groups
+
+## Github discussions
+
+Github discussions can be enabled from the repository settings screen if you have the appropriate permissions to do so. For more details see [Github discussions](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository)
 
 ------
 

@@ -39,7 +39,7 @@ You can find the detailed guidelines on implementing the various aspects of Inne
 
 5. Set up a method of communication for existing contributors, consumers and people who want to contribute. Follow the guidance on [project communication](/innersource/project-communication/).
 
-6. Setup a project tracking to allow people to report and track issues/suggestions for your project. Follow the guidance on [project tracking](/innersource/project-tracking/).
+6. Setup a method of project tracking to allow people to report and track issues/suggestions for your project. Follow the guidance on [project tracking](/innersource/project-tracking/).
 
 Remember to check out the [implementation checklist](/innersource/implementation-checklist/) for more detailed steps and the rest of this section for more specific detail on the different InnerSource concepts.
 
