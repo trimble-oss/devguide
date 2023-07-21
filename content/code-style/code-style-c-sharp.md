@@ -43,6 +43,12 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 -------- Subfolders/Projects
 ```
 
+- Change or remove license header
+```txt
+# License header
+file_header_template = Licensed to the .NET Foundation under one or more agreements.\nThe .NET Foundation licenses this file to you under the MIT license.
+```
+
 - Tools from JetBrains can make this standard compatible with any version of .NET and Visual Studio ([ReSharper](https://www.jetbrains.com/help/resharper/Using_EditorConfig.html)/[Rider](https://www.jetbrains.com/help/rider/Using_EditorConfig.html)).
 
 - [Analyzers can be enabled](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) in versions of .NET prior to 5.
