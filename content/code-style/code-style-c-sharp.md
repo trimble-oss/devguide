@@ -44,6 +44,7 @@ External APIs shall use xmldoc. This allows [OpenAPI](https://spec.openapis.org/
 ```
 
 - Change or remove license header
+
 ```txt
 # License header
 file_header_template = Licensed to the .NET Foundation under one or more agreements.\nThe .NET Foundation licenses this file to you under the MIT license.
