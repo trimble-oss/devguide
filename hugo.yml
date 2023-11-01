@@ -14,7 +14,7 @@ params:
   images:
     - https://devguide.trimble.com/img/preview.png
 
-disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
+disableKinds: ["taxonomy", "RSS"]
 
 pygmentsUseClasses: true
 
