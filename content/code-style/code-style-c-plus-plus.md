@@ -12,9 +12,9 @@ code: true
 
 ## Reference Code Standard
 
-Follow Google's guidelines which includes coding conventions and naming style:
+Follow the C++ Core Guidelines which includes coding conventions, and naming and layout rules:
 
-- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
 ## Exceptions to the Standard
 
@@ -24,10 +24,11 @@ None. Exceptions that would benefit a specific project should be documented alon
 
 | Tools/Procedures                                                      | Type        | Notes                                                                                                          |
 | --------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------- |
-| [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) | Open Source | Validates Google code style. It can be modified to account for any exceptions we add to the original standard. |
 | [Visual Studio 2022](https://visualstudio.microsoft.com/downloads)    | Commercial  | IntelliSense Code Linter for C++ evaluates as you type                                                         |
 | [ReSharper C++](https://www.jetbrains.com/resharper-cpp/)             | Commercial  | IntelliSense Code Linter for C++ evaluates as you type                                                         |
-| [clang-format](https://clang.llvm.org/docs/ClangFormat.html)          | Free        | Formats source code according to style guide.                                                                  |
+| [clangd](https://clangd.llvm.org/)                                    | Free        | Compiler and clang-tidy warnings as you type |
+| [clang-format](https://clang.llvm.org/docs/ClangFormat.html)          | Free        | Formats source code according to layout rules                                                                   |
+| [clang-tidy](https://clang.llvm.org/extra/clang-tidy/)                | Free        | Validates coding conventions and naming rules. It can be modified to account for any exceptions we add to the original standard              |
 
 ## Recommended Reading
 
