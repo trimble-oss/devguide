@@ -1,7 +1,7 @@
 <div class="col my-3">
   <div class="card card-blog-brief h-100 text-center border">
     <div class="card-header top-rounded mb-0 py-2 border-0"
-      style="background-image: url();{{ if .Params.headerBGColor }}background-color:{{ .Params.headerBGColor }}{{- end -}}">
+      style="background-image: url();{{ if .Params.headerBGColor }}background-color: {{- .Params.headerBGColor -}}{{- end -}}">
       <div class="{{ if .Params.headerBGInvert }}bg-filter-invert{{- end -}}">
         <img src="{{- .Params.Image | relURL -}}" class="mx-auto text-center mt-4" alt="" width="52" height="52">
       </div>

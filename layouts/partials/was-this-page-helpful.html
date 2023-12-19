@@ -1,10 +1,10 @@
 <div class="d-none small p-2 feedback mt-2">
   <div class="mt-2 mb-1">Was this page helpful?</div>
-  <button class="btn btn-light btn-outline bg-white btn-feedback btn-feedback-helpful border rounded px-1 pt-0 mr-2"
+  <button type="button" class="btn btn-light btn-outline bg-white btn-feedback btn-feedback-helpful border rounded px-1 pt-0 mr-2"
     onClick="ga('send', 'event', 'page-feedback', 'click', 'Helpful');" aria-label="Helpful">
     {{- partial "icons/modus-outline/thumbs-up.svg" (dict "width" "22" "height" "22" "class" "mx-2 mx-auto text-primary") -}}
   </button>
-  <button class="btn btn-light btn-outline bg-white btn-feedback btn-feedback-not-helpful border rounded px-1 pt-0"
+  <button type="button" class="btn btn-light btn-outline bg-white btn-feedback btn-feedback-not-helpful border rounded px-1 pt-0"
     onClick="ga('send', 'event', 'page-feedback', 'click', 'Not Helpful');" aria-label="Not Helpful">
     {{- partial "icons/modus-outline/thumbs-down.svg" (dict "width" "22" "height" "22" "class" "mx-2 mx-auto text-primary") -}}
   </button>
@@ -15,6 +15,6 @@
 </div>
 
 <div class="small ml-2 d-none feedback-not-helpful">
-  <a href="https://github.com/trimble-oss/devguide/issues" target="_blank">Please provide feedback about how we can
-    improve the page</a>.
+  <a href="https://github.com/trimble-oss/devguide/issues" target="_blank" rel="noopener">
+    Please provide feedback about how we can improve the page</a>.
 </div>
