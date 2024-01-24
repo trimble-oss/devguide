@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trimble-oss/devguide.git"
+    "url": "git+https://github.com/trimble-oss/devguide.git"
   },
   "license": "private",
   "author": "Trimble",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
@@ -23,7 +23,7 @@
     "lint-css": "stylelint \"assets/css/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\" --fix",
-    "lint-links": "npx linkinator ./public/",
+    "lint-links": "npx linkinator ./public/ --silent --recurse",
     "lint-markdown": "npx markdownlint content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "prettier": "prettier --write \"assets/**/*.*s\"",
@@ -33,8 +33,8 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "@trimbleinc/modus-bootstrap": "1.6.2",
-    "autoprefixer": "10.4.16",
+    "@trimbleinc/modus-bootstrap": "1.6.3",
+    "autoprefixer": "10.4.17",
     "clipboard": "2.0.11",
     "eslint": "8.56.0",
     "eslint-config-google": "0.14.0",
@@ -44,11 +44,11 @@
     "jquery": "3.7.1",
     "npm-run-all": "4.1.5",
     "popper.js": "1.16.1",
-    "postcss": "8.4.32",
+    "postcss": "8.4.33",
     "postcss-cli": "11.0.0",
-    "prettier": "3.1.1",
-    "stylelint": "16.1.0",
-    "stylelint-config-standard-scss": "12.0.0"
+    "prettier": "3.2.4",
+    "stylelint": "16.2.0",
+    "stylelint-config-standard-scss": "13.0.0"
   },
   "hugo-bin": {
     "buildTags": "extended"
