@@ -26,5 +26,5 @@ None. Any further exceptions that would benefit a project should be documented a
 
 | Tools/Procedures                                             | Type       | Notes                                         |
 | ------------------------------------------------------------ | ---------- | --------------------------------------------- |
-| [PC-lint Plus](https://www.gimpel.com/)                      | Commercial | Checks MISRA C automotive guidelines          |
+| [PC-lint Plus](https://pclintplus.com/pc-lint-plus/)         | Commercial | Checks MISRA C automotive guidelines          |
 | [clang-format](https://clang.llvm.org/docs/ClangFormat.html) | Free       | Formats source code according to style guide. |
