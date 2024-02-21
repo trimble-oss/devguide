@@ -1,5 +1,5 @@
-{{- if not .Site.IsServer -}}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}" fetchpriority="low"></script>
+{{- if not hugo.IsServer -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.GoogleAnalytics -}}" fetchpriority="low"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
