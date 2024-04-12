@@ -22,16 +22,17 @@ The one exception is that preexisting libraries included in your applications sh
 Some IDE’s provide linting support built into their package system. For command-line you’ll need to install the package with administrative/root privilege
 
 ```sh
-npm install eslint eslint-config-google --save-dev
+npm install eslint --save-dev
 # or
-yarn add eslint eslint-config-google --dev
+yarn add eslint --dev
 ```
 
-Once the eslint-config-google package is installed, you can use it by specifying google in the extends section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once eslint is installed, you can use it by specifying `eslint:recommended` in the extends section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```json
 {
-  "extends": "google",
+  "root": true,
+  "extends": ["eslint:recommended"],
   "rules": {
     // Additional, per-project rules...
   }
