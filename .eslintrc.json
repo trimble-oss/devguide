@@ -10,7 +10,6 @@
     "sourceType": "module"
   },
   "extends": [
-    "google",
     "prettier"
   ],
   "rules": {
