@@ -23,7 +23,6 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.122.0"
           extended: true
 
       - run: npm i
