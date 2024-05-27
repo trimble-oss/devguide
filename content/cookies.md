@@ -5,15 +5,13 @@ description: ""
 url: "/cookies/"
 private: true
 hideToc: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 hideDocsToggle: true
 hidden: true
 ---
 
-<p>
-  "Cookies" are pieces of information that a web site transfers to an
-  individual's hard drive for record-keeping purposes.
-</p>
+"Cookies" are pieces of information that a web site transfers to an individual's hard drive for record-keeping purposes.
 
 <!-- OneTrust Cookies List -->
 <div id="ot-sdk-cookie-policy" hidden></div>
