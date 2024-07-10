@@ -1,9 +1,9 @@
 {{- if not hugo.IsServer -}}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.GoogleAnalytics -}}" fetchpriority="low"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Config.Services.GoogleAnalytics.ID -}}" fetchpriority="low"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ .Site.GoogleAnalytics }}', {ad_storage:"denied", analytics_storage:"denied"});
+  gtag('config', '{{- .Site.Config.Services.GoogleAnalytics.ID -}}', {ad_storage:"denied", analytics_storage:"denied"});
 </script>
 {{- end -}}

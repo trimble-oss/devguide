@@ -1157,9 +1157,6 @@
     "xmldoc",
     "xmlns",
     "xoxo",
-    "xpds",
-    "xperia",
-    "xpress",
     "xpzs",
     "xrscorp",
     "yandex",
@@ -1168,9 +1165,7 @@
     "yodal",
     "youtube",
     "zetes",
-    "zipmatch",
-    "zonar",
-    "ZOOMRADII"
+    "zipmatch"
   ],
   "flagWords": [
     "blacklist",
@@ -1182,23 +1177,14 @@
   ],
   "language": "en,en-US",
   "ignoreRegExpList": [
-    "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
-    "\\[(\\*{2})?@\\w+?\\1\\]",
-    "\\[`\\w+`\\]",
-    "ve{2,}r{2,}y",
-    "ve+r+y+long\\w*",
-    "\\/.*?\\/",
-    "\\_\\w+",
     "\\#\\w+"
   ],
   "ignorePaths": [
     ".cspell.json",
     "**/node_modules/**",
     "*.min.*",
-    "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests,*.yml}/**/*",
     "*.{log,scss,svg,snap}",
-    "CODEOWNERS",
-    "test.*"
+    "CODEOWNERS"
   ],
   "useGitignore": true
 }
