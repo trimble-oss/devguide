@@ -43,7 +43,7 @@ For reusable software modules, e-Tools provides [Artifactory Pro](https://www.jf
 
 ### Python
 
-[Distutils](https://docs.python.org/3/library/)(setuptools) has become the primary method for packaging and distributing python packages and scripts. By using distutils and building a package with setup.py you can easily distribute packages publically on [PyPi](https://pypi.python.org/pypi) or privately using a [Git Repository](https://pip.pypa.io/en/stable/reference/pip_install/#git) or [Artifactory](https://www.jfrog.com/confluence/display/RTF/PyPI+Repositories).
+[Distutils](https://docs.python.org/3/library/)(setuptools) has become the primary method for packaging and distributing python packages and scripts. By using distutils and building a package with setup.py you can easily distribute packages publicly on [PyPi](https://pypi.python.org/pypi) or privately using a [Git Repository](https://pip.pypa.io/en/stable/reference/pip_install/#git) or [Artifactory](https://www.jfrog.com/confluence/display/RTF/PyPI+Repositories).
 
 This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html) give a good high level overview on building your first Python package. For more advanced features refer to the[ setuptools documentation](https://setuptools.readthedocs.io/en/latest/setuptools.html#basic-use).
 
