@@ -34,7 +34,7 @@
     "autoprefixer": "10.4.20",
     "clipboard": "2.0.11",
     "eslint": "8.57.1",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.0.1",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.132.0",
     "jquery": "3.7.1",
