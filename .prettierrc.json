@@ -1,3 +1,13 @@
 {
-  "printWidth": 280
+  "bracketSameLine": true,
+  "printWidth": 280,
+  "overrides": [
+    {
+      "files": "*.svg",
+      "options": {
+        "printWidth": 2040,
+        "parser": "html"
+      }
+    }
+  ]
 }
