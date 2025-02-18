@@ -27,6 +27,7 @@ const purgecss = purgeCSSPlugin({
     "d-flex",
     "d-inline-block",
     "footer",
+    "form-check",
     "gh",
     "highlight",
     "language-txt",
