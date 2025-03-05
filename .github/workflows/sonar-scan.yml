@@ -3,14 +3,14 @@ name: SonarQube Scan
 on:
   pull_request:
     branches-ignore:
-      - "dependabot/**"  
+      - "dependabot/**"
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
 
 env:
   FORCE_COLOR: 2
-  NODE: 20
+  NODE: 18
 
 permissions:
   contents: read
