@@ -2,7 +2,7 @@
 title: "Project Documentation"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 ---
 
 ## Why provide documentation?

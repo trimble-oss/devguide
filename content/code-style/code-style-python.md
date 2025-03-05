@@ -5,9 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for Python"
 url: "/code-style/python/"
 image: "/img/icons/code-style/python.svg"
-headerBGColor: "#3776AB"
-headerBGInvert: true
+iconBGColor: "#3776AB"
+
 code: true
+group: "code-style"
 DoNotTranslateTitle: true
 ---
 

@@ -1,62 +1,55 @@
 {{ define "main" }}
+
+<div class="container-fluid">
+  <div class="row row-main px-0">
+    <div class="col col-menu col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10" id="sidebar">
+      <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto overflow-x-hidden d-print-none">{{ partial "col-sidebar-menu" . }}</div>
+    </div>
+
+    <div class="col border-start p-0" id="main">
+    <div class="container-fluid pb-4 bg-secondary bg-opacity-10 bg-anim">
+      <div class="container container-home-header pt-5">
+        <div class="row py-4 py-sm-2">
+          <div class="col-12 col-lg-5 pt-5 text-center text-lg-start">
+            <h1 class="display-2 mt-1 fw-bold pt-sm-2">Developer Guidelines</h1>
+            <p class="lead ml-1 pe-md-5">
+              Every team is expected to have a formal, documented set of developer guidelines to allow their teams to build and maintain consistent code. The Trimble Developer Guidelines is a curated set of the leading practices for development guidelines that we recommend.
+            </p>
+          </div>
+          <div class="col-10 col-sm-9 col-lg-7 mx-auto">
+            <img src="img/dev_focus.svg" width="591" height="415" class="img-fluid text-center text-md-right float-md-right mx-auto mr-0 my-3 mt-lg-5" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <div class="container py-5">
+        <h3 class="text-center h1 py-3">Development Practices</h3>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-development-practises">
+          {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
+          {{- if not .Params.hideDocsToggle }}
+          {{- partial "card-start.html" . -}}
+          {{- end -}}
+          {{- end -}}
+        </div>
+
+        <hr class="mt-4 py-2 opacity-50" />
+
+        <h3 class="text-center h1 py-3">Code Styles</h3>
+
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-7">
+          {{ range first 17 (where .Site.RegularPages ".Section" "in" "code-style") }}
+          {{- if not .Params.hideDocsToggle }}
+          {{- partial "card-start.html" . -}}
+          {{- end -}}
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
 </div>
-
-<main id="main">
-
-  <div class="container-fluid pt-5 pb-4 bg-light">
-    <div class="container container-home-header">
-      <div class="row py-4 py-sm-2">
-        <div class="col-12 col-lg-5 pt-5 text-center text-lg-left">
-          <h1 class="text-dark mt-1 display-4 font-weight-bold pt-sm-2">
-            Developer Guidelines
-          </h1>
-          <p class="lead ml-1 pr-md-5">
-            Every team is expected to have a formal, documented set of developer guidelines to allow their teams to
-            build and maintain consistent code. The Trimble Developer Guidelines is a curated set of the leading
-            practices for development guidelines that we recommend.
-          </p>
-        </div>
-        <div class="col-10 col-sm-9 col-lg-7 mx-auto">
-          <img src="img/dev_focus.svg" width="591" height="415"
-            class="img-fluid text-center text-md-right float-md-right mx-auto mr-0 my-3 mt-lg-5" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid mt-3">
-    <div class="container py-5">
-
-      <h3 class="text-center h1 py-3">
-        Development Practices
-      </h3>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-        {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
-        {{- if not .Params.hideDocsToggle }}
-        {{- partial "blog-brief.html" . -}}
-        {{- end -}}
-        {{- end -}}
-      </div>
-
-      <hr class="mt-4 py-2">
-
-      <h3 class="text-center h1 py-3">
-        Code Styles
-      </h3>
-
-      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-7">
-        {{ range first 17 (where .Site.RegularPages ".Section" "in" "code-style") }}
-        {{- if not .Params.hideDocsToggle }}
-        {{- partial "blog-brief.html" . -}}
-        {{- end -}}
-        {{- end -}}
-      </div>
-
-    </div>
-  </div>
-  </div>
-
-</main>
 
 {{- end -}}

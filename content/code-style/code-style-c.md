@@ -5,8 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for C"
 url: "/code-style/c/"
 image: "/img/icons/code-style/c.svg"
-headerBGColor: "#A8B9CC"
+iconBGColor: "#A8B9CC"
+iconBGInvert: "true"
 code: true
+group: "code-style"
 ---
 
 In order to keep an easy-to-read, consistent and aesthetically pleasing look to the Trimble code, the following coding style guide is advised.

@@ -5,9 +5,9 @@ layout: "single"
 description: "Trimble's code style guidelines for Objective-C"
 url: "/code-style/objective-c/"
 image: "/img/icons/code-style/objective-c.svg"
-headerBGColor: "#888"
-headerBGInvert: true
+iconBGColor: "#888"
 code: true
+group: "code-style"
 DoNotTranslateTitle: true
 ---
 

@@ -1,0 +1,46 @@
+- title: Development Practices
+  prefix: "development-practices"
+  pages:
+    - title: Introduction
+    - title: Code Documentation
+    - title: Code Review
+    - title: InnerSource
+    - title: Managing Code Complexity
+    - title: Open Source Usage
+    - title: Packaging and Distribution
+    - title: Unit Testing
+    - title: VCS Standards - Git
+    - title: Versioning
+
+- title: Code Style
+  prefix: "code"
+  pages:
+     - title: C
+     - title: C#
+       url: c-sharp
+     - title: C++
+     - title: CSS
+     - title: Go
+     - title: HTML
+     - title: Java
+     - title: JavaScript
+     - title: Python
+     - title: Swift
+     - title: TypeScript
+
+- title: InnerSource
+  prefix: ""
+  pages:
+     - title: Introduction
+     - title: Implementation Checklist
+     - title: InnerSource Roles
+     - title: Repository Configuration
+     - title: Contribution Agreements
+     - title: Project Documentation
+     - title: Project Communication
+     - title: Project Tracking
+     - title: Publishing Documentation
+
+- title: Governance
+  pages:
+     - title: Governance

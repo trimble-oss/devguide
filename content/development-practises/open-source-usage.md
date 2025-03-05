@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/open-source-usage/"
 image: "/img/icons/development-practices/open-source-usage.svg"
-development: true
+group: development
 hideToc: true
 ---
 

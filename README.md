@@ -47,4 +47,3 @@ Please email the [Developer Guidelines Working Group](mailto:devguide-ug@trimble
 |----------------------------------|--------------------------|
 | Home page developer illustration | https://undraw.co/       |
 | Code Style icons                 | https://simpleicons.org/ |
-| Development Practices Icons      | https://fontawesome.com/ |

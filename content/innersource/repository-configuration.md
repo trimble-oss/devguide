@@ -2,7 +2,7 @@
 title: "Repository Configuration"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 hideToc: true
 ---
 
@@ -20,13 +20,13 @@ Follow these guidelines to configure the repository for your project correctly t
 
 - The repository should have the `trimble-innersource` label against it. Labels can be added at the bottom of the home screen for a BitBucket repository. In GitHub you can set this as a topic against the repository from the Edit repository details dialog.
 
-- A default reviewer can also be configured for convenience. Default reviewers should always include a Trusted Committer. 
- 
+- A default reviewer can also be configured for convenience. Default reviewers should always include a Trusted Committer.
+
     In GitHub you can configure default reviewers using a `CODEOWNERS` file in the repository. See [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) in the GitHub documentation for configuration details.
-    
+
     You can also use `CODEOWNERS` files in Bitbucket with a plugin - see [configuring code owners](codeowners-configuration.md) for details.
 
-- Reviewers should always be asked to approve a Pull Request before being able to merge to develop or `main`. 
+- Reviewers should always be asked to approve a Pull Request before being able to merge to develop or `main`.
 
     This can be configured from the auto-unapprove configuration screen in Bitbucket or for GitHub configure a branch protection rule to require a pull request before merging and check the option 'Dismiss stale pull request approvals when new commits are pushed'
 

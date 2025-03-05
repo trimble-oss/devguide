@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/code-review"
 image: "/img/icons/development-practices/code-review.svg"
-development: true
+group: development
 ---
 
 Rationale

@@ -5,9 +5,9 @@ layout: "single"
 description: "Trimble's code style guidelines for CSS"
 url: "/code-style/css/"
 image: "/img/icons/code-style/css.svg"
-headerBGColor: "#157286"
-headerBGInvert: true
+iconBGColor: "#157286"
 code: true
+group: "code-style"
 ---
 
 ## Reference Code Standard

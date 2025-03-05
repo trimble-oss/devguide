@@ -2,8 +2,8 @@
 {{- $title := .Get "title" -}}
 <div class="col h-100 mb-4">
   <div class="card card-blog-brief h-100 w-100 border shadow-sm">
-    <div class="card-header text-center{{ with .Get "class" }} {{ . }}{{- end -}}" {{ with .Get "headerBGColor" }}style="background-color:{{ . }}";{{- end -}}>
-      <img src="/img/icons/{{.Get "header" | urlize }}" class="mx-auto text-center" width="52" height="52"
+    <div class="card-header text-center{{ with .Get "class" }} {{ . }}{{- end -}}" {{ with .Get "iconBGColor" }}style="background-color:{{ . }}";{{- end -}}>
+      <img src="/img/icons/{{.Get "header" | anchorize }}" class="mx-auto text-center" width="52" height="52"
         alt="{{.Get "title"}}" style="opacity:0.8;">
     </div>
     <div class="card-body">

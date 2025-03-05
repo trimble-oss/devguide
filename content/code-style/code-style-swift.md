@@ -5,9 +5,9 @@ layout: "single"
 description: "Trimble's code style guidelines for Swift"
 url: "/code-style/swift/"
 image: "/img/icons/code-style/swift.svg"
-headerBGColor: "#FA7343"
-headerBGInvert: true
 code: true
+group: "code-style"
+iconBGColor: "#FA7343"
 DoNotTranslateTitle: true
 ---
 

@@ -1,4 +1,4 @@
-baseurl: https://devguide.trimble.com/
+baseurl: https://lively-rock-075179f10-353.centralus.1.azurestaticapps.net/
 title: Developer Guidelines
 languageCode: en-US
 locale: en-US
@@ -11,6 +11,7 @@ params:
   title: Developer Guidelines
   copyrightHolder: "Trimble Inc."
   author: "Trimble"
+  GitHubRepo: "https://github.com/orgs/trimble-oss/devguide"
   images:
     - https://devguide.trimble.com/img/preview.png
 
@@ -31,27 +32,11 @@ privacy:
     privacyEnhanced: true
 
 menu:
-  main:
-    - name: Development Practices
-      url: "/development-practices/"
-      weight: 1
-    - name: Code Style
-      url: "/code-style/"
-      weight: 2
-    - name: InnerSource
-      url: "/innersource/introduction/"
-      weight: 3
-    - name: Governance
-      url: "/governance/"
-      weight: 4
-
-  development:
+  development_practices:
     - name: Code Documentation
       url: "/development-practices/code-documentation/"
     - name: Code Review
       url: "/development-practices/code-review/"
-    - name: InnerSource
-      url: "/innersource/introduction/"
     - name: Managing Code Complexity
       url: "/development-practices/managing-code-complexity/"
     - name: Open Source Usage
@@ -131,8 +116,8 @@ menu:
     - name: Project Tracking
       url: /innersource/project-tracking/
       weight: 8
-    - name: Publishing Your Documentation
-      url: /innersource/publish-documentation/
+    - name: Publishing Documentation
+      url: /innersource/publishing-documentation/
       weight: 9
 
   governance:
@@ -141,22 +126,38 @@ menu:
 
 module:
   mounts:
+    - source: node_modules/@trimble-oss/modus-docs-hugo-theme/assets/
+      target: assets
+      # The main theme CSS and JavaScript
+
+    - source: node_modules/@trimble-oss/modus-docs-hugo-theme/layouts/
+      target: layouts
+      # The main theme templates
+
+    - source: layouts/
+      target: layouts
+
+    - source: node_modules/@trimble-oss/modus-docs-hugo-theme/static/
+      target: static
+      # Includes Trimble favicon and JS for theme toggle and search
+
     - source: static
       target: static
-    - source: assets/static/favicon.ico
-      target: static/favicon.ico
-    - source: assets/static/robots.txt
-      target: static/robots.txt
-    - source: node_modules/jquery/dist/jquery.min.js
-      target: static/js/jquery.min.js
-    - source: node_modules/jquery/dist/jquery.min.map
-      target: static/js/jquery.min.map
-    - source: node_modules/bootstrap/dist/js/bootstrap.min.js
-      target: static/js/bootstrap.min.js
-    - source: node_modules/bootstrap/dist/js/bootstrap.min.js.map
-      target: static/js/bootstrap.min.js.map
-    - source: node_modules/clipboard/dist/clipboard.min.js
-      target: static/js/clipboard.min.js
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/modus-solid/sprites/modus-icons.svg
+      target: static/modus-solid-icons.svg
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/sprites/modus-icons.svg
+      target: static/modus-icons.svg
+
+    - source: node_modules/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css
+      target: static/css/modus-bootstrap.min.css
+
+    - source: node_modules/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css.map
+      target: static/css/modus-bootstrap.min.css.map
+
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: static/js/bootstrap.bundle.min.js
 
 markup:
   goldmark:

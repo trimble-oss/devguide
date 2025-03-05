@@ -2,7 +2,7 @@
 title: "Implementation Checklist"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 ---
 
 <style>

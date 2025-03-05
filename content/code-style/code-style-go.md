@@ -5,9 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for Go"
 url: "/code-style/go/"
 image: "/img/icons/code-style/go.svg"
-headerBGColor: "#5d57c6"
-headerBGInvert: true
+iconBGColor: "#5d57c6"
+
 code: true
+group: "code-style"
 DoNotTranslateTitle: true
 ---
 
@@ -18,9 +19,3 @@ DoNotTranslateTitle: true
 ## Exceptions to the Standard
 
 None.
-
-<!--
-
-## Implementing the Standard
-
--->

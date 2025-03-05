@@ -5,8 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for TypeScript"
 url: "/code-style/typescript/"
 image: "/img/icons/code-style/typescript.svg"
-headerBGColor: "#3178c6"
+iconBGColor: "#3178c6"
+iconBGInvert: "true"
 code: true
+group: "code-style"
 ---
 
 ## Reference Code Standard

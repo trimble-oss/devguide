@@ -2,7 +2,7 @@
 title: "Development Practices"
 layout: "single"
 description: ""
-url: "/development-practices/"
+url: "/development-practices/introduction/"
 developmentPractices: true
 hideToc: true
 hideDocsToggle: true
