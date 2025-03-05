@@ -24,10 +24,7 @@ outputs:
 
 privacy:
   googleAnalytics:
-    anonymizeIP: true
     respectDoNotTrack: true
-  twitter:
-    enableDNT: true
   youtube:
     privacyEnhanced: true
 
@@ -158,9 +155,6 @@ module:
 
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
-
-    - source: node_modules/@trimble-oss/modus-icons/dist/modus-solid/fonts/
-      target: static/fonts/
 
 markup:
   goldmark:
