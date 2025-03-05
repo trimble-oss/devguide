@@ -5,10 +5,11 @@ layout: "single"
 description: "Trimble's code style guidelines for C#"
 url: "/code-style/c-sharp/"
 image: "/img/icons/code-style/c-sharp.svg"
-headerBGColor: "#239120"
-headerBGInvert: true
 code: true
+group: "code-style"
 hideClipboard: true
+
+iconBGColor: "#239120"
 ---
 
 ## Reference Code Standard

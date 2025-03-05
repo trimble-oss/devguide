@@ -5,9 +5,9 @@ layout: "single"
 description: "Trimble's code style guidelines for Java"
 url: "/code-style/java/"
 image: "/img/icons/code-style/java.svg"
-headerBGColor: "#007396"
-headerBGInvert: true
+iconBGColor: "#007396"
 code: true
+group: "code-style"
 ---
 
 ## Reference Code Standard

@@ -2,7 +2,7 @@
 title: "Project Communication"
 layout: "single"
 description: "It is very important to set up a method of communication for existing contributors and people who want to contribute."
-innersource: true
+group: innersource
 ---
 
 It is very important to set up a method of communication for existing contributors and people who want to contribute.

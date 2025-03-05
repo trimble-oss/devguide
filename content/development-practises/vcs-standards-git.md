@@ -1,7 +1,7 @@
 ---
 title: VCS Standards - Git
 layout: single
-development: true
+group: development
 url: /development-practices/vcs-standards-git/
 image: "/img/icons/development-practices/vcs-standards-git.svg"
 ---

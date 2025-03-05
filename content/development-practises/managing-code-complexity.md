@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/managing-code-complexity/"
 image: "/img/icons/development-practices/managing-code-complexity.svg"
-development: true
+group: development
 ---
 
 ## Introduction

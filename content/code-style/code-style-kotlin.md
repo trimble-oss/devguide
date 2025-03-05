@@ -5,9 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for Kotlin"
 url: "/code-style/kotlin/"
 image: "/img/icons/code-style/kotlin.svg"
-headerBGColor: "#c7555f"
-headerBGInvert: true
+iconBGColor: "#c7555f"
+
 code: true
+group: "code-style"
 ---
 
 ## Reference Code Standard

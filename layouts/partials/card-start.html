@@ -1,12 +1,12 @@
 <div class="col my-3">
   <div class="card card-blog-brief h-100 text-center border">
     <div class="card-header top-rounded mb-0 py-2 border-0"
-      style="background-image: url();{{ if .Params.headerBGColor }}background-color: {{- .Params.headerBGColor -}}{{- end -}}">
-      <div class="{{ if .Params.headerBGInvert }}bg-filter-invert{{- end -}}">
+      style="{{ if .Params.iconBGColor }}background-color: {{- .Params.iconBGColor -}}{{- end -}}">
+      <div class="{{ if .Params.iconBGInvert }}filter-invert{{else}}filter-white{{- end -}}">
         <img src="{{- .Params.Image | relURL -}}" class="mx-auto text-center mt-4" alt="" width="52" height="52">
       </div>
     </div>
-    <div class="card-body bg-white border-0 pb-0">
+    <div class="card-body bg-transparent border-0 pb-0">
       <h5 class="card-title px-2 ml-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{- end -}}">
         {{ if .Params.shortTitle }}
         {{ .Params.shortTitle }}

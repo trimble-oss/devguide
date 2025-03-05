@@ -6,6 +6,8 @@ url: "/governance/"
 governance: true
 hideToc: true
 hideDocsToggle: true
+aliases:
+  - /governance/governance/
 ---
 
 ## How to contact the Dev Guidelines working group

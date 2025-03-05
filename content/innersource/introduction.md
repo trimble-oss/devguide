@@ -3,7 +3,7 @@ title: "Introduction to InnerSource"
 menuTitle: "Introduction"
 layout: "single"
 description: "Open Source has brought a lot of advantages to software development, such as transparency, collaboration, communication, etc."
-innersource: true
+group: innersource
 aliases:
   - "/innersource/"
 ---

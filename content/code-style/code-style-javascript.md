@@ -5,8 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for JavaScript"
 url: "/code-style/javascript/"
 image: "/img/icons/code-style/javascript.svg"
-headerBGColor: "#F7DF1E"
+iconBGColor: "#F7DF1E"
+iconBGInvert: "true"
 code: true
+group: "code-style"
 ---
 
 ## Reference Code Standard

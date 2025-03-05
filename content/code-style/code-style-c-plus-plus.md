@@ -5,9 +5,11 @@ layout: "single"
 description: "Trimble's code style guidelines for C++"
 url: "/code-style/c-plus-plus/"
 image: "/img/icons/code-style/c-plus-plus.svg"
-headerBGColor: "#00599c"
-headerBGInvert: true
+iconBGColor: "#00599c"
 code: true
+group: "code-style"
+aliases:
+  - /code-style/c++/
 ---
 
 ## Reference Code Standard

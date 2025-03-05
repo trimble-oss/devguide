@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/code-documentation"
 image: "/img/icons/development-practices/code-documentation.svg"
-development: true
+group: development
 ---
 
 ## Introduction

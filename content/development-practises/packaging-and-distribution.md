@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/packaging-and-distribution/"
 image: "/img/icons/development-practices/packaging-and-distribution.svg"
-development: true
+group: development
 ---
 
 ## Introduction

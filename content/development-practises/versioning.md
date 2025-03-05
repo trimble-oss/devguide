@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 url: "/development-practices/versioning/"
 image: "/img/icons/development-practices/versioning.svg"
-development: true
+group: development
 ---
 
 ## Introduction

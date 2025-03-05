@@ -5,9 +5,10 @@ layout: "single"
 description: "Trimble's code style guidelines for HTML"
 url: "/code-style/html/"
 image: "/img/icons/code-style/html.svg"
-headerBGColor: "#E34F26"
-headerBGInvert: true
 code: true
+group: "code-style"
+
+iconBGColor: "#E34F26"
 ---
 
 ## Reference Code Standard

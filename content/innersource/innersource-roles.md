@@ -2,7 +2,7 @@
 title: "InnerSource Roles"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 ---
 
 ## The Owner Role

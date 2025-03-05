@@ -2,7 +2,8 @@
 title: "Contribution Agreements"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
+hideToc: true
 ---
 
 Documentation known as the _Contributing Agreement_ which should be stored in the root of a repository or project subfolder in the case of a monorepo. Documentation should be provided in Markdown format.

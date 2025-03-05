@@ -4,6 +4,7 @@ layout: "single"
 description: ""
 innersource: true
 hideToc: true
+group: innersource
 ---
 For GitHub Code Owners is built in. See [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) in the GitHub documentation for configuration details.
 

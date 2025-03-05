@@ -1,0 +1,120 @@
+{{ $currentPage := . }}
+{{ $isDevPractices := false }}
+{{ $isCode := false }}
+{{ $isInnerSource := false }}
+
+{{ range .Site.Menus.development_practices }}
+  {{ if eq $currentPage.RelPermalink .URL (strings.HasPrefix $currentPage.RelPermalink .URL) }}
+    {{ $isDevPractices = true }}
+  {{ end }}
+{{ end }}
+{{ range .Site.Menus.code }}
+  {{ if eq $currentPage.RelPermalink .URL }}
+    {{ $isCode = true }}
+  {{ end }}
+{{ end }}
+{{ range .Site.Menus.innersource }}
+  {{ if eq $currentPage.RelPermalink .URL }}
+    {{ $isInnerSource = true }}
+  {{ end }}
+{{ end }}
+<script>
+  // Get the viewport width
+  var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  // Check if the viewport width is above 1080px
+  if (viewportWidth > 1080) {
+    // Get the div element
+    var div = document.querySelector('#sidebar');
+
+    // Add the class to the div element
+    div.classList.add('show');
+  }
+</script>
+<nav class="accordion accordion-flush menu-left" id="accordionMenu" aria-label="Sidebar Menu">
+
+  <div class="accordion-item">
+    <h6 class="accordion-header rounded-0">
+      <button class="accordion-button {{ if not $isDevPractices }}collapsed{{ end}} fs-5 ps-3 py-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseStyles" aria-expanded="{{ if $isDevPractices }}true{{ else }}false{{- end -}}" aria-controls="collapseDevPractices">
+        <svg class="me-2" width="24" height="22">
+          <use xlink:href="/modus-icons.svg#clipboard"/>
+        </svg>
+        Development Practices
+      </button>
+    </h6>
+    <div id="collapseStyles" class="accordion-collapse collapse {{ if $isDevPractices }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.development_practices -}}
+          <li class="my-2 my-md-3"><a
+              class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h6 class="accordion-header rounded-0">
+      <button class="accordion-button {{ if not $isCode }}collapsed{{ end}} fs-5 ps-3 py-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseCode" aria-expanded="{{ if $isCode }}true{{ else }}false{{- end -}}" aria-controls="collapseCode">
+        <svg class="me-2" width="24" height="22">
+          <use xlink:href="/modus-icons.svg#code"/>
+        </svg>
+        Code Styles
+      </button>
+    </h6>
+    <div id="collapseCode" class="accordion-collapse collapse {{ if $isCode }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.code -}}
+          <li class="my-2 my-md-3"><a
+              class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h6 class="accordion-header rounded-0">
+      <button class="accordion-button {{ if not $isInnerSource }}collapsed{{ end}} fs-5 ps-3 py-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseInnerSource" aria-expanded="{{ if $isInnerSource }}true{{ else }}false{{- end -}}" aria-controls="collapseInnerSource">
+        <svg class="me-2" width="24" height="22">
+          <use xlink:href="/modus-icons.svg#layer"/>
+        </svg>
+        InnerSource
+      </button>
+    </h6>
+    <div id="collapseInnerSource" class="accordion-collapse collapse {{ if $isInnerSource }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.innersource -}}
+          <li class="my-2 my-md-3"><a
+              class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</nav>

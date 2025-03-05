@@ -2,8 +2,10 @@
 title: "Publishing An InnerSource project"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 hideToc: true
+aliases:
+  - /innersource/publish-documentation/
 ---
 
 Opening up a project to InnerSource is one thing, but it is equally important to get users to adopt and contribute to it. It is therefore highly advisable that you have a way of publishing the project and making the InnerSource documentation available.

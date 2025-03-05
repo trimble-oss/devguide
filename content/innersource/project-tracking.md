@@ -2,7 +2,7 @@
 title: "Project Tracking"
 layout: "single"
 description: ""
-innersource: true
+group: innersource
 ---
 
 ## Guidelines for Project Owner
