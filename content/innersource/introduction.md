@@ -20,11 +20,6 @@ Open Source has brought a lot of advantages to software development, such as tra
 
 > InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefiting from the creativity and diverse perspectives contributed by people throughout the organization.
 
-<!--
-Oram, A (2015) **Getting Started With InnerSource.** O'Reilly Media.
-Get your free copy [here](https://www.oreilly.com/programming/free/getting-started-with-innersource.csp)
--->
-
 ## Implementing the Guidelines
 
 You can find the detailed guidelines on implementing the various aspects of InnerSource in this section of the Developer Guidelines website. Additionally an [implementation checklist](/innersource/implementation-checklist/) to help guide you through the steps is also available. In summary the following steps should be taken to prepare your project for InnerSource:

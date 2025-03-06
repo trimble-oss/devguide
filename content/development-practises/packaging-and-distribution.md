@@ -79,7 +79,7 @@ This [Quick Start](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/
 
 - In order to optimize client-side applications for size and maximum download performance, it is recommended to use a module bundler to combine JavaScript files along with static assets such as CSS and images into packages. The current de-facto standard for this is [Webpack](https://webpack.js.org/). Webpack can also be used to minify JavaScript.
 
-- Server-side packages can be written as npm modules and stored in a private repo such as [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry) which makes sharing/deploying easier than managing the actual code repo. Modules are made using [npms’s tooling](https://docs.npmjs.com/getting-started/creating-node-modules).
+- Server-side packages can be written as npm modules and stored in a private repo such as [Artifactory](https://www.jfrog.com/confluence/display/RTF/Npm+Registry) which makes sharing/deploying easier than managing the actual code repo. Modules are made using [npm tooling](https://docs.npmjs.com/getting-started/creating-node-modules).
 
 ### C\#
 
