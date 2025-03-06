@@ -141,12 +141,6 @@ module:
     - source: static
       target: static
 
-    - source: node_modules/@trimble-oss/modus-icons/dist/modus-solid/sprites/modus-icons.svg
-      target: static/modus-solid-icons.svg
-
-    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/sprites/modus-icons.svg
-      target: static/modus-icons.svg
-
     - source: node_modules/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css
       target: static/css/modus-bootstrap.min.css
 
@@ -187,6 +181,7 @@ minify:
     html:
       keepDefaultAttrVals: false
       keepEndTags: false
+      keepQuotes: true
       keepWhitespace: true
     js:
       keepVarNames: true
