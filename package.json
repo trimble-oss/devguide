@@ -22,7 +22,7 @@
     "lint-js": "eslint \"assets/js/*.js\" --fix",
     "lint-links": "npx linkinator ./public/ --silent --recurse",
     "lint-markdown": "npx markdownlint content/**/*.md",
-    "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
+    "lint-spell": "npx cspell \"content/**/*.md\" --no-progress",
     "pa11y": "npx pa11y public/index.html",
     "pa11y-ci": "npx pa11y-ci --sitemap https://devguide.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
