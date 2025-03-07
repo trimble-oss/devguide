@@ -29,3 +29,7 @@ header h2 {
 .menu-right .sticky-top {
   z-index: 900 !important;
 }
+
+[data-bs-theme="dark"] pre code {
+  filter: brightness(8) contrast(0.4);
+}
