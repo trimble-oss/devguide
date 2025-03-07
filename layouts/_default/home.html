@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="container-fluid">
+<main class="container-fluid">
   <div class="row row-main px-0">
     <div class="col col-menu col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10" id="sidebar">
       <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto overflow-x-hidden d-print-none">{{ partial "col-sidebar-menu" . }}</div>
@@ -28,7 +28,7 @@
 
     <div class="container-fluid mt-3">
       <div class="container py-5">
-        <h3 class="text-center h1 py-3">Development Practices</h3>
+        <h2 class="text-center h1 py-3">Development Practices</h2>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-development-practises">
           {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
@@ -40,7 +40,7 @@
 
         <hr class="mt-4 py-2 opacity-50" />
 
-        <h3 class="text-center h1 py-3">Code Styles</h3>
+        <h2 class="text-center h1 py-3">Code Styles</h2>
 
         <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5">
           {{ range first 17 (where .Site.RegularPages ".Section" "in" "code-style") }}
@@ -53,6 +53,6 @@
     </div>
     </div>
   </div>
-</div>
+</main>
 
 {{- end -}}
