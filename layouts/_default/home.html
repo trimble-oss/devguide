@@ -12,8 +12,11 @@
         <div class="row py-4 py-sm-2">
           <div class="col-12 col-lg-5 pt-5 text-center text-lg-start">
             <h1 class="display-2 mt-1 fw-bold pt-sm-2">Developer Guidelines</h1>
-            <p class="lead ml-1 pe-md-5">
-              Every team is expected to have a formal, documented set of developer guidelines to allow their teams to build and maintain consistent code. The Trimble Developer Guidelines is a curated set of the leading practices for development guidelines that we recommend.
+            <p class="lead pe-md-5">
+              Every team is expected to have a formal, documented set of developer guidelines to allow their teams to build and maintain consistent code.
+            </p>
+              <p class="lead pe-md-5">
+              The Trimble Developer Guidelines is a curated set of the leading practices for development guidelines that we recommend.
             </p>
           </div>
           <div class="col-10 col-sm-9 col-lg-7 mx-auto">
@@ -27,7 +30,7 @@
       <div class="container py-5">
         <h3 class="text-center h1 py-3">Development Practices</h3>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-development-practises">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-development-practises">
           {{ range first 15 (where .Site.RegularPages ".Section" "in" "development-practises") }}
           {{- if not .Params.hideDocsToggle }}
           {{- partial "card-start.html" . -}}
