@@ -1,6 +1,6 @@
 {{ if (eq .Level 3 ) }}
 <h3 class="h2 mt-5" id="{{- .Text | anchorize -}}">{{- .Text | safeHTML }}
-  <a class="header-link text-light text-decoration-none font-weight-normal" href="#{{- .Text | anchorizeL -}}" aria-label="Link to this section: {{ .Text | safeHTML -}}"></a>
+  <a class="header-link text-light text-decoration-none font-weight-normal" href="#{{- .Text | anchorize -}}" aria-label="Link to this section: {{ .Text | safeHTML -}}"></a>
 </h3>
 {{ else }}
 <h2 class="h1 mt-5" id="{{- .Text | anchorize -}}">{{- .Text | safeHTML }}
