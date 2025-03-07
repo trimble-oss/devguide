@@ -19,6 +19,7 @@ jobs:
   scan:
     name: Sonar Scan Runner
     runs-on: ubuntu-latest
+
     if: github.repository == 'trimble-oss/devguide'
     permissions:
       contents: read
@@ -28,6 +29,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
       - name: Run Sonar Scan Action
         uses: sonarsource/sonarqube-scan-action@master
