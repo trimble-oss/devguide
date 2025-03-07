@@ -1,23 +1,21 @@
 <div class="col my-3">
-  <div class="card card-blog-brief h-100 text-center border">
+  <article class="card card-blog-brief h-100 text-center">
     <div class="card-header top-rounded mb-0 py-2 border-0"
       style="{{ if .Params.iconBGColor }}background-color: {{- .Params.iconBGColor -}}{{- end -}}">
       <div class="{{ if .Params.iconBGInvert }}filter-invert{{else}}filter-white{{- end -}}">
-        <img src="{{- .Params.Image | relURL -}}" class="mx-auto text-center mt-4" alt="" width="52" height="52">
+        <img src="{{- .Params.Image | relURL -}}" class="mx-auto mt-4" alt="" width="52" height="52">
       </div>
     </div>
-    <div class="card-body bg-transparent border-0 pb-0">
-      <h5 class="card-title px-2 ml-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{- end -}}">
+    <div class="card-body bg-transparent pb-0">
+      <a href="{{- .RelPermalink -}}" class="stretched-link text-body my-2">
+      <h5 class="card-title px-2 pb-2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{- end -}}">
         {{ if .Params.shortTitle }}
         {{ .Params.shortTitle }}
         {{ else }}
         {{- .Title -}}
         {{- end -}}
       </h5>
-      <p>
-        <a href="{{- .RelPermalink -}}" class="stretched-link">
-        </a>
-      </p>
+      </a>
     </div>
-  </div>
+  </article>
 </div>
