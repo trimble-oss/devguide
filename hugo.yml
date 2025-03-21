@@ -11,7 +11,7 @@ params:
   title: Developer Guidelines
   copyrightHolder: "Trimble Inc."
   author: "Trimble"
-  GitHubRepo: "https://github.com/orgs/trimble-oss/devguide"
+  GitHubRepo: "https://github.com/trimble-oss/devguide"
   images:
     - https://devguide.trimble.com/img/preview.png
 
