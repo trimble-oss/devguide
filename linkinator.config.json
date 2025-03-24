@@ -1,6 +1,0 @@
-{
-  "recurse": true,
-  "serverRoot": "./public/",
-  "silent": true,
-  "skip": "developer.android.com, fonts.googleapis.com, github.com, stackoverflow.com, www.googleapis.com"
-}
