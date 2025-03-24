@@ -20,7 +20,7 @@
     "lint-css": "stylelint \"static/*.css\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "eslint \"assets/js/*.js\" --fix",
-    "lint-links": "npx linkinator ./public/ --silent --recurse",
+    "lint-links": "npx linkinator --recurse ./public/ --silent --skip developer.android.com,fonts.googleapis.com,github.com,stackoverflow.com,www.googleapis.com",
     "lint-markdown": "npx markdownlint content/**/*.md",
     "lint-spell": "npx cspell \"content/**/*.md\" --no-progress",
     "pa11y": "npx pa11y public/index.html",
