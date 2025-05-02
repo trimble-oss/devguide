@@ -8,6 +8,12 @@
         "printWidth": 2040,
         "parser": "html"
       }
+    },
+    {
+      "files": "*.mjs",
+      "options": {
+        "singleQuote": true
+      }
     }
   ]
 }
