@@ -51,7 +51,7 @@
     "node": ">=20"
   },
   "volta": {
-    "node": "20.18.3"
+    "node": "20.19.1"
   },
   "hugo-bin": {
     "buildTags": "extended"
