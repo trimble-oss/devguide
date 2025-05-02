@@ -7,7 +7,7 @@ body {
 }
 
 article .table > thead {
-  background-color: rgba(133, 133, 133, 11%);
+  background-color: rgb(133, 133, 133, 11%);
 }
 
 .col-auto main {
