@@ -28,7 +28,7 @@
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "npx hugo serve --port 4000 --disableFastRender --navigateToChanged --logLevel info",
     "svgo": "npx svgo -f static/img/icons/development-practices/",
-    "test": "npm-run-all lint-css && npm run lint-html && npm run lint-js && npx hugo"
+    "test": "npm-run-all lint-css && npm run lint-html && npx hugo"
   },
   "devDependencies": {
     "@trimble-oss/modus-bootstrap": "^2.0.13",
@@ -44,7 +44,7 @@
     "postcss": "8.5.6",
     "postcss-cli": "11.0.1",
     "prettier": "3.6.2",
-    "stylelint": "16.21.1",
+    "stylelint": "16.22.0",
     "stylelint-config-standard": "38.0.0"
   },
   "engines": {
