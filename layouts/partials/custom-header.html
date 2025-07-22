@@ -1,4 +1,14 @@
 <link rel="stylesheet" href="/devguide.css">
+<script type="speculationrules">
+{
+  "prerender": [{
+    "where": {
+      "href_matches": "/*"
+    },
+    "eagerness": "moderate"
+  }]
+}
+</script>
 {{- if .IsHome -}}
 <style>
   #main {
