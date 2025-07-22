@@ -31,8 +31,8 @@
     "test": "npm-run-all lint-css && npm run lint-html && npm run lint-js && npx hugo"
   },
   "devDependencies": {
-    "@trimble-oss/modus-bootstrap": "^2.0.10",
-    "@trimble-oss/modus-docs-hugo-theme": "^1.0.0-alpha31",
+    "@trimble-oss/modus-bootstrap": "^2.0.13",
+    "@trimble-oss/modus-docs-hugo-theme": "1.0.0-alpha31",
     "autoprefixer": "10.4.21",
     "clipboard": "2.0.11",
     "eslint": "8.57.1",
@@ -48,10 +48,10 @@
     "stylelint-config-standard": "38.0.0"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "volta": {
-    "node": "20.19.1"
+    "node": "22.15.0"
   },
   "hugo-bin": {
     "buildTags": "extended"
