@@ -38,7 +38,6 @@ jobs:
           VALIDATE_CSS: false
           VALIDATE_EDITORCONFIG: false
           VALIDATE_HTML: false
-          VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JSCPD: false
           VALIDATE_NATURAL_LANGUAGE: false
           VALIDATE_XML: false
