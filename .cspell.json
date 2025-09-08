@@ -39,7 +39,8 @@
     "trimble",
     "unapprove",
     "unreviewed",
-    "xmldoc"
+    "xmldoc",
+    "ZIZMOR"
   ],
   "allowCompoundWords": true,
   "flagWords": [
