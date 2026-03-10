@@ -33,7 +33,7 @@
   "devDependencies": {
     "@trimble-oss/modus-bootstrap": "^2.3.2",
     "@trimble-oss/modus-docs-hugo-theme": "1.0.0-alpha31",
-    "autoprefixer": "10.4.24",
+    "autoprefixer": "10.4.27",
     "clipboard": "2.0.11",
     "eslint": "8.57.1",
     "eslint-config-prettier": "10.1.8",
@@ -41,7 +41,7 @@
     "hugo-bin": "0.142.0",
     "jquery": "3.7.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.5.6",
+    "postcss": "8.5.8",
     "postcss-cli": "11.0.1",
     "prettier": "3.8.1",
     "stylelint": "16.26.1",
