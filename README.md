@@ -8,7 +8,6 @@ The Developer Guidelines website is run by the Developer Guidelines Working Grou
 |-------------------|-----------------|
 | Owner / Chair     | Jeff Doolittle  |
 | Trusted Committer | Matthew Dexter  |
-| Trusted Committer | Ryan Kuhn       |
 | Trusted Committer | Kevin Chapman   |
 | Trusted Committer | Christian Oliff |
 | Trusted Committer | Ian Welch       |
