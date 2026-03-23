@@ -12,6 +12,15 @@
   "extends": [
     "prettier"
   ],
+  "ignorePatterns": [
+    "*.min.js",
+    "*.html",
+    "*.json",
+    "build/*",
+    "node_modules/*",
+    "public/*",
+    "resources/*"
+  ],
   "rules": {
     "curly": 0,
     "no-invalid-this": 0,

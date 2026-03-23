@@ -19,6 +19,7 @@ jobs:
       statuses: write  # for github/super-linter/slim to mark status of each linter run
     name: Lint Code Base
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout Code
@@ -27,9 +28,13 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@61abc07d755095a68f4987d1c2c3d1d64408f1f9 # v8.5.0
         env:
+          CSS_FILE_NAME: "stylelint.config.mjs"
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: /
@@ -40,7 +45,6 @@ jobs:
           VALIDATE_BIOME_FORMAT: false
           VALIDATE_BIOME_LINT: false
           VALIDATE_CHECKOV: false
-          VALIDATE_CSS: false
           VALIDATE_EDITORCONFIG: false
           VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
           VALIDATE_HTML: false
