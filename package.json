@@ -35,7 +35,7 @@
     "@trimble-oss/modus-docs-hugo-theme": "1.0.0-alpha31",
     "autoprefixer": "10.4.27",
     "clipboard": "2.0.11",
-    "eslint": "8.57.1",
+    "eslint": "10.1.0",
     "eslint-config-prettier": "10.1.8",
     "htmlhint": "1.9.2",
     "hugo-bin": "0.142.0",
